@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+module load lirical/2.2.1   # or: LIRICAL=path/to/lirical
+WORKDIR="/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/lirical"
+OLD_DATA="${WORKDIR}/../data/old"   # built with v2024-08-13
+NEW_DATA="${WORKDIR}/../data/new"   # built with v2026-06-23
+
+# ---- SOCS1 ----
+lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/SOCS1.old.csv" "${WORKDIR}/SOCS1/old"/*.json
+lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/SOCS1.new.csv" "${WORKDIR}/SOCS1/new"/*.json
