@@ -1,16 +1,13 @@
 {
-  "id": "PMID_36890397_Patient_1",
+  "id": "PMID_36890397_P2",
   "subject": {
-    "id": "Patient 1",
+    "id": "P2",
     "timeAtLastEncounter": {
       "age": {
-        "iso8601duration": "P18Y"
+        "iso8601duration": "P5Y1M"
       }
     },
-    "vitalStatus": {
-      "status": "DECEASED"
-    },
-    "sex": "FEMALE"
+    "sex": "MALE"
   },
   "phenotypicFeatures": [
     {
@@ -21,14 +18,14 @@
     },
     {
       "type": {
-        "id": "HP:0002240",
-        "label": "Hepatomegaly"
+        "id": "HP:0012115",
+        "label": "Hepatitis"
       }
     },
     {
       "type": {
-        "id": "HP:0003237",
-        "label": "Increased circulating IgG concentration"
+        "id": "HP:0002240",
+        "label": "Hepatomegaly"
       }
     },
     {
@@ -45,16 +42,16 @@
     },
     {
       "type": {
-        "id": "HP:0001973",
-        "label": "Autoimmune thrombocytopenia"
-      }
+        "id": "HP:0410242",
+        "label": "Abnormal circulating IgG concentration"
+      },
+      "excluded": true
     },
     {
       "type": {
         "id": "HP:0011839",
         "label": "Abnormal total T cell number"
-      },
-      "excluded": true
+      }
     },
     {
       "type": {
@@ -65,67 +62,20 @@
     },
     {
       "type": {
-        "id": "HP:0001904",
-        "label": "Autoimmune neutropenia"
+        "id": "HP:0025540",
+        "label": "Abnormal T cell subset number"
       }
-    },
-    {
-      "type": {
-        "id": "HP:0025183",
-        "label": "Abnormal total CD4+ T cell number"
-      },
-      "excluded": true
     },
     {
       "type": {
         "id": "HP:0031393",
         "label": "Abnormal total CD8+ T cell number"
-      },
-      "excluded": true
+      }
     },
     {
       "type": {
         "id": "HP:0033222",
         "label": "Inverted CD4:CD8 ratio"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0031399",
-        "label": "Abnormal double-negative T cell proportion"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0030371",
-        "label": "Increased naive B cell proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0030386",
-        "label": "Abnormal class-switched memory B cell proportion"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0032124",
-        "label": "Abnormal unswitched memory B cell proportion"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0030381",
-        "label": "Increased transitional B cell proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0032128",
-        "label": "Increased plasmablast proportion"
       }
     },
     {
@@ -142,8 +92,28 @@
     },
     {
       "type": {
-        "id": "HP:0002090",
-        "label": "Pneumonia"
+        "id": "HP:0000964",
+        "label": "Eczematoid dermatitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410300",
+        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0030783",
+        "label": "Increased circulating interleukin 6 concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002960",
+        "label": "Autoimmunity"
       }
     },
     {
@@ -160,27 +130,26 @@
     },
     {
       "type": {
-        "id": "HP:0025435",
-        "label": "Increased circulating lactate dehydrogenase concentration"
+        "id": "HP:0001945",
+        "label": "Fever"
       }
     },
     {
       "type": {
-        "id": "HP:0034749",
-        "label": "Fungemia"
+        "id": "HP:0001954",
+        "label": "Recurrent fever"
       }
     },
     {
       "type": {
         "id": "HP:0003281",
         "label": "Increased circulating ferritin concentration"
-      },
-      "excluded": true
+      }
     }
   ],
   "interpretations": [
     {
-      "id": "FzpcH0oMuRuoQBJyLNTcnIJ0",
+      "id": "oYEyLTK0zA1luwsX8viX3Vt6",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -189,11 +158,10 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "Patient 1",
+            "subjectOrBiosampleId": "P2",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
                 "id": "c480_481insGCGGC_SOCS1_NM_003745v2",
                 "geneContext": {
@@ -217,7 +185,7 @@
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr16",
-                  "pos": 11254998,
+                  "pos": "11254998",
                   "ref": "T",
                   "alt": "TGCCGC"
                 },
@@ -241,13 +209,13 @@
       },
       "onset": {
         "age": {
-          "iso8601duration": "P7Y"
+          "iso8601duration": "P5M"
         }
       }
     }
   ],
   "metaData": {
-    "created": "2026-06-25T16:53:13.849893Z",
+    "created": "2026-06-25T15:45:34.996240Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

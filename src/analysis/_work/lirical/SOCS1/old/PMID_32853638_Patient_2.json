@@ -1,34 +1,26 @@
 {
-  "id": "PMID_36890397_Patient_1",
+  "id": "PMID_32853638_Patient_2",
   "subject": {
-    "id": "Patient 1",
-    "timeAtLastEncounter": {
-      "age": {
-        "iso8601duration": "P18Y"
-      }
-    },
-    "vitalStatus": {
-      "status": "DECEASED"
-    },
-    "sex": "FEMALE"
+    "id": "Patient 2",
+    "sex": "MALE"
   },
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0001744",
-        "label": "Splenomegaly"
+        "id": "HP:0002014",
+        "label": "Diarrhea"
       }
     },
     {
       "type": {
-        "id": "HP:0002240",
-        "label": "Hepatomegaly"
+        "id": "HP:0004313",
+        "label": "Decreased circulating immunoglobulin concentration"
       }
     },
     {
       "type": {
-        "id": "HP:0003237",
-        "label": "Increased circulating IgG concentration"
+        "id": "HP:0004315",
+        "label": "Decreased circulating IgG concentration"
       }
     },
     {
@@ -51,10 +43,15 @@
     },
     {
       "type": {
-        "id": "HP:0011839",
-        "label": "Abnormal total T cell number"
-      },
-      "excluded": true
+        "id": "HP:0001890",
+        "label": "Autoimmune hemolytic anemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005403",
+        "label": "Decreased total T cell count"
+      }
     },
     {
       "type": {
@@ -65,36 +62,84 @@
     },
     {
       "type": {
+        "id": "HP:0001888",
+        "label": "Decreased total lymphocyte count"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0001904",
         "label": "Autoimmune neutropenia"
       }
     },
     {
       "type": {
-        "id": "HP:0025183",
-        "label": "Abnormal total CD4+ T cell number"
+        "id": "HP:0040218",
+        "label": "Reduced total natural killer cell count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410376",
+        "label": "Increased naive CD8+ T cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0500266",
+        "label": "Decreased CD8+ TEMRA T cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410383",
+        "label": "Abnormal effector memory CD8+ T cell proportion"
       },
       "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0410384",
+        "label": "Abnormal central memory CD8+ T cell proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0025540",
+        "label": "Abnormal T cell subset number"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020113",
+        "label": "Decreased regulatory T cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410373",
+        "label": "Abnormal naive CD4+ T cell proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0410393",
+        "label": "Increased central memory CD4+ T cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025625",
+        "label": "Increased effector memory CD4+ T cell proportion"
+      }
     },
     {
       "type": {
         "id": "HP:0031393",
         "label": "Abnormal total CD8+ T cell number"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0033222",
-        "label": "Inverted CD4:CD8 ratio"
       }
-    },
-    {
-      "type": {
-        "id": "HP:0031399",
-        "label": "Abnormal double-negative T cell proportion"
-      },
-      "excluded": true
     },
     {
       "type": {
@@ -104,83 +149,40 @@
     },
     {
       "type": {
-        "id": "HP:0030386",
-        "label": "Abnormal class-switched memory B cell proportion"
+        "id": "HP:0030388",
+        "label": "Decreased class-switched memory B cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032126",
+        "label": "Decreased unswitched memory B cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410300",
+        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
       },
       "excluded": true
     },
     {
       "type": {
-        "id": "HP:0032124",
-        "label": "Abnormal unswitched memory B cell proportion"
+        "id": "HP:0006538",
+        "label": "Recurrent bronchopulmonary infections"
       },
       "excluded": true
     },
     {
       "type": {
-        "id": "HP:0030381",
-        "label": "Increased transitional B cell proportion"
+        "id": "HP:0001945",
+        "label": "Fever"
       }
-    },
-    {
-      "type": {
-        "id": "HP:0032128",
-        "label": "Increased plasmablast proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0033106",
-        "label": "Elevated circulating D-dimer concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002716",
-        "label": "Lymphadenopathy"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002090",
-        "label": "Pneumonia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0031956",
-        "label": "Elevated circulating aspartate aminotransferase concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0031964",
-        "label": "Elevated circulating alanine aminotransferase concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0025435",
-        "label": "Increased circulating lactate dehydrogenase concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0034749",
-        "label": "Fungemia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0003281",
-        "label": "Increased circulating ferritin concentration"
-      },
-      "excluded": true
     }
   ],
   "interpretations": [
     {
-      "id": "FzpcH0oMuRuoQBJyLNTcnIJ0",
+      "id": "7yvjlYmg1JDzRcJenwzDLeii",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -189,13 +191,12 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "Patient 1",
+            "subjectOrBiosampleId": "Patient 2",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
-                "id": "c480_481insGCGGC_SOCS1_NM_003745v2",
+                "id": "c24delA_SOCS1_NM_003745v2",
                 "geneContext": {
                   "valueId": "HGNC:19383",
                   "symbol": "SOCS1"
@@ -203,23 +204,23 @@
                 "expressions": [
                   {
                     "syntax": "hgvs.c",
-                    "value": "NM_003745.2:c.480_481insGCGGC"
+                    "value": "NM_003745.2:c.24delA"
                   },
                   {
                     "syntax": "hgvs.g",
-                    "value": "NC_000016.10:g.11255000_11255001insCGCGC"
+                    "value": "NC_000016.10:g.11255455del"
                   },
                   {
                     "syntax": "hgvs.p",
-                    "value": "NP_003736.1:p.(Met161AlafsTer46)"
+                    "value": "NP_003736.1:p.(Ala9ProfsTer76)"
                   }
                 ],
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr16",
-                  "pos": 11254998,
-                  "ref": "T",
-                  "alt": "TGCCGC"
+                  "pos": "11255454",
+                  "ref": "CT",
+                  "alt": "C"
                 },
                 "moleculeContext": "genomic",
                 "allelicState": {
@@ -241,13 +242,13 @@
       },
       "onset": {
         "age": {
-          "iso8601duration": "P7Y"
+          "iso8601duration": "P14Y"
         }
       }
     }
   ],
   "metaData": {
-    "created": "2026-06-25T16:53:13.849893Z",
+    "created": "2026-06-25T15:45:34.995637Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
@@ -286,8 +287,8 @@
     "phenopacketSchemaVersion": "2",
     "externalReferences": [
       {
-        "id": "PMID:36890397",
-        "description": "Phenotypic Variability of SOCS1 Haploinsufficiency"
+        "id": "PMID:32853638",
+        "description": "Immune dysregulation and multisystem inflammatory syndrome in children (MIS-C) in individuals with haploinsufficiency of SOCS1"
       }
     ]
   }

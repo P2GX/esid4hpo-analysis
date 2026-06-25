@@ -244,7 +244,7 @@
   ],
   "interpretations": [
     {
-      "id": "qXlwXJBD7v0OF8otnQqq7NnT",
+      "id": "A0QNpQ9F9Gnkqk5KlZ0jyebe",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -257,7 +257,6 @@
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
                 "id": "c460TtoC_SOCS1_NM_003745v2",
                 "geneContext": {
@@ -281,7 +280,7 @@
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr16",
-                  "pos": 11255019,
+                  "pos": "11255019",
                   "ref": "A",
                   "alt": "G"
                 },
@@ -311,7 +310,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-06-25T16:53:13.848842Z",
+    "created": "2026-06-25T15:45:34.995147Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

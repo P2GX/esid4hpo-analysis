@@ -240,7 +240,7 @@
   ],
   "interpretations": [
     {
-      "id": "FMWJyJuV88gvkj5FnYsKj0uX",
+      "id": "rJNR79OD0kpLuj3BQ49K1gfc",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -307,7 +307,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-06-25T15:45:34.994599Z",
+    "created": "2026-06-25T16:53:13.848294Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

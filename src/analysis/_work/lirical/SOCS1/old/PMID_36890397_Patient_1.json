@@ -71,13 +71,6 @@
     },
     {
       "type": {
-        "id": "HP:0025183",
-        "label": "Abnormal total CD4+ T cell number"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
         "id": "HP:0031393",
         "label": "Abnormal total CD8+ T cell number"
       },
@@ -180,7 +173,7 @@
   ],
   "interpretations": [
     {
-      "id": "FzpcH0oMuRuoQBJyLNTcnIJ0",
+      "id": "DrxDbgjKND2bmAS6mphzZIfQ",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -193,7 +186,6 @@
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
                 "id": "c480_481insGCGGC_SOCS1_NM_003745v2",
                 "geneContext": {
@@ -217,7 +209,7 @@
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr16",
-                  "pos": 11254998,
+                  "pos": "11254998",
                   "ref": "T",
                   "alt": "TGCCGC"
                 },
@@ -247,7 +239,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-06-25T16:53:13.849893Z",
+    "created": "2026-06-25T15:45:34.996171Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
