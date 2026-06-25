@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# LIRICAL files
+src/analysis/_work/data/
+src/analysis/_work/lirical/
+src/analysis/_work/lirical/SOCS1/new/
+src/analysis/_tools
+
+src/analysis/Evaluate utility of new annotations in Netherton.ipynb
+
+
