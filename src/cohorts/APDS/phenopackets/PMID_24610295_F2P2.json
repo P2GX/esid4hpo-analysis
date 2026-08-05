@@ -1,48 +1,31 @@
 {
-  "id": "PMID_24136356_P12_family_E",
+  "id": "PMID_24610295_F2P2",
   "subject": {
-    "id": "P12 (family E)",
-    "sex": "MALE"
+    "id": "F2P2",
+    "timeAtLastEncounter": {
+      "age": {
+        "iso8601duration": "P36Y"
+      }
+    },
+    "sex": "FEMALE"
   },
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0005403",
-        "label": "Decreased total T cell count"
-      },
-      "excluded": true
+        "id": "HP:0001999",
+        "label": "Abnormal facial shape"
+      }
     },
     {
       "type": {
         "id": "HP:5210418",
         "label": "Decreased total CD4+ T cell count"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0020112",
-        "label": "Increased regulatory T cell proportion"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0020113",
-        "label": "Decreased regulatory T cell proportion"
       }
     },
     {
       "type": {
-        "id": "HP:5210426",
-        "label": "Decreased total CD8+ T cell count"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0030388",
-        "label": "Decreased class-switched memory B cell proportion"
+        "id": "HP:0410378",
+        "label": "Decreased naive CD4+ T cell proportion"
       }
     },
     {
@@ -53,8 +36,14 @@
     },
     {
       "type": {
-        "id": "HP:0008348",
-        "label": "Decreased circulating IgG2 concentration"
+        "id": "HP:0032128",
+        "label": "Increased plasmablast proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004315",
+        "label": "Decreased circulating IgG concentration"
       }
     },
     {
@@ -67,19 +56,36 @@
       "type": {
         "id": "HP:0003496",
         "label": "Increased circulating IgM concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0410035",
-        "label": "Abnormal T cell activation"
       }
     },
     {
       "type": {
-        "id": "HP:0002783",
-        "label": "Recurrent lower respiratory tract infections"
+        "id": "HP:0005214",
+        "label": "Intestinal obstruction"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005224",
+        "label": "Rectal abscess"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011956",
+        "label": "Intestinal lymphoid nodular hyperplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001081",
+        "label": "Cholelithiasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005425",
+        "label": "Recurrent sinopulmonary infections"
       }
     },
     {
@@ -90,64 +96,68 @@
     },
     {
       "type": {
-        "id": "HP:0000988",
-        "label": "Skin rash"
+        "id": "HP:0000403",
+        "label": "Recurrent otitis media"
       }
     },
     {
       "type": {
-        "id": "HP:5210233",
-        "label": "Unusual HSV skin infection"
+        "id": "HP:0000964",
+        "label": "Eczematoid dermatitis"
       }
     },
     {
       "type": {
-        "id": "HP:0032163",
-        "label": "Unusual molluscum contagiosum"
+        "id": "HP:0002729",
+        "label": "Follicular hyperplasia"
       }
     },
     {
       "type": {
-        "id": "HP:0410295",
-        "label": "Complete or near-complete absence of specific antibody response to tetanus vaccine"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0410300",
-        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
+        "id": "HP:0002840",
+        "label": "Lymphadenitis"
       }
     },
     {
       "type": {
-        "id": "HP:0410303",
-        "label": "Complete or near-complete absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine"
+        "id": "HP:0410301",
+        "label": "Partial absence of specific antibody response to unconjugated pneumococcus polysaccharide"
       }
     },
     {
       "type": {
-        "id": "HP:5210260",
-        "label": "Recurrent conjunctivitis"
+        "id": "HP:5210011",
+        "label": "Severe Streptococcus pneumoniae infection"
       }
     },
     {
       "type": {
-        "id": "HP:0032215",
-        "label": "Disseminated cutaneous warts"
+        "id": "HP:5210140",
+        "label": "Bacterial sepsis"
       }
     },
     {
       "type": {
-        "id": "HP:0012191",
-        "label": "B-cell lymphoma"
-      },
-      "excluded": true
+        "id": "HP:0100658",
+        "label": "Cellulitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002671",
+        "label": "Basal cell carcinoma"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0012539",
+        "label": "Non-Hodgkin lymphoma"
+      }
     }
   ],
   "interpretations": [
     {
-      "id": "rnIHCZ94kIUz5dcVHSXzLgYJ",
+      "id": "jkbYmoNYZYG7kHLVclWzzkqO",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -156,7 +166,7 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "P12 (family E)",
+            "subjectOrBiosampleId": "F2P2",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
@@ -205,16 +215,11 @@
       "term": {
         "id": "OMIM:615513",
         "label": "APDS1"
-      },
-      "onset": {
-        "age": {
-          "iso8601duration": "P6M"
-        }
       }
     }
   ],
   "metaData": {
-    "created": "2026-07-31T17:30:49.344016Z",
+    "created": "2026-07-31T17:30:49.345304Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
@@ -253,8 +258,8 @@
     "phenopacketSchemaVersion": "2",
     "externalReferences": [
       {
-        "id": "PMID:24136356",
-        "description": "Phosphoinositide 3-kinase δ gene mutation predisposes to respiratory infection and airway damage."
+        "id": "PMID:24610295",
+        "description": "Mutations in PIK3CD can cause hyper IgM syndrome (HIGM) associated with increased cancer susceptibility."
       }
     ]
   }

@@ -1,20 +1,31 @@
 {
-  "id": "PMID_24136356_P6_family_B",
+  "id": "PMID_34350147_P4",
   "subject": {
-    "id": "P6 (family B)",
+    "id": "P4",
+    "timeAtLastEncounter": {
+      "age": {
+        "iso8601duration": "P17Y"
+      }
+    },
     "sex": "FEMALE"
   },
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0000099",
-        "label": "Glomerulonephritis"
+        "id": "HP:0100646",
+        "label": "Thyroiditis"
       }
     },
     {
       "type": {
-        "id": "HP:0011108",
-        "label": "Recurrent sinusitis"
+        "id": "HP:0040261",
+        "label": "Increased size of nasopharyngeal adenoids"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0200117",
+        "label": "Recurrent upper and lower respiratory tract infections"
       }
     },
     {
@@ -31,6 +42,18 @@
     },
     {
       "type": {
+        "id": "HP:0025843",
+        "label": "Increased HLA-DR+ CD8+ T cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410377",
+        "label": "Decreased naive CD8+ T cell proportion"
+      }
+    },
+    {
+      "type": {
         "id": "HP:5210418",
         "label": "Decreased total CD4+ T cell count"
       },
@@ -38,16 +61,29 @@
     },
     {
       "type": {
-        "id": "HP:0020112",
-        "label": "Increased regulatory T cell proportion"
+        "id": "HP:0002853",
+        "label": "Increased HLA-DR+ CD4+ T cell proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0020111",
+        "label": "Abnormal regulatory T cell proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0025839",
+        "label": "Decreased RTE CD4+ T cell proportion"
       }
     },
     {
       "type": {
-        "id": "HP:0020113",
-        "label": "Decreased regulatory T cell proportion"
-      },
-      "excluded": true
+        "id": "HP:0410378",
+        "label": "Decreased naive CD4+ T cell proportion"
+      }
     },
     {
       "type": {
@@ -57,8 +93,14 @@
     },
     {
       "type": {
-        "id": "HP:0030388",
-        "label": "Decreased class-switched memory B cell proportion"
+        "id": "HP:0030371",
+        "label": "Increased naive B cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030384",
+        "label": "Decreased marginal zone B cell proportion"
       },
       "excluded": true
     },
@@ -66,6 +108,19 @@
       "type": {
         "id": "HP:0030381",
         "label": "Increased transitional B cell proportion"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032128",
+        "label": "Increased plasmablast proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0004315",
+        "label": "Decreased circulating IgG concentration"
       },
       "excluded": true
     },
@@ -79,8 +134,7 @@
       "type": {
         "id": "HP:0002720",
         "label": "Decreased circulating IgA concentration"
-      },
-      "excluded": true
+      }
     },
     {
       "type": {
@@ -90,33 +144,28 @@
     },
     {
       "type": {
-        "id": "HP:0410035",
-        "label": "Abnormal T cell activation"
+        "id": "HP:0410246",
+        "label": "Increased circulating IgD concentration"
       },
       "excluded": true
     },
     {
       "type": {
-        "id": "HP:0001744",
-        "label": "Splenomegaly"
+        "id": "HP:0025832",
+        "label": "Decreased Th17 T cell proportion"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0020072",
+        "label": "Persistent EBV viremia"
       }
     },
     {
       "type": {
-        "id": "HP:0000568",
-        "label": "Microphthalmia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002783",
-        "label": "Recurrent lower respiratory tract infections"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0011950",
-        "label": "Unusual bronchiolitis"
+        "id": "HP:0005366",
+        "label": "Recurrent streptococcus pneumoniae infections"
       }
     },
     {
@@ -127,8 +176,27 @@
     },
     {
       "type": {
-        "id": "HP:0000365",
-        "label": "Hearing impairment"
+        "id": "HP:0002716",
+        "label": "Lymphadenopathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030812",
+        "label": "Enlarged tonsils"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003493",
+        "label": "Antinuclear antibody positivity"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0003453",
+        "label": "Antineutrophil antibody positivity"
       }
     },
     {
@@ -140,21 +208,43 @@
     },
     {
       "type": {
-        "id": "HP:0410018",
-        "label": "Recurrent ear infections"
+        "id": "HP:0410297",
+        "label": "Partial absence of specific antibody response to tetanus vaccine"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0410304",
+        "label": "Complete or near-complete absence of specific antibody response to protein-conjugated meningococcus vaccine"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0410306",
+        "label": "Partial absence of specific antibody response to protein-conjugated meningococcus vaccine"
       }
     },
     {
       "type": {
-        "id": "HP:5210137",
-        "label": "Unusual eye infection"
+        "id": "HP:5210102",
+        "label": "Unusual Candida infection"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0005376",
+        "label": "Recurrent Haemophilus influenzae infection"
       }
     },
     {
       "type": {
-        "id": "HP:0100658",
-        "label": "Cellulitis"
-      }
+        "id": "HP:0012189",
+        "label": "Hodgkin lymphoma"
+      },
+      "excluded": true
     },
     {
       "type": {
@@ -166,7 +256,7 @@
   ],
   "interpretations": [
     {
-      "id": "Gnnb4YFBq7ym1J1lPUi3XQaO",
+      "id": "DQ6OXjgz40cXb2ELWtJOzHRj",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -175,39 +265,23 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "P6 (family B)",
+            "subjectOrBiosampleId": "P4",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
               "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
-                "id": "c3061GtoA_PIK3CD_NM_005026v5",
+                "id": "PIK3CD_SV_p_E1021K",
+                "label": "p.E1021K",
                 "geneContext": {
                   "valueId": "HGNC:8977",
                   "symbol": "PIK3CD"
                 },
-                "expressions": [
-                  {
-                    "syntax": "hgvs.c",
-                    "value": "NM_005026.5:c.3061G>A"
-                  },
-                  {
-                    "syntax": "hgvs.g",
-                    "value": "NC_000001.11:g.9726972G>A"
-                  },
-                  {
-                    "syntax": "hgvs.p",
-                    "value": "NP_005017.3:p.(Glu1021Lys)"
-                  }
-                ],
-                "vcfRecord": {
-                  "genomeAssembly": "hg38",
-                  "chrom": "chr1",
-                  "pos": 9726972,
-                  "ref": "G",
-                  "alt": "A"
-                },
                 "moleculeContext": "genomic",
+                "structuralType": {
+                  "id": "SO:1000183",
+                  "label": "chromosome_structure_variation"
+                },
                 "allelicState": {
                   "id": "GENO:0000135",
                   "label": "heterozygous"
@@ -227,13 +301,13 @@
       },
       "onset": {
         "age": {
-          "iso8601duration": "P12M"
+          "iso8601duration": "P2Y"
         }
       }
     }
   ],
   "metaData": {
-    "created": "2026-07-31T17:30:49.343717Z",
+    "created": "2026-07-31T17:30:49.344501Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
@@ -267,13 +341,21 @@
         "version": "06/01/25",
         "namespacePrefix": "HGNC",
         "iriPrefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      },
+      {
+        "id": "so",
+        "name": "Sequence types and features ontology",
+        "url": "http://purl.obolibrary.org/obo/so.owl",
+        "version": "2024-11-18",
+        "namespacePrefix": "SO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/SO_"
       }
     ],
     "phenopacketSchemaVersion": "2",
     "externalReferences": [
       {
-        "id": "PMID:24136356",
-        "description": "Phosphoinositide 3-kinase δ gene mutation predisposes to respiratory infection and airway damage."
+        "id": "PMID:34350147",
+        "description": "Natural Course of Activated Phosphoinositide 3-Kinase Delta Syndrome in Childhood and Adolescence."
       }
     ]
   }
