@@ -13,79 +13,6 @@
     },
     {
       "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0004315",
-        "label": "Decreased circulating IgG concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0003496",
-        "label": "Increased circulating IgM concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410295",
-        "label": "Complete or near-complete absence of specific antibody response to tetanus vaccine"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410303",
-        "label": "Complete or near-complete absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0020108",
-        "label": "Unusual parasitic infection"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002783",
-        "label": "Recurrent lower respiratory tract infections"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410018",
-        "label": "Recurrent ear infections"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0034317",
-        "label": "Unusual viral infection"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410035",
-        "label": "Abnormal T cell activation"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001744",
-        "label": "Splenomegaly"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0008940",
-        "label": "Generalized lymphadenopathy"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0005403",
         "label": "Decreased total T cell count"
       },
@@ -93,8 +20,14 @@
     },
     {
       "type": {
-        "id": "HP:0032218",
-        "label": "Decreased total CD4+ T cell proportion"
+        "id": "HP:0010976",
+        "label": "Decreased total B cell count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025540",
+        "label": "Abnormal T cell subset number"
       }
     },
     {
@@ -119,12 +52,6 @@
     },
     {
       "type": {
-        "id": "HP:0010976",
-        "label": "Decreased total B cell count"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0030388",
         "label": "Decreased class-switched memory B cell proportion"
       }
@@ -137,14 +64,87 @@
     },
     {
       "type": {
+        "id": "HP:0004315",
+        "label": "Decreased circulating IgG concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003496",
+        "label": "Increased circulating IgM concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410035",
+        "label": "Abnormal T cell activation"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0002014",
         "label": "Diarrhea"
       }
     },
     {
       "type": {
+        "id": "HP:0001744",
+        "label": "Splenomegaly"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0002240",
         "label": "Hepatomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002783",
+        "label": "Recurrent lower respiratory tract infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008940",
+        "label": "Generalized lymphadenopathy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410295",
+        "label": "Complete or near-complete absence of specific antibody response to tetanus vaccine"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410303",
+        "label": "Complete or near-complete absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020108",
+        "label": "Unusual parasitic infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410018",
+        "label": "Recurrent ear infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0034317",
+        "label": "Unusual viral infection"
       }
     },
     {
@@ -163,13 +163,55 @@
   ],
   "interpretations": [
     {
-      "id": "UNEBH5q0jkuqaiUgwwsC4Cmx",
+      "id": "GfT6jdf1zKBhf9P9s4sbS0Q4",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
           "id": "OMIM:615513",
           "label": "APDS1"
-        }
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "P8 (family C)",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "variationDescriptor": {
+                "id": "c3061GtoA_PIK3CD_NM_005026v5",
+                "geneContext": {
+                  "valueId": "HGNC:8977",
+                  "symbol": "PIK3CD"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_005026.5:c.3061G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000001.11:g.9726972G>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_005017.3:p.(Glu1021Lys)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr1",
+                  "pos": "9726972",
+                  "ref": "G",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   ],
@@ -187,7 +229,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.783629Z",
+    "created": "2026-07-31T17:30:49.343870Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

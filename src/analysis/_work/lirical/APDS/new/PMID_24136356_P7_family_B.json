@@ -7,72 +7,27 @@
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0000388",
-        "label": "Otitis media"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0000509",
         "label": "Conjunctivitis"
       }
     },
     {
       "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0004315",
-        "label": "Decreased circulating IgG concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0008348",
-        "label": "Decreased circulating IgG2 concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0003496",
-        "label": "Increased circulating IgM concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0410300",
-        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus vaccine"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410303",
-        "label": "Complete or near-complete absence of specific antibody response to Haemophilus influenzae type b (Hib) vaccine"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0002783",
-        "label": "Recurrent lower respiratory tract infections"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410035",
-        "label": "Abnormal T cell activation"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
         "id": "HP:0005403",
         "label": "Decreased total T cell count"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0010976",
+        "label": "Decreased total B cell count"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5210418",
+        "label": "Decreased total CD4+ T cell count"
       },
       "excluded": true
     },
@@ -91,14 +46,8 @@
     },
     {
       "type": {
-        "id": "HP:0005415",
-        "label": "Decreased CD8+ T cell proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0010976",
-        "label": "Decreased total B cell count"
+        "id": "HP:5210426",
+        "label": "Decreased total CD8+ T cell count"
       }
     },
     {
@@ -116,8 +65,34 @@
     },
     {
       "type": {
-        "id": "HP:0020116",
-        "label": "Subcutaneous abscess"
+        "id": "HP:0008348",
+        "label": "Decreased circulating IgG2 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003496",
+        "label": "Increased circulating IgM concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0410035",
+        "label": "Abnormal T cell activation"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002783",
+        "label": "Recurrent lower respiratory tract infections"
       }
     },
     {
@@ -125,6 +100,31 @@
         "id": "HP:0002110",
         "label": "Bronchiectasis"
       }
+    },
+    {
+      "type": {
+        "id": "HP:0000388",
+        "label": "Otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020116",
+        "label": "Subcutaneous abscess"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410300",
+        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410303",
+        "label": "Complete or near-complete absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine"
+      },
+      "excluded": true
     },
     {
       "type": {
@@ -136,13 +136,55 @@
   ],
   "interpretations": [
     {
-      "id": "CYUhnNSxEOh0aDmC9f6m2UwV",
+      "id": "VX4bRM8SL0yhT13cb7ofAedU",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
           "id": "OMIM:615513",
           "label": "APDS1"
-        }
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "P7 (family B)",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "variationDescriptor": {
+                "id": "c3061GtoA_PIK3CD_NM_005026v5",
+                "geneContext": {
+                  "valueId": "HGNC:8977",
+                  "symbol": "PIK3CD"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_005026.5:c.3061G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000001.11:g.9726972G>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_005017.3:p.(Glu1021Lys)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr1",
+                  "pos": "9726972",
+                  "ref": "G",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   ],
@@ -161,7 +203,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.783454Z",
+    "created": "2026-07-31T17:30:49.343767Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

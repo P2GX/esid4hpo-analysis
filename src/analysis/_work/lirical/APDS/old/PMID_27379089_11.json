@@ -12,12 +12,6 @@
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0000389",
-        "label": "Chronic otitis media"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0000246",
         "label": "Sinusitis"
       }
@@ -30,8 +24,8 @@
     },
     {
       "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
+        "id": "HP:0032218",
+        "label": "Decreased total CD4+ T cell proportion"
       }
     },
     {
@@ -42,14 +36,56 @@
     },
     {
       "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0003496",
         "label": "Increased circulating IgM concentration"
       }
     },
     {
       "type": {
+        "id": "HP:0002024",
+        "label": "Malabsorption"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0002583",
         "label": "Colitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032203",
+        "label": "Lymphoid nodular hyperplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001744",
+        "label": "Splenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006515",
+        "label": "Interstitial pneumonitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000389",
+        "label": "Chronic otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004322",
+        "label": "Short stature"
       }
     },
     {
@@ -62,42 +98,6 @@
       "type": {
         "id": "HP:0032158",
         "label": "Unusual infection by anatomical site"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001744",
-        "label": "Splenomegaly"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0032218",
-        "label": "Decreased total CD4+ T cell proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002024",
-        "label": "Malabsorption"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0032203",
-        "label": "Lymphoid nodular hyperplasia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0006515",
-        "label": "Interstitial pneumonitis"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0004322",
-        "label": "Short stature"
       }
     },
     {
@@ -115,7 +115,7 @@
   ],
   "interpretations": [
     {
-      "id": "9b7T2qy8L5g6HKx77WXr8xKO",
+      "id": "JaP6F9RM3yuT87YvJ20nF7zr",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -181,7 +181,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.781434Z",
+    "created": "2026-07-31T17:30:49.343296Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

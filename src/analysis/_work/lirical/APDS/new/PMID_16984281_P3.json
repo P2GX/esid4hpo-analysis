@@ -12,20 +12,20 @@
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0001249",
-        "label": "Intellectual disability"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
+        "id": "HP:0032218",
+        "label": "Decreased total CD4+ T cell proportion"
       }
     },
     {
       "type": {
         "id": "HP:0004315",
         "label": "Decreased circulating IgG concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
       }
     },
     {
@@ -37,14 +37,38 @@
     },
     {
       "type": {
-        "id": "HP:0032162",
-        "label": "Unusual skin infection"
+        "id": "HP:0002028",
+        "label": "Chronic diarrhea"
       }
     },
     {
       "type": {
         "id": "HP:0002783",
         "label": "Recurrent lower respiratory tract infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002110",
+        "label": "Bronchiectasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001510",
+        "label": "Growth delay"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032162",
+        "label": "Unusual skin infection"
       }
     },
     {
@@ -58,35 +82,11 @@
         "id": "HP:5210116",
         "label": "Unusual VZV infection"
       }
-    },
-    {
-      "type": {
-        "id": "HP:0032218",
-        "label": "Decreased CD4+ T cell proportion"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002028",
-        "label": "Chronic diarrhea"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002110",
-        "label": "Bronchiectasis"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001510",
-        "label": "Growth delay"
-      }
     }
   ],
   "interpretations": [
     {
-      "id": "hMsDGYPdyWdvXYQuqAwu8leh",
+      "id": "l0LZogkozfgJJJTYl6zXHY76",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -152,7 +152,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.782149Z",
+    "created": "2026-07-31T17:30:49.343370Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

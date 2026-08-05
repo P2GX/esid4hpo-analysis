@@ -7,12 +7,6 @@
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0000403",
-        "label": "Recurrent otitis media"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0011108",
         "label": "Recurrent sinusitis"
       }
@@ -21,50 +15,6 @@
       "type": {
         "id": "HP:0030757",
         "label": "Tooth abscess"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002788",
-        "label": "Recurrent upper respiratory tract infections"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0004315",
-        "label": "Decreased circulating IgG concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0008348",
-        "label": "Decreased circulating IgG2 concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0003496",
-        "label": "Increased circulating IgM concentration"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0032101",
-        "label": "Unusual infection"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0410035",
-        "label": "Abnormal T cell activation"
       }
     },
     {
@@ -88,14 +38,14 @@
     },
     {
       "type": {
-        "id": "HP:0410389",
-        "label": "Decreased central memory CD8+ T cell proportion"
+        "id": "HP:0410395",
+        "label": "Increased effector memory CD8+ T cell proportion"
       }
     },
     {
       "type": {
-        "id": "HP:0410395",
-        "label": "Increased effector memory CD8+ T cell proportion"
+        "id": "HP:0410389",
+        "label": "Decreased central memory CD8+ T cell proportion"
       }
     },
     {
@@ -133,6 +83,43 @@
     },
     {
       "type": {
+        "id": "HP:0008348",
+        "label": "Decreased circulating IgG2 concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0003496",
+        "label": "Increased circulating IgM concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410035",
+        "label": "Abnormal T cell activation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000403",
+        "label": "Recurrent otitis media"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032101",
+        "label": "Unusual infection"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0012191",
         "label": "B-cell lymphoma"
       },
@@ -141,13 +128,55 @@
   ],
   "interpretations": [
     {
-      "id": "4ttpmvDmg7EdvQYzARYEjJZk",
+      "id": "Qo9btUJy97WOxMZmWVcnlPQ5",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
           "id": "OMIM:615513",
           "label": "APDS1"
-        }
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "P10 (family D)",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "variationDescriptor": {
+                "id": "c3061GtoA_PIK3CD_NM_005026v5",
+                "geneContext": {
+                  "valueId": "HGNC:8977",
+                  "symbol": "PIK3CD"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_005026.5:c.3061G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000001.11:g.9726972G>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_005017.3:p.(Glu1021Lys)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr1",
+                  "pos": "9726972",
+                  "ref": "G",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   ],
@@ -165,7 +194,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.783898Z",
+    "created": "2026-07-31T17:30:49.343970Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {

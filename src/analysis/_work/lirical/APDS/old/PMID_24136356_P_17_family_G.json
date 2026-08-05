@@ -13,54 +13,14 @@
     },
     {
       "type": {
-        "id": "HP:0002720",
-        "label": "Decreased circulating IgA concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0004315",
-        "label": "Decreased circulating IgG concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0008348",
-        "label": "Decreased circulating IgG2 concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0003496",
-        "label": "Increased circulating IgM concentration"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0410300",
-        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002783",
-        "label": "Recurrent lower respiratory tract infections"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0005403",
         "label": "Decreased total T cell count"
       }
     },
     {
       "type": {
-        "id": "HP:0032218",
-        "label": "Decreased total CD4+ T cell proportion"
+        "id": "HP:0025540",
+        "label": "Abnormal T cell subset number"
       }
     },
     {
@@ -78,8 +38,41 @@
     },
     {
       "type": {
+        "id": "HP:0004315",
+        "label": "Decreased circulating IgG concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002720",
+        "label": "Decreased circulating IgA concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0003496",
+        "label": "Increased circulating IgM concentration"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002783",
+        "label": "Recurrent lower respiratory tract infections"
+      }
+    },
+    {
+      "type": {
         "id": "HP:0002110",
         "label": "Bronchiectasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0410300",
+        "label": "Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide"
       }
     },
     {
@@ -92,13 +85,55 @@
   ],
   "interpretations": [
     {
-      "id": "dKNKLlMJw9ZyuxWyeNe0AWEn",
+      "id": "C5EjVgZcbC2uj1VlFhGT87zI",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
           "id": "OMIM:615513",
           "label": "APDS1"
-        }
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "P 17 (family G)",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "variationDescriptor": {
+                "id": "c3061GtoA_PIK3CD_NM_005026v5",
+                "geneContext": {
+                  "valueId": "HGNC:8977",
+                  "symbol": "PIK3CD"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_005026.5:c.3061G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000001.11:g.9726972G>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_005017.3:p.(Glu1021Lys)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr1",
+                  "pos": "9726972",
+                  "ref": "G",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   ],
@@ -116,7 +151,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-19T13:03:07.784179Z",
+    "created": "2026-07-31T17:30:49.344256Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
