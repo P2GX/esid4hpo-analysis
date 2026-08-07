@@ -1,0 +1,2260 @@
+curie,label,group,in_old,new_term,reparented,rel_added,rel_removed,def_changed,syn_added,depth_new,depth_old,obsoleted
+HP:0000010,Recurrent urinary tract infections,Infections,True,False,True,1,1,False,0,4.0,4.0,False
+HP:0000024,Prostatitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000031,Epididymitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000099,Glomerulonephritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000123,Nephritis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000166,Severe periodontitis,Infections,True,False,True,1,1,True,3,6.0,5.0,False
+HP:0000230,Gingivitis,Infections,True,False,True,1,0,True,1,5.0,,False
+HP:0000246,Sinusitis,Infections,True,False,True,1,0,False,0,4.0,4.0,False
+HP:0000255,Acute sinusitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000371,Acute otitis media,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000388,Otitis media,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000389,Chronic otitis media,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000403,Recurrent otitis media,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000491,Keratitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000498,Blepharitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000509,Conjunctivitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000554,Uveitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000704,Periodontitis,Other immune,True,False,False,0,0,False,1,4.0,4.0,False
+HP:0000777,Abnormal thymus morphology,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0000778,Hypoplasia of the thymus,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0000793,Membranoproliferative glomerulonephritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0000872,Hashimoto thyroiditis,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0000964,Eczematoid dermatitis,Other immune,True,False,False,0,0,False,1,5.0,5.0,False
+HP:0000988,Skin rash,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0000999,Pyoderma,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001019,Erythroderma,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001047,Atopic dermatitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001051,Seborrheic dermatitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001055,Erysipelas,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001061,Acne,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001082,Cholecystitis,Infections,True,False,True,1,0,False,2,5.0,,False
+HP:0001094,Iridocyclitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0001096,Keratoconjunctivitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001097,Keratoconjunctivitis sicca,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0001287,Meningitis,Infections,True,False,False,0,0,False,2,5.0,5.0,False
+HP:0001412,Enteroviral hepatitis,Infections,True,False,False,0,0,False,0,8.0,6.0,False
+HP:0001433,Hepatosplenomegaly,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001581,Recurrent skin infections,Infections,True,False,True,1,1,False,1,5.0,5.0,False
+HP:0001701,Pericarditis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001733,Pancreatitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0001735,Acute pancreatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001743,Abnormality of the spleen,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0001744,Splenomegaly,Other immune,True,False,False,0,0,False,1,4.0,4.0,False
+HP:0001746,Asplenia,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001747,Accessory spleen,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001748,Polysplenia,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001874,Abnormality of neutrophils,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001875,Decreased total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0001879,Abnormal eosinophil morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001880,Increased total eosinophil count,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,False,2,7.0,6.0,False
+HP:0001881,Abnormal leukocyte morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,3.0,3.0,False
+HP:0001882,Decreased total leukocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,5.0,5.0,False
+HP:0001886,Foot osteomyelitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001888,Decreased total lymphocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,6.0,6.0,False
+HP:0001890,Autoimmune hemolytic anemia,Other immune,True,False,True,1,1,False,0,4.0,3.0,False
+HP:0001904,Autoimmune neutropenia,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,1,4.0,3.0,False
+HP:0001909,Leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0001911,Abnormal granulocyte morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001912,Abnormal basophil morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001913,Decreased total granulocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,6.0,6.0,False
+HP:0001922,Vacuolated lymphocytes,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0001971,Hypersplenism,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0001973,Autoimmune thrombocytopenia,Other immune,True,False,True,1,1,False,0,4.0,3.0,False
+HP:0001974,Increased total leukocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,5.0,5.0,False
+HP:0001982,Sea-blue histiocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0001983,Reduced lymphocyte surface expression of CD43,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002037,Inflammation of the large intestine,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002090,Pneumonia,Infections,True,False,True,1,1,False,0,4.0,4.0,False
+HP:0002099,Asthma,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002100,Recurrent aspiration pneumonia,Infections,True,False,False,0,0,False,1,6.0,6.0,False
+HP:0002205,Recurrent respiratory infections,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002383,Infectious encephalitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002488,Acute leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002563,Constrictive pericarditis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0002583,Colitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0002586,Peritonitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002593,Intestinal lymphangiectasia,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002608,Celiac disease,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002715,Abnormality of the immune system,Other immune,True,False,False,0,0,False,0,0.0,0.0,False
+HP:0002716,Lymphadenopathy,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002718,Recurrent bacterial infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0002719,Recurrent infections,Infections,True,False,False,0,0,True,0,3.0,3.0,False
+HP:0002720,Decreased circulating IgA concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002721,Immunodeficiency,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0002722,Recurrent abscess formation,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002723,Absence of bactericidal oxidative respiratory burst in phagocytes,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002724,Recurrent Aspergillus infection,Infections,True,False,True,1,0,True,4,5.0,5.0,False
+HP:0002725,Systemic lupus erythematosus,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002726,Recurrent Staphylococcus aureus infection,Infections,True,False,True,1,0,True,2,6.0,6.0,False
+HP:0002728,Recurrent mucocutaneous candidiasis,Infections,True,False,True,1,0,False,2,5.0,6.0,False
+HP:0002729,Follicular hyperplasia,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002730,Chronic noninfectious lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002731,Decreased T cell apoptosis,Other immune,True,False,False,0,0,True,0,6.0,5.0,False
+HP:0002732,Lymph node hypoplasia,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002733,Abnormal lymph node morphology,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0002740,Recurrent Escherichia coli infection,Infections,True,False,True,1,0,True,4,6.0,6.0,False
+HP:0002741,Recurrent Serratia infection,Infections,True,False,True,1,0,True,5,6.0,6.0,False
+HP:0002742,Recurrent Klebsiella infection,Infections,True,False,True,1,0,True,5,6.0,6.0,False
+HP:0002743,Recurrent enteroviral infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0002754,Osteomyelitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002783,Recurrent lower respiratory tract infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002788,Recurrent upper respiratory tract infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002837,Recurrent bronchitis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0002840,Lymphadenitis,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002841,Recurrent fungal infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0002842,Recurrent Burkholderia cepacia infection,Infections,True,False,True,1,0,True,4,6.0,6.0,False
+HP:0002843,Abnormal T cell morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,5.0,5.0,False
+HP:0002846,Abnormal B cell morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002847,Impaired memory B cell generation,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002848,Decreased specific anti-polysaccharide antibody concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002849,Absence of lymph node germinal center,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0002850,Decreased circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002851,Increased double-negative T cell number,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,2,8.0,9.0,False
+HP:0002853,Increased HLA-DR+ CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,2,1,True,3,9.0,8.0,False
+HP:0002923,Rheumatoid factor positive,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0002955,Granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0002958,Immune dysregulation,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0002959,Impaired Ig class switch recombination,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002960,Autoimmunity,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0002963,Abnormal delayed hypersensitivity skin test,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002965,Cutaneous anergy,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0002971,Absent microvilli on the surface of peripheral blood lymphocytes,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0002972,Reduced delayed hypersensitivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0003139,Panhypogammaglobulinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0003193,Allergic rhinitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003203,Decreased neutrophil oxidative burst,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,3,4.0,9.0,False
+HP:0003212,Increased circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0003237,Increased circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0003261,Increased circulating IgA concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0003262,Anti-smooth muscle antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003357,Thymic hormone decreased,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0003453,Antineutrophil antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003454,Platelet antibody positive,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003459,Polyclonal elevation of circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0003460,Chronic decreased circulating IgA concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0003493,Antinuclear antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003496,Increased circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0003613,Antiphospholipid antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0003729,Enteroviral dermatomyositis syndrome,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0003759,Hypoplasia of lymphatic vessels,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0003765,Psoriasiform dermatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004311,Abnormal macrophage morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004313,Decreased circulating immunoglobulin concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0004315,Decreased circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004332,Abnormal lymphocyte morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0004333,Bone-marrow foam cells,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004386,Gastrointestinal inflammation,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0004387,Enterocolitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0004429,Recurrent viral infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0004430,Severe combined immunodeficiency,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0004431,Reduced circulating complement concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0004432,Agammaglobulinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004433,Decreased secretory IgA concentration,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0004434,Decreased circulating complement C8 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004469,Chronic bronchitis,Infections,True,False,False,0,0,False,0,6.0,,False
+HP:0004787,Fulminant hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004798,Recurrent infection of the gastrointestinal tract,Infections,True,False,True,1,1,False,0,4.0,4.0,False
+HP:0004808,Acute myeloid leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004812,B Acute Lymphoblastic Leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0004820,Acute myelomonocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004821,Hypersegmentation of neutrophil nuclei,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0004836,Acute promyelocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004845,Acute monocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0004848,Ph-positive acute lymphoblastic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0004880,Respiratory infections in early life,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0004891,Recurrent infections due to aspiration,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005010,Osteomyelitis leading to amputation due to slow healing fractures,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005183,Pericardial lymphangiectasia,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005202,Helicobacter pylori infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005215,Frequent Giardia lamblia infestation,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005224,Rectal abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0005236,Chronic calcifying pancreatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005339,Abnormality of complement system,"Antibodies /
+humoral",True,False,False,0,0,False,0,3.0,3.0,False
+HP:0005352,Severe T-cell immunodeficiency,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005353,Recurrent herpes,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005356,Decreased circulating complement factor I concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005357,Defective B cell differentiation,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005359,Aplasia of the thymus,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005360,Susceptibility to chickenpox,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005363,Humoral immunodeficiency,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0005366,Recurrent streptococcus pneumoniae infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005368,Abnormality of humoral immunity,"Antibodies /
+humoral",True,False,False,0,0,False,0,2.0,2.0,False
+HP:0005369,Decreased circulating complement factor H concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005372,Abnormal B cell physiology,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005374,Cellular immunodeficiency,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0005376,Recurrent Haemophilus influenzae infection,Infections,True,False,True,1,0,True,4,6.0,6.0,False
+HP:0005381,Recurrent Neisseria meningitidis infection,Infections,True,False,True,1,0,True,4,6.0,7.0,False
+HP:0005384,Defective B cell activation,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005386,Recurrent protozoan infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0005387,Combined immunodeficiency,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0005389,Depletion of components of the alternative complement pathway,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005390,Recurrent opportunistic infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0005396,Susceptibility to coronavirus 229e,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005400,Reduction of neutrophil motility,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,8.0,False
+HP:0005401,Recurrent Candida infection,Infections,True,False,True,1,0,True,4,5.0,5.0,False
+HP:0005403,Decreased total T cell count,"Flow cytometry /
+immunophenotyping",True,False,True,1,2,True,4,8.0,7.0,False
+HP:0005404,Increased total B cell count,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,True,1,7.0,7.0,False
+HP:0005406,Recurrent bacterial skin infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005411,Chronic intestinal candidiasis,Infections,True,False,False,0,0,False,0,6.0,7.0,False
+HP:0005415,Decreased total CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,2,True,1,9.0,8.0,False
+HP:0005416,Decreased circulating complement factor B concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005419,Decreased T cell activation,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005420,Recurrent gram-negative bacterial infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005421,Decreased circulating complement C3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005422,Absence of CD8+ T cells,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,10.0,9.0,False
+HP:0005423,Dysfunctional alternative complement pathway,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005424,Absent specific antibody response,"Antibodies /
+humoral",True,False,False,0,0,True,0,4.0,4.0,False
+HP:0005425,Recurrent sinopulmonary infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005428,Severe recurrent varicella,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005429,Recurrent systemic pyogenic infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0005430,Recurrent Neisserial infections,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005432,Transient hypogammaglobulinemia of infancy,"Antibodies /
+humoral",True,False,False,0,0,True,0,5.0,5.0,False
+HP:0005437,Recurrent infections in infancy and early childhood,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005479,Decreased circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005482,Abnormality of the alternative complement pathway,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0005506,Chronic myelogenous leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005508,Monoclonal elevation of circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005526,Lymphoid leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005531,Biphenotypic acute leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005534,Transient myeloproliferative syndrome,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005539,T cell chronic lymphocytic lymphoma/leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005541,Congenital agranulocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,8.0,False
+HP:0005547,Myeloproliferative disorder,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005550,Chronic lymphatic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0005558,Chronic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0005661,Salmonella osteomyelitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006268,Fluctuating splenomegaly,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006270,Hypoplastic spleen,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006273,Pancreatic lymphangiectasis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0006280,Chronic pancreatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006521,Pulmonary lymphangiectasia,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0006529,Abnormal pulmonary lymphatics,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0006531,Pleural lymphangiectasia,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0006532,Recurrent pneumonia,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006538,Recurrent bronchopulmonary infections,Infections,True,False,False,0,0,False,1,5.0,5.0,False
+HP:0006562,Viral hepatitis,Infections,True,False,True,1,1,False,0,7.0,5.0,False
+HP:0006572,Subacute progressive viral hepatitis,Infections,True,False,False,0,0,False,0,8.0,6.0,False
+HP:0006689,Bacterial endocarditis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0006721,Acute lymphoblastic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0006727,T-cell acute lymphoblastic leukemias,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0006733,Acute megakaryocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0006946,Recurrent meningitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0007041,Chronic lymphocytic meningitis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0007274,Recurrent bacterial meningitis,Infections,True,False,True,1,0,False,0,5.0,6.0,False
+HP:0007381,Congenital exfoliative erythroderma,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0007408,Tegumentary leishmaniasis susceptibility,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0007417,Discoid lupus rash,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0007473,Crusting erythematous dermatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0007499,Recurrent staphylococcal infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0007569,Generalized seborrheic dermatitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0007573,Late onset atopic dermatitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0007626,Mandibular osteomyelitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0007717,Chronic irritative conjunctivitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0007813,Nongranulomatous uveitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0007879,Allergic conjunctivitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0008229,Thyroid lymphangiectasia,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0008264,Neutrophil inclusion bodies,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0008290,Partial complement factor H deficiency,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0008338,Partial functional complement factor D deficiency,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0008348,Decreased circulating IgG2 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0008653,Crescentic glomerulonephritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0008940,Generalized lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0009098,Recurrent oral thrush,Infections,True,False,True,1,0,False,2,6.0,7.0,False
+HP:0009710,Chilblains,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0009789,Perianal abscess,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0009799,Supernumerary spleens,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0010280,Stomatitis,Other immune,True,False,False,0,0,False,1,4.0,4.0,False
+HP:0010451,Aplasia/Hypoplasia of the spleen,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0010452,Ectopia of the spleen,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0010515,Aplasia/Hypoplasia of the thymus,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0010516,Thymus hyperplasia,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0010517,Ectopic thymus tissue,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0010701,Abnormal circulating immunoglobulin concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,3.0,3.0,False
+HP:0010702,Increased circulating immunoglobulin concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,4.0,4.0,False
+HP:0010771,Pilonidal abscess,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0010974,Abnormal myeloid leukocyte morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0010975,Abnormal total B cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,6.0,6.0,False
+HP:0010976,Decreased total B cell count,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,True,2,7.0,7.0,False
+HP:0010977,Abnormal phagocytosis,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0010978,Abnormality of immune system physiology,Other immune,True,False,False,0,0,False,0,1.0,1.0,False
+HP:0010987,Abnormal cellular immune system morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,2.0,2.0,False
+HP:0011058,Generalized periodontitis,Infections,True,False,True,1,1,False,0,6.0,5.0,False
+HP:0011059,Localized periodontitis,Infections,True,False,True,1,1,False,0,6.0,5.0,False
+HP:0011107,Recurrent aphthous stomatitis,Infections,True,False,True,1,1,False,0,7.0,5.0,False
+HP:0011108,Recurrent sinusitis,Infections,True,False,False,0,0,False,1,5.0,5.0,False
+HP:0011109,Chronic sinusitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0011110,Recurrent tonsillitis,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0011111,Abnormal immune serum protein physiology,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0011112,Abnormal circulating cytokine concentration,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0011113,Abnormality of cytokine secretion,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0011114,Defective production of NFKB1-dependent cytokines,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011115,Abnormal circulating chemokine concentration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011116,Abnormal circulating interferon concentration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011117,Abnormal circulating interleukin concentration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011118,Abnormality of tumor necrosis factor secretion,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011123,Inflammatory abnormality of the skin,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011127,Perioral eczema,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0011132,Chronic furunculosis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0011274,Recurrent mycobacterial infections,Infections,True,False,True,1,0,True,0,4.0,5.0,False
+HP:0011275,Recurrent mycobacterium avium complex infections,Infections,True,False,False,0,0,True,0,5.0,6.0,False
+HP:0011370,Recurrent cutaneous fungal infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0011371,Recurrent viral skin infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0011447,Hyposegmentation of neutrophil nuclei,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0011450,Unusual CNS infection,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0011714,Libman-Sacks lesions,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0011771,Autoimmune hypoparathyroidism,Other immune,True,False,True,1,0,False,0,3.0,,False
+HP:0011839,Abnormal total T cell number,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,6.0,6.0,False
+HP:0011840,Abnormal T cell physiology,Other immune,True,False,False,0,0,False,2,4.0,4.0,False
+HP:0011859,Punctate keratitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0011893,Abnormal leukocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0011897,Increased total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0011948,Recurrent acute respiratory tract infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0011949,Acute infectious pneumonia,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0011950,Unusual bronchiolitis,Infections,True,False,True,1,1,True,0,5.0,6.0,False
+HP:0011951,Aspiration pneumonia,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0011952,Acute aspiration pneumonia,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0011955,Hepatic granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0011990,Abnormal neutrophil physiology,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,1,3.0,7.0,False
+HP:0011991,Abnormal total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,1,6.0,6.0,False
+HP:0011992,Abnormal neutrophil morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0011993,Impaired neutrophil bactericidal activity,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,8.0,False
+HP:0012042,Aspirin-induced asthma,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012115,Hepatitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012121,Panuveitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012122,Anterior uveitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012123,Posterior uveitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012124,Intermediate uveitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012144,Abnormal monocyte morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012156,Hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012176,Abnormal natural killer cell morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012177,Abnormal natural killer cell physiology,Other immune,True,False,False,0,0,True,2,4.0,4.0,False
+HP:0012203,Unusual fungal nail infection,Infections,True,False,True,2,1,True,4,5.0,5.0,False
+HP:0012204,Recurrent vulvovaginal candidiasis,Infections,True,False,False,0,0,False,0,6.0,7.0,False
+HP:0012209,Juvenile myelomonocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012219,Erythema nodosum,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012220,Non-caseating epithelioid cell granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,9.0,7.0,False
+HP:0012223,Splenic rupture,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012224,Circulating immune complexes,"Antibodies /
+humoral",True,False,False,0,0,False,0,3.0,3.0,False
+HP:0012234,Absence of circulating granulocytes,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0012235,Drug-induced agranulocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,8.0,False
+HP:0012282,Morbilliform rash,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0012302,HSV encephalitis,Infections,True,False,True,1,0,False,1,5.0,5.0,False
+HP:0012308,Decreased circulating complement C9 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012310,Abnormal monocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,5.0,5.0,False
+HP:0012311,Increased total monocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,6.0,6.0,False
+HP:0012312,Decreased total monocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,6.0,6.0,False
+HP:0012322,Perifolliculitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012324,Myeloid leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012325,Chronic myelomonocytic leukemia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012330,Pyelonephritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012387,Bronchitis,Infections,True,False,True,1,1,False,0,5.0,,False
+HP:0012388,Acute bronchitis,Infections,True,False,False,0,0,False,0,6.0,,False
+HP:0012393,Allergy,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0012394,Iodine contrast allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012395,Seasonal allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012475,Impaired specific antibody response,"Antibodies /
+humoral",True,False,True,1,1,True,1,3.0,3.0,False
+HP:0012476,Decreased circulating specific pneumococcal antibody concentration,"Antibodies /
+humoral",True,False,True,1,1,True,1,5.0,4.0,False
+HP:0012486,Myelitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012490,Panniculitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012551,Absent neutrophil specific granules,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0012552,Increased neutrophil nuclear projections,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0012578,Membranous nephropathy,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012579,Minimal change glomerulonephritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0012647,Abnormal inflammatory response,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0012648,Decreased inflammatory response,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0012649,Increased inflammatory response,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0012652,Exercise-induced asthma,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012653,Status asthmaticus,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0012784,Perinephritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0012786,Recurrent cystitis,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0012787,Recurrent pyelonephritis,Infections,True,False,True,1,1,False,0,5.0,5.0,False
+HP:0012797,Lymphatic vessel neoplasm,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0012798,Pulmonary lymphangiomyomatosis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020026,Positive Coombs test,Other immune,False,True,False,0,0,False,0,4.0,,False
+HP:0020027,Direct antiglobulin test positive for IgG,Other immune,False,True,False,0,0,False,1,5.0,,False
+HP:0020028,Direct antiglobulin test positive for IgM,Other immune,False,True,False,0,0,False,1,5.0,,False
+HP:0020031,Direct antiglobulin test positive for C3d,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0020050,Anti-granulocyte-macrophage colony stimulating factor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020064,Abnormal total eosinophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0020072,Persistent EBV viremia,Infections,True,False,True,1,0,True,3,5.0,5.0,False
+HP:0020083,Furuncle,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0020084,Carbuncle,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0020085,Infection following live vaccination,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020086,BCGitis,Infections,True,False,True,1,1,False,0,5.0,4.0,False
+HP:0020087,BCGosis,Infections,True,False,True,1,1,False,0,5.0,4.0,False
+HP:0020088,Post-vaccination measles,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020089,Post-vaccination rubella,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020090,Post-vaccination polio,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020091,Post-vaccination rotavirus infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020093,Recurrent deep organ abscess formation,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020095,Prolonged need of intravenous antibiotic therapy,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0020096,Recurrent streptococcal infections,Infections,True,False,False,0,0,True,0,5.0,5.0,False
+HP:0020097,Infection due to encapsulated bacteria,Infections,True,False,True,1,1,True,0,4.0,5.0,False
+HP:0020099,Severe norovirus infection,Infections,True,False,True,2,1,False,1,5.0,4.0,False
+HP:0020100,Unusual fungal infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020101,Invasive fungal infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020102,Pneumocystis jirovecii pneumonia,Infections,True,False,False,0,0,False,1,5.0,5.0,False
+HP:0020103,Invasive pulmonary aspergillosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0020104,Unusual protozoan infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020105,Severe Toxoplasma infection,Infections,True,False,True,1,1,False,3,5.0,4.0,False
+HP:0020106,Severe giardiasis,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020107,Unusual helminthic infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020108,Unusual parasitic infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020111,Abnormal regulatory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,5,8.0,8.0,False
+HP:0020112,Increased regulatory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,4,9.0,9.0,False
+HP:0020113,Decreased regulatory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,3,9.0,9.0,False
+HP:0020114,Persistent human papillomavirus infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020115,Abnormal CD8+ T cell subset proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,7.0,,False
+HP:0020116,Subcutaneous abscess,Other immune,False,True,False,0,0,False,0,3.0,,False
+HP:0020136,Anticardiolipin IgG antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0020137,Anticardiolipin IgM antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0020151,Anti-dsDNA antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0020177,Abnormal CD8+ TEMRA T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,9.0,10.0,False
+HP:0020178,Abnormal dendritic cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0020186,Multilobulated spleen,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0020194,IgA heavy chain paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0020195,IgG heavy chain paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0020196,IgM heavy chain paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0020225,Breast abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0020339,Increased mucosal-associated invariant T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,8.0,,False
+HP:0020340,Abnormal mucosal-associated invariant T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:0020341,Unusual periodontitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:0020342,Unusual stomatitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:0020343,Unusual pharyngitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:0025038,Intratesticular abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025042,Abnormality of mesenteric lymph nodes,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025043,Enlarged mesenteric lymph node,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025044,Lung abscess,Other immune,True,False,False,0,0,False,1,3.0,3.0,False
+HP:0025059,Splenic abscess,Infections,True,False,True,1,0,False,0,4.0,4.0,False
+HP:0025060,Multifocal splenic abscess,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025061,Unifocal splenic abscess,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025067,Recurrent sepsis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:0025079,Pancreatic abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025084,Folliculitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025126,Oral hairy leukoplakia,Infections,True,False,True,1,0,False,2,5.0,,False
+HP:0025183,Abnormal total CD4+ T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:0025289,Cervical lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025300,Malar rash,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0025329,Anti-glutamic acid decarboxylase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025343,Lupus anticoagulant,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025351,Recurrent interdigital mycosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025353,Anti-multiple nuclear dots antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025379,Anti-thyroid peroxidase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025381,Anti-pituitary antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025408,Abnormal spleen morphology,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025409,Abnormal spleen physiology,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025410,Splenogonadal fusion,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025434,Reduced circulating CH50 activity,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025440,Warm reactive autoantibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025472,Recurrent plantar mycosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025539,Abnormal B cell subset distribution,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,0,6.0,7.0,False
+HP:0025540,Abnormal T cell subset number,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,1,6.0,7.0,False
+HP:0025609,Anterior blepharitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0025610,Posterior blepharitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0025615,Abscess,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0025616,Sterile abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0025617,Abnormal total plasma cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0025618,Reduced plasma cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0025619,Elevated plasma cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0025624,Decreased effector memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,2,2,False,0,10.0,9.0,False
+HP:0025625,Increased effector memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,2,2,True,2,10.0,9.0,False
+HP:0025629,Anti-myelin-associated glycoprotein antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025731,Anti-glycosylphosphatidylinositol anchored high-density lipoprotein binding protein 1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0025762,Anti-ganglionic acetylcholine receptor antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0025794,Reduced MHC I cell surface expression,Other immune,False,True,False,0,0,False,1,3.0,,False
+HP:0025805,Absent circulating T cells,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:0025807,Decreased natural killer cell degranulation,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0025808,Decreased natural killer cell-induced killing of target cells,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0025812,Seborrheic scales on scalp,Other immune,False,True,False,0,0,False,1,7.0,,False
+HP:0025824,Decreased neutrophil phagocytosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,4.0,,False
+HP:0025825,Decreased neutrophil adhesion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,4.0,,False
+HP:0025826,Severely decreased neutrophil count,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,8.0,,False
+HP:0025827,Abnormal Th1 T cell proportion,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0025828,Increased Th1 T cell proportion,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0025829,Decreased Th1 T cell proportion,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0025830,Abnormal Th17 T cell proportion,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0025831,Increased Th17 T cell proportion,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0025832,Decreased Th17 T cell proportion,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0025833,Decreased PMA/ionomycin-induced T-cell proliferation,Other immune,False,True,False,0,0,False,1,7.0,,False
+HP:0025834,Impaired phytohemagglutinin-induced T lymphocyte transformation,Other immune,False,True,False,0,0,False,4,7.0,,False
+HP:0025835,Decreased CD8+ T cell degranulation,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:0025836,Increased total CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,9.0,,False
+HP:0025837,Abnormal RTE CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,8.0,,False
+HP:0025838,Increased RTE CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,9.0,,False
+HP:0025839,Decreased RTE CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,9.0,,False
+HP:0025840,Abnormal HLA-DR+ CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,8.0,,False
+HP:0025841,Decreased HLA-DR+ CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,9.0,,False
+HP:0025842,Abnormal HLA-DR+ CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,8.0,,False
+HP:0025843,Increased HLA-DR+ CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,9.0,,False
+HP:0025844,Decreased HLA-DR+ CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,9.0,,False
+HP:0025845,Abnormal TCR repertoire,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,6.0,,False
+HP:0025846,Decreased natural killer cell perforin expression,Other immune,False,True,False,0,0,False,1,5.0,,False
+HP:0025847,Fish allergy,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0025848,Shellfish allergy,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:0030049,Brain abscess,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030057,Autoimmune antibody positivity,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030150,Plasmacytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030151,Cholangitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030167,Antimitochondrial antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030208,Anti-neuromuscular Junction acetylcholine receptor antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030209,Calcium channel antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030210,Anti-muscle-specific tyrosine kinase antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030252,Absent circulating B cells,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,0,7.0,8.0,False
+HP:0030326,Abnormal macrophage count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0030355,Abnormal circulating interferon-gamma concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030356,Increased circulating interferon-gamma concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0030370,Abnormal naive B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,8.0,False
+HP:0030371,Increased naive B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0030372,Decreased naive B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0030373,Abnormal memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,7.0,8.0,False
+HP:0030374,Decreased memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,9.0,False
+HP:0030375,Increased memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,9.0,False
+HP:0030376,Abnormal immature B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,7.0,8.0,False
+HP:0030377,Increased immature B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0030378,Decreased immature B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0030379,Abnormal transitional B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,8.0,False
+HP:0030380,Decreased transitional B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0030381,Increased transitional B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0030383,Abnormal marginal zone B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0030384,Decreased marginal zone B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,10.0,False
+HP:0030385,Increased marginal zone B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,10.0,False
+HP:0030386,Abnormal class-switched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0030387,Increased class-switched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,10.0,False
+HP:0030388,Decreased class-switched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,9.0,10.0,False
+HP:0030423,Splenic cyst,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030683,Recurrent bacterial vaginosis,Other immune,True,False,False,0,0,True,1,4.0,4.0,False
+HP:0030717,Meconium peritonitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0030757,Tooth abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030758,Periapical tooth abscess,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030783,Increased circulating interleukin 6 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0030785,Mediastinal cystic lymphangioma,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030812,Enlarged tonsils,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030813,Absent tonsils,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030814,Orange discolored tonsils,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0030845,Heliotrope rash of eyelid,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0030859,Anti-topoisomerase I antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0030873,Anti-centromere antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030885,Recurrent parasitic infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0030886,Abnormal T cell apoptosis,Other immune,True,False,True,1,1,True,0,5.0,4.0,False
+HP:0030887,Increased T cell apoptosis,Other immune,True,False,False,0,0,True,0,6.0,5.0,False
+HP:0030888,C3 nephritic factor positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030908,Liver kidney microsome type 1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030909,Anti-liver cytosolic antigen type 1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0030987,Suppurative cholangitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030988,Granulomatous cholangitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030989,Lymphoid cholangitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030990,Pleomorphic cholangitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0030991,Sclerosing cholangitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031019,Pyknotic bone marrow neutrophils,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0031035,Chronic infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031047,Paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031048,Light-chain paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031049,Heavy-chain paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031050,Whole-immunoglobulin paraproteinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031104,Insulin receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031123,Recurrent gastroenteritis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031190,Superficial dermal perivascular inflammatory infiltrate,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031191,Deep dermal perivascular inflammatory infiltrate,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031234,Neutrophilic infiltration of the skin,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031235,Predominantly epidermal neutrophilic infiltrate,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031236,Predominantly dermal neutrophilic infiltrate,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031267,Abnormal CD69 upregulation upon TCR activation,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031268,Decreased CD69 upregulation upon TCR activation,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0031269,Abnormal CD25 upregulation upon TCR activation,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031270,Decreased CD25 upregulation upon TCR activation,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0031278,Abnormal thoracic duct morphology,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031292,Cutaneous abscess,Other immune,True,False,False,0,0,True,0,3.0,3.0,False
+HP:0031353,Otitis media with effusion,Other immune,True,False,False,0,0,False,2,5.0,5.0,False
+HP:0031378,Abnormal lymphocyte proliferation,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031379,Abnormal T cell proliferation,Other immune,True,False,False,0,0,False,1,5.0,5.0,False
+HP:0031380,Abnormal B cell proliferation,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031381,Decreased mitogen-induced T-cell proliferation,Other immune,True,False,True,1,1,True,1,6.0,5.0,False
+HP:0031382,Decreased anti-CD3/28-induced T-cell proliferation,Other immune,True,False,False,0,0,True,1,7.0,6.0,False
+HP:0031383,Abnormal lymphocyte surface marker expression,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0031384,Reduced T cell CD40 expression,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031389,Abnormal MHC II cell surface expression,Other immune,True,False,True,1,1,False,2,3.0,2.0,False
+HP:0031390,Reduced MHC II cell surface expression,Other immune,True,False,False,0,0,True,2,4.0,3.0,False
+HP:0031391,Elevated MHC II cell surface expression,Other immune,True,False,False,0,0,False,0,4.0,3.0,False
+HP:0031392,Abnormal CD4+ T cell subset proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,6,7.0,8.0,False
+HP:0031393,Abnormal total CD8+ T cell number,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,8.0,False
+HP:0031394,Abnormal CD4:CD8 ratio,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0031396,Abnormal naive T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,7.0,8.0,False
+HP:0031397,Decreased naive T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0031398,Increased naive T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0031399,Abnormal double-negative T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,3,7.0,8.0,False
+HP:0031401,Decreased double-negative T cell number,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0031402,Decreased antigen-specific T cell proliferation,Other immune,True,False,False,0,0,False,1,3.0,3.0,False
+HP:0031403,Impaired pathogen-specific CD8 cytoxicity,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031404,Impaired antigen-specific response,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0031406,Abnormal cytokine signaling,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031407,Impaired cytokine signaling,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031408,Increased CD25+ mast cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0031409,Abnormal lymphocyte physiology,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031410,Abnormal distribution of CD56 bright/dim natural killer cells,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0031430,Oligoclonal T cell expansion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,7.0,5.0,False
+HP:0031458,Adenoiditis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031514,Increased exhausted T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,False,0,8.0,8.0,False
+HP:0031545,Abnormally low T cell receptor excision circle level,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,7.0,7.0,False
+HP:0031690,Opportunistic infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031691,Severe viral infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031692,Severe cytomegalovirus infection,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0031693,Severe Epstein Barr virus infection,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0031694,Severe adenovirus infection,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0031695,Severe parainfluenza infection,Infections,True,False,True,1,0,True,3,5.0,5.0,False
+HP:0031696,Disseminated viral infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031697,Disseminated infection with live vaccine virus,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031699,Disseminated cryptosporidium infection,Infections,True,False,True,1,1,True,3,4.0,4.0,False
+HP:0031700,Invasive parasitic infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031806,Abnormal total basophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0031807,Increased total basophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0031808,Decreased total basophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0031810,Anti-ganglioside antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031813,Colonic eosinophilia,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0031824,Hepatic mastocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0031842,Lymphangiectasis,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0031891,Decreased total eosinophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:0031904,Abnormal total hemolytic complement activity,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031905,Increased total hemolytic complement activity,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0031907,Anti-mitochondrial M2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0031949,Recurrent bacterial upper respiratory tract infections,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032022,Eosinophilic dermal infiltration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032061,Severely increased total eosinophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,7.0,False
+HP:0032069,Anti-thyroglobulin antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032075,Splenopancreatic fusion,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032101,Unusual infection,Infections,True,False,False,0,0,True,0,2.0,2.0,False
+HP:0032124,Abnormal unswitched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0032125,Increased unswitched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,9.0,10.0,False
+HP:0032126,Decreased unswitched memory B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,9.0,10.0,False
+HP:0032127,Abnormal plasmablast proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,7.0,8.0,False
+HP:0032128,Increased plasmablast proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,9.0,False
+HP:0032129,Decreased plasmablast proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,9.0,False
+HP:0032130,Mycobacterium abscessus abscessus infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032132,Decreased circulating total IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032133,Transient decreased circulating total IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032134,Chronic decreased circulating total IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032135,Decreased circulating IgG subclass concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032136,Decreased circulating IgG1 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032137,Decreased circulating IgG3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032138,Decreased circulating IgG4 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032139,Decreased circulating isohemagglutinin concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,5.0,5.0,False
+HP:0032140,Decreased specific antibody response to vaccination,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032151,Episodic eosinophilia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,7.0,False
+HP:0032157,Recurrent genital herpes,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032158,Unusual infection by anatomical site,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032159,Fungal meningitis,Infections,True,False,True,1,0,True,0,4.0,6.0,False
+HP:0032160,Cryptococcal meningitis,Infections,True,False,False,0,0,False,0,5.0,7.0,False
+HP:0032161,Coccidioidal meningitis,Infections,True,False,False,0,0,False,0,5.0,7.0,False
+HP:0032162,Unusual skin infection,Infections,True,False,True,1,1,True,1,4.0,4.0,False
+HP:0032163,Unusual molluscum contagiosum,Infections,True,False,True,2,1,False,2,4.0,5.0,False
+HP:0032166,Unusual gastrointestinal infection,Infections,True,False,True,1,0,False,0,4.0,,False
+HP:0032167,Clostridium difficile enteritis,Infections,True,False,False,0,0,False,0,5.0,,False
+HP:0032168,Clostridium difficile colitis,Infections,True,False,False,0,0,False,0,5.0,,False
+HP:0032169,Severe infection,Infections,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032170,Severe varicella zoster infection,Infections,True,False,True,1,0,False,3,5.0,5.0,False
+HP:0032182,Abnormal memory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,7.0,8.0,False
+HP:0032183,Decreased memory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0032184,Increased memory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,8.0,9.0,False
+HP:0032185,Disseminated molluscum contagiosum,Infections,True,False,True,1,0,True,1,5.0,6.0,False
+HP:0032204,Chronic active EBV infection,Infections,True,False,True,1,0,False,3,4.0,4.0,False
+HP:0032218,Decreased total CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,6,9.0,9.0,False
+HP:0032219,Increased total CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,3,9.0,9.0,False
+HP:0032220,Interface hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032229,Perinuclear antineutrophil antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032230,Cytoplasmic antineutrophil antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032235,Anti-La/SS-B antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032236,Increased circulating immature neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,6.0,7.0,False
+HP:0032237,Increased circulating myelocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0032238,Increased circulating metamyelocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0032239,Increased circulating band cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0032247,Persistent CMV viremia,Infections,True,False,True,2,1,True,3,5.0,5.0,False
+HP:0032248,Persistent viremia,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032249,Coccidioidomycosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032250,Acinetobacter infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032251,Abnormal immune system morphology,Other immune,True,False,False,0,0,False,0,1.0,1.0,False
+HP:0032252,Granuloma,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0032253,Eosinophilic granuloma,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,0,3.0,3.0,False
+HP:0032255,Opportunistic fungal infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032256,Unusual Histoplasma capsulatum infection,Infections,True,False,False,0,0,True,4,5.0,5.0,False
+HP:0032257,Severe Histoplasma capsulatum infection,Infections,True,False,False,0,0,False,4,6.0,6.0,False
+HP:0032258,Pulmonary histoplasmosis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032259,Chronic tinea infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032260,Opportunistic bacterial infection,Infections,True,False,True,1,0,False,0,4.0,4.0,False
+HP:0032261,Nontuberculous mycobacterial pulmonary infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032262,Pulmonary tuberculosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032264,Anti-NMDA receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032265,CSF autoimmune antibody positivity,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032266,CSF anti-NMDA receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032271,Extrapulmonary tuberculosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032275,Recurrent shingles,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032282,Contact dermatitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032283,Disseminated non-tuberculous mycobacterial infection,Infections,True,False,True,1,0,True,4,5.0,5.0,False
+HP:0032288,Polyclonal elevation of circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,6.0,6.0,False
+HP:0032289,Oligoclonal elevation of circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,6.0,6.0,False
+HP:0032290,Monoclonal elevation of circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,6.0,6.0,False
+HP:0032291,Monoclonal elevation of circulating intact IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,7.0,7.0,False
+HP:0032292,Monoclonal elevation of circulating IgG light chain concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,7.0,7.0,False
+HP:0032293,Monoclonal elevation of circulating IgG heavy chain concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,7.0,7.0,False
+HP:0032294,Monoclonal elevation of IgG kappa chain,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0032295,Monoclonal elevation of IgG lambda chain,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0032296,Increased circulating IgG subclass concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032297,Increased circulating IgG3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032298,Increased circulating IgG1 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032299,Increased circulating IgG2 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032300,Increased circulating IgG4 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0032309,Abnormal granulocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,5.0,5.0,False
+HP:0032310,Increased total granulocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,6.0,6.0,False
+HP:0032326,Methicillin-resistant Staphylococcus aureus infection,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032332,Oligoclonal elevation of circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032333,Polyclonal elevation of circulating IgA,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032334,Oligoclonal elevation of circulating IgA,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032335,Monoclonal elevation of circulating IgA,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032336,Increased circulating specific IgE antibody concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032337,Monoclonal elevated circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032338,Oligoclonal elevated circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032339,Polyclonal elevated circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032366,Positive direct antiglobulin test,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032372,Increased peripheral blast count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0032376,Anti-beta 2 glycoprotein I antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032378,Immediate-type hypersensitivity drug reaction,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032439,Airborn particle hypersensitivity,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032469,Anti-asialoglycoprotein receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032492,Anti-myelin oligodendrocyte glycoprotein antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0032499,Giant neutrophil granules,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0032515,Deep dermatophytosis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032516,Severe dermatophyte infection,Infections,True,False,True,1,1,False,2,5.0,5.0,False
+HP:0032517,Majocchi's granuloma,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032518,Disseminated dermatophytosis,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0032536,Increased number of lymph nodes,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0032577,Clonal T cell receptor rearrangement,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,7.0,8.0,False
+HP:0033016,Chronic decreased circulating IgD concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033017,Transient decreased circulating IgD concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033018,Chronic absent circulating IgD,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033021,Transient decreased circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033022,Chronic decreased circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033023,Chronic absent circulating IgE,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033024,Transient decreased circulating IgA concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033025,Chronic absent circulating total IgG,"Antibodies /
+humoral",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033028,Anti-U1 ribonucleoprotein antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033030,Anti-glomerular basement membrane-antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033033,Anti-MDA5 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033034,Anti-citrullinated protein antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033038,Anti-RNA-polymerase-III-autoantibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033039,Increased circulating precipitin concentration,"Antibodies /
+humoral",True,False,True,1,1,True,0,4.0,6.0,False
+HP:0033040,Anti-Sm antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033041,Cytokine storm,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033046,Michaelis-Gutmann bodies,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033057,Decreased circulating terminal complement component concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033058,Decreased circulating complement C7 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033059,Decreased circulating complement C6 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033060,Decreased circulating complement C5 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033120,Nummular eczema,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033136,Lymph node abscess,Infections,True,False,True,1,0,False,0,3.0,3.0,False
+HP:0033141,Severe SARS-CoV-2 infection,Infections,True,False,True,1,0,False,3,4.0,5.0,False
+HP:0033150,Anorectal abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033164,Focal active colitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033165,Necrotizing enterocolitis,Other immune,True,False,False,0,0,False,0,8.0,8.0,False
+HP:0033166,Recurrent viral upper respiratory tract infections,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033176,Submandibular lymph node enlargement,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033178,Increased circulating interleukin 8 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033181,Spinal epidural abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033188,Cystic acne,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033199,Increased circulating interleukin 10 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033207,Increased CD21low B cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,7.0,8.0,False
+HP:0033214,Recurrent viral pneumonia,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033221,Increased CD4:CD8 ratio,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,9.0,False
+HP:0033222,Inverted CD4:CD8 ratio,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,9.0,False
+HP:0033253,Reduced circulating interferon gamma concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033256,Pancolitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033278,Reduced CD95-induced lymphocyte apoptosis,Other immune,True,False,False,0,0,False,0,7.0,6.0,False
+HP:0033280,Paratracheal lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033342,Anti-aquaporin 4 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033351,Candida esophagitis,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0033380,Nasal chondritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033394,Anti-carbonic anhydrase II antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033395,Antilactoferrin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033428,Systemic autoinflammation,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033429,Neuroinflammation,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033430,Non-infectious meningitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033431,Cytomegalovirus colitis,Infections,True,False,True,2,1,True,0,5.0,5.0,False
+HP:0033432,Opportunistic viral infection,Infections,True,False,True,1,0,False,0,4.0,4.0,False
+HP:0033476,Extractable nuclear antigen positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033508,EBV meningitis,Infections,True,False,True,1,0,False,0,5.0,5.0,False
+HP:0033509,EBV encephalitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033550,Necrotizing pulmonary granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,0,9.0,,False
+HP:0033551,Non-necrotizing pulmonary granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,0,9.0,,False
+HP:0033554,Anti-Mi2 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033555,Anti-Ro/SS-A antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033556,Anti-nucleoporin 62 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033557,Anti-proteinase 3 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033558,Anti-histone antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033559,Anti-myeloperoxidase antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033560,Anti-PM-Scl antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033561,Anti-bactericidal/permeability-increasing protein antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033562,Anti-glycoprotein-210 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033563,Anti-tissue transglutaminase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033564,Stasis dermatitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033565,Anti-epidermal transglutaminase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033572,Anti-H1 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033573,Anti-H4 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033574,Anti-H3 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033575,Anti-H2A antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033576,Anti-H2B antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033581,Absent peripheral lymph nodes in presence of infection,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033587,Vulvar abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033590,Inguinal abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033592,Anti-H3-H4 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033593,Anti-H2A-H2B antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033605,Pustular rash,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033629,IgG4 autoimmune antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033637,Anti-endomysial antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033677,Acute respiratory distress syndrome,Infections,True,False,True,1,0,False,0,5.0,,False
+HP:0033696,Pseudo-chilblain,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0033697,Vesicular eruption,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033698,Monomorphic vesicular eruption,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033699,Polymorphic vesicular eruption,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033700,Papulovesicular eruption,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033708,Anti-3-hydroxy- 3-methylglutaryl-coA reductase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033713,Anti-signal recognition particle antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033726,Lupus nephritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033727,Diffuse lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033728,Mesangial proliferative lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033729,Minimal mesangial lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033730,Membranous lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033731,Focal lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033732,Advanced sclerotic lupus nephritis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0033758,Labial abscess,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0033761,Xanthogranulomatous pyelonephritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0033796,Abnormal leukocyte physiology,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0033797,Leukocyte migration defect,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033805,Non-necrotizing granuloma,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033986,Tortuous lymphatic vessels,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0033993,Viral encephalitis,Infections,True,False,True,1,0,False,0,4.0,4.0,False
+HP:0034001,Anti-Complement factor H antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034002,Anti-phospholipase A2 receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034016,Anti-HLA antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034017,Anti-class I HLA antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034018,Anti-class II HLA antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034019,Anti-HLA-A antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034020,Anti-HLA-A IgG1 antibody positivity,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034021,Anti-HLA-A IgG3 antibody positivity,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034022,Anti-HLA-B antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034023,Anti-HLA-B IgG1 antibody positivity,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034024,Anti-HLA-B IgG3 antibody positivity,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034036,Pseudo-chilblains on toes,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034037,Pseudo-chilblains on fingers,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034055,Anti-side-chain cleavage enzyme antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034061,Anti-steroid 17alpha-hydroxylase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034062,Anti-insulin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034063,Anti-islet antigen-2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034064,Anti-salivary protein antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034065,Anti-Zinc transporter 8 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034066,Anti-carbonic anhydrase VI antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034068,Anti-plasminogen binding peptide antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034069,Anti-parotid secretory protein antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034070,Anti-enterocyte antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034071,Anti-21-hydroxylase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034076,Anti-ribosome Po antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034077,Anti-complement component C1q antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034078,Anti-centromere protein A antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034079,Anti-centromere protein B antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034080,Anti-U3 RNP antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034081,Anti-Th/To antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034082,Anti-bicaudal D2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034083,Anti-nucleolus-organizing region antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034084,Anti-phosphatidyl ethanolamine antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034085,Anti-PM-Scl100 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034086,Anti-PM-Scl75 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034087,Anti-U11/U12 RNP antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034088,Anti-Ku antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034089,Anti-B23 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034090,Anti-RuvBL1/2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034091,Anti-platelet derived growth factor receptor,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034092,Anti-cyclic citrullinated peptide antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034093,Anti-Ro52/TRIM21 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034094,Anti-angiotensin receptor type-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034095,Anti-endothelin-1 type A receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034096,Anti-phosphatidic acid antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034097,Anti-phosphatidyl choline antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034098,Anti-phosphatidyl glycerol antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034099,Anti-phosphatidyl inositol antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034100,Anti-phosphatidyl serine antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034101,Anti-annexin-V antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034102,Anti-sphingolipid antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034103,Anti-GM1 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034104,Anti-neutrophil elastase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034105,Anti-transcription intermediary factor-1gamma antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034106,Anti-Su antigen/argonaute 2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034107,Anti-p53 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034108,Anti-Y-box protein-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034109,Anti-GW182 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034110,Anti-Gerbich phenotype 1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034111,Anti-MIT3 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034112,Anti-GM1 IgG antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034114,Anti-hexokinase-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034115,Anti-Kelch like protein 12 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034117,Anti-angiotensin-converting enzyme 2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034118,Anti-GM1 IgM antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034119,Anti-GD1a IgG antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034120,Anti-GD1a IgM antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034121,Anti-GD1a antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034122,Anti-GQ1b antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034123,Anti-GQ1b IgM antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034124,Anti-GD1b antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034125,Anti-GD1b IgM antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034126,Anti-GD1b IgG antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034127,Anti-GQ1b IgG antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034128,Anti-GT1a antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034129,Anti-GT1a IgM antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034130,Anti-GT1a IgG antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034131,Anti-GT1b antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034132,Anti-GM2 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034133,Anti-GM3 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034134,Anti-GM4 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034135,Anti-neurofascin-155 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034136,Anti-neurofascin 186 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034137,Anti-contactin-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034138,Anti-contactin-associated protein 1 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034139,Anti-SUMO-activating enzyme antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034140,Anti-SUMO-activating enzyme subunit 1 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034141,Anti-SUMO-activating enzyme subunit 2 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034142,Anti-nuclear matrix protein-2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034143,Anti-threonyl-tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034144,Anti-hY-RNA complex antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034145,Anti-alanyl-tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034146,Anti-glycyl tRNA-synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034147,Anti-aminoacyl-tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034148,Anti-isoleucyl tRNA-synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034149,Anti-phenylalanyl tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034150,Anti-tyrosyl-tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034151,Anti-asparaginyl-tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034152,Anti-histidyl tRNA synthetase antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034153,Anti-cytosolic-5-nucleotidase-1A antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034154,Anti-Ki antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034155,Anti-sp100 antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034156,Anti-beta-2-Glycoprotein I IgG antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034157,Anti-beta-2-Glycoprotein I IgM antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034158,Anti-tyrosine phosphatase region of islet antigen-2 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034160,Abnormal circulating interleukin 9 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034161,Reduced circulating interleukin 9 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034162,Abnormal circulating interleukin 10 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034163,Reduced circulating interleukin 10 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034164,Abnormal circulating interleukin 21 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034165,Reduced circulating interleukin 21 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034166,Increased circulating interleukin 21 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034167,Abnormal circulating interleukin 22 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034168,Reduced circulating interleukin 22 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034169,Increased circulating interleukin 22 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034170,Abnormal circulating interleukin 23 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034171,Reduced circulating interleukin 23 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034172,Increased circulating interleukin 23 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034173,Abnormal circulating interleukin 27 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034174,Reduced circulating interleukin 27 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034175,Increased circulating interleukin 27 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034176,Abnormal circulating interleukin 17A concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034177,Reduced circulating interleukin 17A concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034178,Increased circulating interleukin 17A concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034189,Anti-thyroid-stimulating hormone receptor antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034204,Decreased circulating C1-esterase inhibitor concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034249,Severe influenza infection,Infections,True,False,True,1,0,False,1,5.0,5.0,False
+HP:0034253,Eosinophil nuclear hypersegmentation,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034257,C4 nephritic factor positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034284,Recurrent gingivitis,Infections,True,False,True,1,0,True,2,4.0,4.0,False
+HP:0034285,Enteroviral encephalitis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034310,Post-vaccination yellow fever,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034317,Unusual viral infection,Infections,True,False,False,0,0,True,0,3.0,3.0,False
+HP:0034318,Unusual virus reactivation,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034319,CNS vasculitis with reactivation of varicella-zoster virus,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034336,Splenic infarction,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034387,Bacterial encephalitis,Infections,True,False,True,1,0,False,0,4.0,6.0,False
+HP:0034388,Hilar lymph node enlargement,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034427,Purulent eye discharge,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034447,Increased circulating interleukin 18 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034486,Reduced circulating interleukin 7 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034487,Increased circulating interleukin 12 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0034488,Increased circulating interleukin 13 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034489,Increased circulating interleukin 2 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034490,Increased circulating interleukin 4 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034491,Increased circulating interleukin 5 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034493,Tubo-ovarian abscess,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034513,Increased circulating Interferon-alpha concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034522,Eosinophilic lymph node infiltration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034582,Abnormal lymph node cell composition,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0034583,Lipid-laden lymph node macrophages,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034601,Decreased circulating C1q concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0034623,Splenic xanthomatosis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034628,Lymph node xanthomatosis,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0034707,Lymph-node hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034750,Supraclavicular lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034751,Inguinal lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034752,Axillary lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034797,Hepatic hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034798,CSF hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034799,Splenic hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034800,Urinary bladder granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034841,Gastrointestinal granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0034954,Thymic carcinoid tumor,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0034966,Thymic cyst,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0034983,Failure of phenylephrine to induce blanching of eye redness,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040088,Abnormal lymphocyte count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040089,Abnormal total natural killer cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0040137,Comedonal acne,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0040138,Mucinous histiocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0040139,Lipogranulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0040154,Acne inversa,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0040186,Maculopapular exanthema,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0040187,Neonatal sepsis,Infections,True,False,False,0,0,False,0,4.0,3.0,False
+HP:0040218,Reduced total natural killer cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,7.0,7.0,False
+HP:0040219,Absent natural killer cells,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,0,7.0,8.0,False
+HP:0040235,Leukocyte inclusion bodies,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,9.0,False
+HP:0040238,Impaired neutrophil chemotaxis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,5.0,9.0,False
+HP:0040256,Aplastic/Hypoplastic nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0040257,Abnormal size of nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0040258,Hypoplastic nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040259,Aplastic nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040260,Decreased size of nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040261,Increased size of nasopharyngeal adenoids,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040262,Glue ear,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0040289,Cyclically decreased total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,8.0,False
+HP:0040324,Heliotrope rash,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0040325,Bull's eye rash,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0041042,Absent neutrophil lactoferrin,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,9.0,False
+HP:0041045,Increased neutrophil mitochondria,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041046,Increased neutrophil ribosomes,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041057,Transient decreased circulating IgG4 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041058,Chronic decreased circulating IgG4 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041059,Chronic absent circulating IgG4,"Antibodies /
+humoral",True,False,True,1,1,False,0,8.0,9.0,False
+HP:0041062,Transient decreased circulating IgG2 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041063,Chronic decreased circulating IgG2 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041065,Chronic absent circulating IgG2,"Antibodies /
+humoral",True,False,True,1,1,False,0,8.0,9.0,False
+HP:0041067,Transient decreased circulating IgG1 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041068,Chronic decreased circulating IgG1 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041069,Chronic absent circulating IgG1,"Antibodies /
+humoral",True,False,True,1,1,False,0,8.0,9.0,False
+HP:0041071,Transient decreased circulating IgG3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041072,Chronic decreased circulating IgG3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0041074,Chronic absent circulating IgG3,"Antibodies /
+humoral",True,False,True,1,1,False,0,8.0,9.0,False
+HP:0041076,Abnormal immunoglobulin level in body fluid,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0041077,Increased immunoglobulin level in body fluid,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0041078,Decreased immunoglobulin level in body fluid,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0041080,Abnormal exhausted T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,8.0,False
+HP:0045006,Aplasia of lymphatic vessels,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0045029,Eosinophilic fasciitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0045042,Decreased circulating complement C4 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0045043,Decreased circulating complement C4a concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0045044,Decreased circulating complement C4b concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0045073,Serositis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100027,Recurrent pancreatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100279,Ulcerative colitis,Other immune,True,False,False,0,0,False,0,8.0,8.0,False
+HP:0100280,Crohn's disease,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100281,Chronic colitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0100282,Acute colitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0100313,Cerebral granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0100326,Immunologic hypersensitivity,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0100327,Cow milk allergy,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0100494,Abnormal mast cell morphology,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0100495,Mastocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:0100501,Recurrent bronchiolitis,Infections,True,False,True,1,1,False,0,6.0,7.0,False
+HP:0100521,Neoplasm of the thymus,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0100522,Thymoma,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100523,Liver abscess,Other immune,True,False,False,0,0,True,1,3.0,3.0,False
+HP:0100532,Scleritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100533,Inflammatory abnormality of the eye,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100534,Episcleritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100537,Fasciitis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100577,Urinary bladder inflammation,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100584,Endocarditis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100592,Peritoneal abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0100614,Myositis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100633,Esophagitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100646,Thyroiditis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100653,Optic neuritis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0100654,Retrobulbar optic neuritis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0100662,Chondritis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100721,Mediastinal lymphadenopathy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100727,Histiocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0100763,Abnormality of the lymphatic system,Other immune,True,False,False,0,0,False,0,1.0,1.0,False
+HP:0100764,Lymphangioma,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0100765,Abnormality of the tonsils,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0100766,Abnormal lymphatic vessel morphology,Other immune,True,False,False,0,0,False,0,2.0,2.0,False
+HP:0100776,Recurrent pharyngitis,Infections,True,False,True,1,1,True,2,6.0,6.0,False
+HP:0100778,Cryoglobulinemia,"Antibodies /
+humoral",True,False,False,0,0,False,0,3.0,3.0,False
+HP:0100806,Sepsis,Infections,True,False,True,1,1,True,0,3.0,2.0,False
+HP:0100827,Increased total lymphocyte count,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,False,1,6.0,6.0,False
+HP:0100828,Increased total T cell count,"Flow cytometry /
+immunophenotyping",True,False,True,1,2,True,3,8.0,7.0,False
+HP:0100838,Recurrent cutaneous abscess formation,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0100845,Anaphylactic shock,Other immune,True,False,False,0,0,False,2,3.0,3.0,False
+HP:0100847,Palmoplantar pustulosis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0200039,Pustule,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200047,Chondritis of pinna,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200084,Giant cell hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200117,Recurrent upper and lower respiratory tract infections,Infections,True,False,False,0,0,True,0,6.0,6.0,False
+HP:0200119,Acute hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200120,Chronic active hepatitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0200122,Atypical or prolonged hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200123,Chronic hepatitis,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0200124,Chronic hepatitis due to cryptosporidium infection,Infections,True,False,True,2,0,True,0,5.0,6.0,False
+HP:0200151,Cutaneous mastocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0410018,Recurrent ear infections,Infections,True,False,False,0,0,True,0,4.0,4.0,False
+HP:0410028,Recurrent oral herpes,Infections,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410035,Abnormal T cell activation,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410139,Exercise induced anaphylaxis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410148,Idiopathic anaphylaxis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410149,Drug-induced anaphylaxis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410151,Eosinophilic infiltration of the esophagus,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410152,Eosinophilic microabscess formation in the esophagus,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410220,Increased anti-dairy protein IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410221,Increased anti-animal protein IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410222,Increased anti-seafood IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410223,Increased anti-dust mite IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410224,Increased anti-bacteria IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410225,Increased anti-drug IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410226,Increased anti-feather IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410227,Increased anti-food allergen IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410228,Increased anti-plant based food allergen IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410229,Increased anti-gluten IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410230,Increased anti-nut food product IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410231,Increased anti-egg IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410232,Increased anti-fungi IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410233,Increased anti-meat allergen IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410234,Increased anti-parasite IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410235,Increased anti-insect IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410236,Increased anti-venom IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410238,Increased anti-plant product IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410240,Abnormal circulating IgA concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410241,Abnormal circulating IgE concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410242,Abnormal circulating IgG concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410243,Abnormal circulating IgM concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410244,Abnormal circulating IgD concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410245,Decreased circulating IgD concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410246,Increased circulating IgD concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410247,Increased anti-animal dander IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410248,Increased anti-house dust mite IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410249,Increased anti-alpha-gal IgE antibody level,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410251,Decreased neutrophil toll-like receptor signalling,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,4.0,8.0,False
+HP:0410252,Persistently decreased total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,8.0,False
+HP:0410254,Cyclic neutropenia in myeloid maturation arrest in bone marrow,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,9.0,False
+HP:0410255,Transiently decreased total neutrophil count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,8.0,8.0,False
+HP:0410256,Infection associated neutropenia,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,9.0,9.0,False
+HP:0410257,Neutrophilia in presence of infection,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0410258,Neutrophilia in absence of infection,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:0410292,Abnormal circulating isohemagglutinin concentration,"Antibodies /
+humoral",True,False,False,0,0,False,1,4.0,4.0,False
+HP:0410293,Absent circulating isohemagglutinin,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410294,Decreased specific antibody response to protein vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410295,Complete or near-complete absence of specific antibody response to tetanus vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410296,Complete or near-complete absence of specific antibody response to hepatitis B vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410297,Partial absence of specific antibody response to tetanus vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410298,Partial absence of specific antibody response to hepatitis B vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410299,Decreased specific antibody response to unconjugated polysaccharide vaccine,"Antibodies /
+humoral",True,False,False,0,0,True,0,5.0,5.0,False
+HP:0410300,Complete or near-complete absence of specific antibody response to unconjugated pneumococcus polysaccharide,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410301,Partial absence of specific antibody response to unconjugated pneumococcus polysaccharide,"Antibodies /
+humoral",True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410302,Decreased specific antibody response to protein-conjugated polysaccharide vaccine,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410303,Complete or near-complete absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine,"Antibodies /
+humoral",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0410304,Complete or near-complete absence of specific antibody response to protein-conjugated meningococcus vaccine,"Antibodies /
+humoral",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0410305,Partial absence of specific antibody response to protein-conjugated Haemophilus influenzae type b vaccine,"Antibodies /
+humoral",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0410306,Partial absence of specific antibody response to protein-conjugated meningococcus vaccine,"Antibodies /
+humoral",True,False,False,0,0,True,0,6.0,6.0,False
+HP:0410308,Decreased specific antibody response to infection,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410319,Alpha-gal allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410320,Animal protein allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410321,Animal dander allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410322,Bacteria allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410323,Drug allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410324,Dust mite allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410326,Feather allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410327,Dairy allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410328,Egg allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410329,Gluten allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410330,Meat allergen allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410331,Nut food product allergy,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0410332,Plant based food allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410333,Seafood allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410334,Fungi allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410335,Insect allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410336,Venom allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410337,Parasite allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410338,Plant product allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0410339,Insect bite allergy,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:0410373,Abnormal naive CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,3,8.0,9.0,False
+HP:0410374,Abnormal naive CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,3,8.0,9.0,False
+HP:0410375,Increased naive CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,False,2,9.0,10.0,False
+HP:0410376,Increased naive CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,2,9.0,10.0,False
+HP:0410377,Decreased naive CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,3,9.0,10.0,False
+HP:0410378,Decreased naive CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,3,9.0,10.0,False
+HP:0410379,Abnormal memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,3,8.0,9.0,False
+HP:0410380,Abnormal memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,True,2,8.0,9.0,False
+HP:0410383,Abnormal effector memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,9.0,10.0,False
+HP:0410384,Abnormal central memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,9.0,10.0,False
+HP:0410385,Decreased memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,1,9.0,10.0,False
+HP:0410386,Decreased CD4+ memory T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,1,9.0,10.0,False
+HP:0410388,Decreased central memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,True,0,10.0,11.0,False
+HP:0410389,Decreased central memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,10.0,11.0,False
+HP:0410390,Decreased effector memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,10.0,11.0,False
+HP:0410391,Increased memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,0,1,True,3,9.0,10.0,False
+HP:0410392,Increased memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,9.0,10.0,False
+HP:0410393,Increased central memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,0,10.0,11.0,False
+HP:0410395,Increased effector memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,0,False,1,10.0,11.0,False
+HP:0410396,Increased central memory CD8+ T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,10.0,11.0,False
+HP:0430050,Anti-thyroid antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0430142,Reduced circulating interleukin 6 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:0430146,Elevated circulating complement C3 concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:0500033,Abnormal natural killer subset distribution,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,6.0,7.0,False
+HP:0500046,Seborrhoeic blepharitis,Other immune,True,False,False,0,0,False,0,7.0,7.0,False
+HP:0500091,Lymphangioma of the orbit,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:0500093,Food allergy,Other immune,True,False,False,0,0,False,2,4.0,4.0,False
+HP:0500094,Latex allergy,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0500095,Food-induced anaphylaxis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0500096,Venom-induced anaphylaxis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:0500265,Increased CD8+ TEMRA T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,2,10.0,11.0,False
+HP:0500266,Decreased CD8+ TEMRA T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,2,10.0,11.0,False
+HP:0500269,Abnormal gamma-delta T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,8.0,False
+HP:0500270,Increased gamma-delta T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,9.0,False
+HP:0500271,Decreased gamma-delta T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,0,8.0,9.0,False
+HP:3000033,Abnormal nasopharyngeal adenoid morphology,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:3000076,Abnormality of lingual tonsil,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:4000013,Anti-desmoglein-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000014,Anti-desmoglein-3 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000015,Anti-envoplakin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000016,Anti-periplakin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000017,Anti-desmoplakin I antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000018,Anti-desmoplakin II antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000019,Anti-BP230 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000020,Anti-BP180 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000021,Anti-laminin 332 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:4000022,Anti-laminin 6 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:4000023,Anti-laminin gamma1 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:4000024,Anti-laminin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000025,Anti-integrin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000026,Anti-transglutaminase 6 antibody,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:4000027,Anti-LAD-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000028,Anti-LABD97 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000029,Antigliadin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000030,Anti-reticulin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000031,Anti-type VII collagen antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000034,Infection-associated lymphopenia,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,7.0,6.0,False
+HP:4000039,Decreased mucosal-associated invariant T cell proportion,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,3,8.0,8.0,False
+HP:4000054,Exanthem,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:4000055,Intestinal inflammation,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:4000149,Lymph node necrosis,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:4000166,Post-vaccination varicella zoster virus infection,Infections,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000170,Anti-platelet antigen antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:4000171,Anti-voltage-gated potassium channel antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000000,Anti-AK5 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000001,Anti-AMPAR antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000002,Anti-Amphiphysin antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000003,Anti-ARHGAP26 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000004,Anti-CARP VIII antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000005,Anti-CASPR2,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000006,Anti-CV2/CRMP5 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000007,Anti-DPPX antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000008,Anti-FGFR3 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000009,Anti-GABA(A)R antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000010,Anti-GABA(B)R antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000011,Anti-GAD65 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000012,Anti-Gephyrin antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000013,Anti-GFAP antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000014,Anti-GlyR antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000015,Anti-Homer-3 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000016,Anti-Hu antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000017,Anti-Iglon5 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000018,Anti-ITPR1 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000019,Anti-Kelch like protein 11 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000020,Anti-LGI1 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000021,Anti-Ma antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000022,Anti-Ma2 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:5000023,Anti-Ma1 antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:5000024,Anti-mGluR1 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000025,Anti-mGluR5 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000026,Anti-neurexin-3alpha antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000027,Anti-P/Q-type VGCC antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000028,Anti-MAP1B antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000029,Anti-PKCgamma antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000030,Anti-Ri antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000031,Anti-Septin-5 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000032,Anti-SEZ6L2 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000033,Anti-SOX1 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000034,Anti-Tr/DNER antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000035,Anti-TRIM46 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000036,Anti-TRIM9/TRIM67 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000037,Anti-Yo antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000038,Anti-titin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000039,Anti-Zic4 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000042,Anti-Sj/ITPR1 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000043,Anti-D2 R antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000044,Anti-GluK2 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000046,Anti-Lrp4 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000047,Anti-ryanodine receptor antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5000048,Anti-Kv1.4 antibody,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:5200023,Abnormal HLA-DR+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,7.0,,False
+HP:5200033,Increased HLA-DR+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,8.0,,False
+HP:5200034,Decreased HLA-DR+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,8.0,,False
+HP:5210000,Unusual bacterial infection,Infections,False,True,False,0,0,False,1,3.0,,False
+HP:5210001,Unusual gram-positive bacterial infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210002,Unusual gram-negative bacterial infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210003,Unusual Staphylococcus aureus infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210004,Severe Staphylococcus aureus infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210005,Chronic absent circulating IgA,"Antibodies /
+humoral",False,True,False,0,0,False,3,6.0,,False
+HP:5210006,Unusual Enterococcus infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210007,Severe Enterococcus infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210008,Recurrent Enterococcus infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210009,Unusual Streptococcus infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210010,Unusual Streptococcus pneumoniae infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210011,Severe Streptococcus pneumoniae infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210012,Recurrent Streptococcus pneumoniae infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210013,Unusual Streptococcus pyogenes infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210014,Severe Streptococcus pyogenes infection,Infections,False,True,False,0,0,False,2,7.0,,False
+HP:5210015,Recurrent Streptococcus pyogenes infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210016,Unusual Streptococcus agalactiae infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210017,Severe Streptococcus agalactiae infection,Infections,False,True,False,0,0,False,2,7.0,,False
+HP:5210018,Recurrent Streptococcus agalactiae infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210019,Unusual Listeria infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210020,Severe Listeria infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210021,Recurrent Listeria infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210022,Unusual Nocardia infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210023,Severe Nocardia infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210024,Recurrent Nocardia infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210025,Unusual Actinomyces infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210026,Severe Actinomyces infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210027,Recurrent Actinomyces infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210028,Unusual Clostridium infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210029,Severe Clostridium infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210030,Recurrent Clostridium infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210031,Chronic decreased circulating IgM concentration,"Antibodies /
+humoral",False,True,False,0,0,False,2,6.0,,False
+HP:5210032,Chronic absent circulating IgM,"Antibodies /
+humoral",False,True,False,0,0,False,3,6.0,,False
+HP:5210033,Transient decreased circulating IgM concentration,"Antibodies /
+humoral",False,True,False,0,0,False,1,6.0,,False
+HP:5210034,Complete or near-complete absence of specific antibody response to unconjugated Salmonella typhi vaccine,"Antibodies /
+humoral",False,True,False,0,0,False,1,6.0,,False
+HP:5210035,Partial absence of specific antibody response to unconjugated Salmonella typhi vaccine,"Antibodies /
+humoral",False,True,False,0,0,False,1,6.0,,False
+HP:5210036,Decreased circulating specific Haemophilus influenzae type b antibody concentration,"Antibodies /
+humoral",False,True,False,0,0,False,3,5.0,,False
+HP:5210037,Unusual Shigella infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210038,Severe Shigella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210039,Recurrent Shigella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210040,Unusual Klebsiella infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210041,Severe Klebsiella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210043,Unusual Enterobacter infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210044,Severe Enterobacter infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210045,Recurrent Enterobacter infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210046,Unusual Serratia infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210047,Severe Serratia infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210049,Unusual Proteus infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210050,Severe Proteus infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210051,Recurrent Proteus infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210052,Unusual Citrobacter infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210053,Severe Citrobacter infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210054,Recurrent Citrobacter infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210055,Unusual Pseudomonas aeruginosa infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210056,Severe Pseudomonas aeruginosa infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210057,Recurrent Pseudomonas aeruginosa infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210058,Unusual Acinetobacter baumannii infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210059,Severe Acinetobacter baumannii infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210060,Recurrent Acinetobacter baumannii infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210061,Unusual Legionella pneumophila infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210062,Severe Legionella pneumophila infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210063,Recurrent Legionella pneumophila infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210064,Unusual Neisseria gonorrhoeae infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210065,Severe Neisseria gonorrhoeae infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210066,Recurrent Neisseria gonorrhoeae infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210067,Unusual Neisseria meningitidis infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210068,Severe Neisseria meningitidis infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210070,Unusual Haemophilus influenzae infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210071,Severe Haemophilus influenzae infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210073,Unusual Moraxella catarrhalis infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210074,Severe Moraxella catarrhalis infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210075,Recurrent Moraxella catarrhalis infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210076,Unusual Vibrio cholerae infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210077,Severe Vibrio cholerae infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210078,Recurrent Vibrio cholerae infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210079,Unusual Burkholderia cepacia infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210080,Severe Burkholderia cepacia infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210082,Unusual Bacteroides infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210083,Severe Bacteroides infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210084,Recurrent Bacteroides infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210085,Unusual Fusobacterium infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210086,Severe Fusobacterium infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210087,Recurrent Fusobacterium infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210088,Unusual Prevotella infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210089,Severe Prevotella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210090,Recurrent Prevotella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210091,Unusual Escherichia coli infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210092,Severe Escherichia coli infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210093,Unusual Salmonella infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210094,Severe Salmonella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210095,Recurrent Salmonella infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210096,Unusual Pneumocystis jirovecii infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210097,Severe Pneumocystis jirovecii infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210098,Recurrent Pneumocystis jirovecii infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210099,Unusual Aspergillus infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210100,Severe Aspergillus infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210101,Unusual adenovirus infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210102,Unusual Candida infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210103,Cytomegalovirus hepatitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210104,Unusual BK virus infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210105,Unusual Cryptococcus infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210106,Recurrent Cryptococcus infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210107,Disseminated Cryptococcus infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210108,Sclerosing cholangitis due to Cryptococcus,Infections,False,True,False,0,0,False,0,6.0,,False
+HP:5210109,Chronic hepatitis due to Cryptococcus,Infections,False,True,False,0,0,False,0,6.0,,False
+HP:5210110,Unusual mycobacterial infection,Infections,False,True,False,0,0,False,2,3.0,,False
+HP:5210111,Tuberculosis infection,Infections,False,True,False,0,0,False,4,4.0,,False
+HP:5210112,Disseminated tuberculosis infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210113,Recurrent tuberculosis infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210114,Tuberculous osteomyelitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210115,Non-tuberculous mycobacterial infection,Infections,False,True,False,0,0,False,3,4.0,,False
+HP:5210116,Unusual VZV infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210117,Recurrent non-tuberculous mycobacterial infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210118,Opportunistic mycobacterial infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210119,Unusual Cryptosporidium infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210120,Recurrent Cryptosporidium infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210121,Unusual upper respiratory tract infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210122,Sclerosing cholangitis due to Cryptosporidium infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210123,Unusual lower respiratory tract infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210124,Unusual Giardia lamblia infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210125,Persistent Giardia lamblia infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210126,Recurrent Giardia lamblia infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210127,Unusual Toxoplasma infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210128,Unusual cardiovascular system infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210129,Toxoplasma infection of the central nervous system (CNS),Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210130,Unusual Leishmania infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210131,Severe Leishmania infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210132,Recurrent Leishmania infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210133,Opportunistic parasitic infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210134,Unusual cholangitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210135,Unusual genitourinary infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210137,Unusual eye infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210138,Unusual liver infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210139,Infectious hepatitis,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210140,Bacterial sepsis,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210141,Fungal sepsis,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210142,Viral sepsis,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210143,Mycobacterial sepsis,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210144,Pneumonia with consolidation,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210146,Unusual cytomegalovirus infection,Infections,False,True,False,0,0,False,3,4.0,,False
+HP:5210147,Unusual pleural empyema,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210148,Severe pleural empyema,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210149,Recurrent pleural empyema,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210150,Unusual endocarditis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210151,Severe endocarditis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210152,Recurrent endocarditis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210153,Unusual myocarditis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210154,Severe myocarditis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210155,Recurrent myocarditis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210156,Unusual pericarditis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210157,Severe pericarditis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210158,Recurrent pericarditis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210159,Unusual infectious vasculitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210160,Severe infectious vasculitis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210161,Recurrent infectious vasculitis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210163,Bacterial liver abscess,Other immune,False,True,False,0,0,False,1,4.0,,False
+HP:5210164,Staphylococcal liver abscess,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210165,Klebsiella liver abscess,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210166,Fungal liver abscess,Other immune,False,True,False,0,0,False,0,4.0,,False
+HP:5210167,Hepatic candidiasis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210168,Parasitic liver abscess,Other immune,False,True,False,0,0,False,0,4.0,,False
+HP:5210169,Amoebic liver abscess,Other immune,False,True,False,0,0,False,2,5.0,,False
+HP:5210170,Echinococcal liver cyst,Other immune,False,True,False,0,0,False,3,5.0,,False
+HP:5210171,Hepatic schistosomiasis,Other immune,False,True,False,0,0,False,2,5.0,,False
+HP:5210172,Bacterial splenic abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210173,Fungal splenic abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210174,Parasitic splenic abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210175,Unusual infectious gastroenteritis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210176,Unusual bacterial gastroenteritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210177,Unusual viral gastroenteritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210178,Unusual fungal gastroenteritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210179,Unusual parasitic gastroenteritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210180,Unusual infectious colitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210181,Unusual bacterial colitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210182,Unusual viral colitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210183,Unusual fungal colitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210184,Unusual parasitic colitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210185,Unusual infectious pancreatitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210186,Unusual bacterial pancreatitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210187,Unusual viral pancreatitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210188,Unusual fungal pancreatitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210189,Unusual parasitic pancreatitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210190,Unusual bacterial cholangitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210191,Unusual cystitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210192,Unusual hemorrhagic cystitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210193,Unusual fungal cystitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210194,Unusual bacterial cystitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210195,Unusual pyelonephritis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210196,Unusual kidney abscess,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210197,Bacterial kidney abscess,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210198,Fungal kidney abscess,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210199,Parasitic kidney abscess,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210200,Unusual vaginal infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210201,Unusual bacterial vaginal infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210202,Unusual viral vaginal infection,Infections,False,True,False,0,0,False,0,6.0,,False
+HP:5210203,Unusual fungal vaginal infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210204,Unusual parasitic vaginal infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210205,Unusual bacterial osteomyelitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210206,Unusual fungal osteomyelitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210207,Unusual infectious arthritis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210208,Unusual bacterial arthritis,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210209,Unusual fungal arthritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210210,Unusual mycobacterial arthritis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210211,Unusual infectious myositis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210212,Unusual bacterial myositis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210213,Unusual fungal myositis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210214,Unusual mycobacterial myositis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210215,Unusual viral myositis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210216,Viral meningitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210217,Bacterial meningitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210218,Parasitic meningitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210219,Mycobacterial meningitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210220,Fungal encephalitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210221,Parasitic encephalitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210222,Mycobacterial encephalitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210223,Bacterial brain abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210224,Fungal brain abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210225,Parasitic brain abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210226,Mycobacterial brain abscess,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210227,Unusual spinal cord infection,Infections,False,True,False,0,0,False,5,5.0,,False
+HP:5210228,Unusual bacterial skin infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210229,Unusual bacterial skin abscess,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210230,Recurrent boils,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210231,Bacterial cellulitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210232,Unusual viral skin infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210233,Unusual HSV skin infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210234,Unusual parasitic skin infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210235,Unusual VZV skin infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210236,Unusual fungal skin infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210237,Recurrent diaper rash,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210238,Unusual nail infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210239,Unusual bacterial nail bed infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210240,Unusual HSV infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210241,Recurrent onychomycosis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210242,Unusual mycobacterial skin infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210243,Unusual fascia infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210244,Unusual cutaneous larva migrans,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210245,Unusual cutaneous leishmaniasis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210246,Severe gingivitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210247,Recurrent periodontitis,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210248,Severe dental abscess,Other immune,False,True,False,0,0,False,3,4.0,,False
+HP:5210249,Recurrent dental abscesses,Other immune,False,True,False,0,0,False,3,4.0,,False
+HP:5210250,Severe stomatitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210251,Recurrent stomatitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210252,Unusual oral thrush,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210253,Severe oral thrush,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210254,Severe pharyngitis,Infections,False,True,False,0,0,False,1,6.0,,False
+HP:5210255,Severe otitis media,Other immune,False,True,False,0,0,False,2,5.0,,False
+HP:5210258,Unusual conjunctivitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210259,Severe conjunctivitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210260,Recurrent conjunctivitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210261,Unusual keratitis,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210262,Severe keratitis,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210263,Recurrent keratitis,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210264,Unusual retinitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210265,Severe retinitis,Infections,False,True,False,0,0,False,1,6.0,,False
+HP:5210266,Recurrent retinitis,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210276,Unusual mycobacterial osteomyelitis,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210277,Unusual musculoskeletal infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210278,Unusual infectious osteomyelitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210279,Unusual lymphatic system infection,Infections,False,True,False,0,0,False,0,2.0,,False
+HP:5210280,Unusual oral cavity infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210281,Post-vaccination mumps,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210282,Cytomegalovirus retinitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210283,Cytomegalovirus pneumonitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210284,Cytomegalovirus encephalitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210286,Unusual EBV infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210288,EBV-driven HLH,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210290,Disseminated herpes simplex virus infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210291,Recurrent herpes simplex virus infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210293,Persistent adenovirus viremia,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210294,Adenovirus colitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210295,Adenovirus hepatitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210296,Adenovirus encephalitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210297,Adenovirus pneumonitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210298,Recurrent chickenpox infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210299,Severe chickenpox infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210301,VZV encephalitis,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210302,VZV pneumonitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210303,Unusual warts,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210304,Disseminated warts,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210305,Recurrent warts,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210306,Chronic warts,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210309,Persistent molluscum infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210310,Unusual norovirus infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210312,Chronic norovirus infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210313,Unusual Aichi virus hepatitis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210314,Unusual enterovirus infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210315,Enteroviral central nervous system infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210316,Enteroviral sepsis,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210317,Unusual astrovirus infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210318,Disseminated astrovirus infection,Infections,False,True,False,0,0,False,0,5.0,,False
+HP:5210319,Astrovirus central nervous system infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210320,Unusual influenza infection,Infections,False,True,False,0,0,False,1,4.0,,False
+HP:5210321,Persitent influenza viremia,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210323,Unusual parainfluenza infection,Infections,False,True,False,0,0,False,0,4.0,,False
+HP:5210325,Recurrent parainfluenza virus infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210326,Chronic SARS-CoV-2 infection,Infections,False,True,False,0,0,False,4,4.0,,False
+HP:5210328,Severe seasonal coronavirus infection,Infections,False,True,False,0,0,False,7,4.0,,False
+HP:5210329,Chronic seasonal coronavirus infection,Infections,False,True,False,0,0,False,4,4.0,,False
+HP:5210330,Unusual HHV6 infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210331,Unusual HHV8 infection,Infections,False,True,False,0,0,False,1,5.0,,False
+HP:5210332,BK virus nephropathy,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210333,BK virus encephalitis,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210334,Unusual JC virus infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210335,JC nephropathy,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210336,JC encephalitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210337,Infectious granulomatosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:5210338,Non-infectious granulomatosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:5210339,Caseating granulomatosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,8.0,,False
+HP:5210340,Non-caseating granulomatosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,8.0,,False
+HP:5210341,Granulomatous lymphocytic interstitial lung disease,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,10.0,,False
+HP:5210342,Granulomatous lymphadenopathy,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,4.0,,False
+HP:5210343,Granuloma annulare,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,4.0,,False
+HP:5210344,Granulomatous synovitis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:5210345,Granulomatous uveitis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,6.0,,False
+HP:5210346,Granulomatous gingivitis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,6.0,,False
+HP:5210347,Granulomatous iritis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:5210348,Unusual Burkholderia pseudomallei infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210349,Unusual coagulase-negative Staphylococcus infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210350,Recurrent coagulase-negative Staphylococcus infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210351,Severe coagulase-negative Staphylococcus infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210352,Unusual Enterococcus faecalis infection,Infections,False,True,False,0,0,False,1,6.0,,False
+HP:5210353,Recurrent Enterococcus faecalis infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210354,Severe Enterococcus faecalis infection,Infections,False,True,False,0,0,False,2,7.0,,False
+HP:5210355,Unusual Enterococcus faecium infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210356,Recurrent Enterococcus faecium infection,Infections,False,True,False,0,0,False,4,7.0,,False
+HP:5210357,Severe Enterococcus faecium infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210358,Unusual Viridans Streptococci infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210359,Endocarditis caused by Streptococcus viridans infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210360,Liver abscess due to Streptococcus viridans,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210361,Unusual Mycobacterium abscessus infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210362,Recurrent Mycobacterium abscessus infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210363,Severe Mycobacterium abscessus infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210364,Unusual Mycobacterium avium complex infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210365,Recurrent Mycobacterium avium complex infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210366,Severe Mycobacterium avium complex infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210367,Unusual Mycoplasma infection,Infections,False,True,False,0,0,False,3,4.0,,False
+HP:5210368,Recurrent Mycoplasma infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210369,Severe Mycoplasma infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210370,Unusual Ureaplasma infection,Infections,False,True,False,0,0,False,2,4.0,,False
+HP:5210371,Pulmonary cryptococcosis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210372,Cryptococcoma,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210373,Unusual mucormycosis,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210374,Unusual Talaromyces marneffei infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210375,Unusual dermatophyte infection,Infections,False,True,False,0,0,False,4,4.0,,False
+HP:5210376,Recurrent dermatophyte infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210377,Increased CD4+ TEMRA T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,9.0,,False
+HP:5210378,Unusual mold infection,Infections,False,True,False,0,0,False,8,5.0,,False
+HP:5210379,Unusual Blastomyces dermatitidis infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210380,Recurrent Blastomyces dermatitidis infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210381,Severe Blastomyces dermatitidis infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210382,Unusual Coccidioides infection,Infections,False,True,False,0,0,False,5,5.0,,False
+HP:5210383,Recurrent Coccidioides infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210384,Severe Coccidioides infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210385,Unusual Paracoccidioides brasiliensis infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210386,Recurrent Paracoccidioides brasiliensis infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210387,Severe Paracoccidioides brasiliensis infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210389,Recurrent Histoplasma capsulatum infection,Infections,False,True,False,0,0,False,3,6.0,,False
+HP:5210391,Unusual Candida auris infection,Infections,False,True,False,0,0,False,2,6.0,,False
+HP:5210392,Chronic Candida auris infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210393,Severe Candida auris infection,Infections,False,True,False,0,0,False,3,7.0,,False
+HP:5210394,HSV hepatitis,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210395,VZV meningitis,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210396,Giant molluscum,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210397,Unusual HHV7 infection,Infections,False,True,False,0,0,False,2,5.0,,False
+HP:5210398,BK virus cystitis,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210399,Unusual poliovirus infection,Infections,False,True,False,0,0,False,5,5.0,,False
+HP:5210400,Chronic poliovirus excretion,Infections,False,True,False,0,0,False,5,6.0,,False
+HP:5210401,Severe rotavirus infection,Infections,False,True,False,0,0,False,3,4.0,,False
+HP:5210402,Unusual respiratory syncytial virus infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210403,Severe respiratory syncytial virus infection,Infections,False,True,False,0,0,False,5,5.0,,False
+HP:5210404,Chronic respiratory syncytial virus infection,Infections,False,True,False,0,0,False,4,6.0,,False
+HP:5210405,Chronic rhinovirus infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210406,Unusual human metapneumovirus infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210407,Toxoplasma eye infection,Infections,False,True,False,0,0,False,4,5.0,,False
+HP:5210408,BCG-associated disease,Infections,False,True,False,0,0,False,5,4.0,,False
+HP:5210409,Abnormal effector memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,9.0,,False
+HP:5210410,Abnormal central memory CD4+ T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,9.0,,False
+HP:5210411,Decreased total T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,7.0,,False
+HP:5210412,Increased total T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,1,7.0,,False
+HP:5210413,Decreased total T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,3,8.0,,False
+HP:5210414,Increased total T cell proportion,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,2,8.0,,False
+HP:5210415,Decreased total CD4+ T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,8.0,,False
+HP:5210416,Increased CD4+ T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,8.0,,False
+HP:5210417,Increased total CD4+ T cell count,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,5,9.0,,False
+HP:5210418,Decreased total CD4+ T cell count,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,5,9.0,,False
+HP:5210419,Autoimmune cytopenia,Other immune,False,True,False,0,0,False,0,3.0,,False
+HP:5210420,Severe eczema,Other immune,False,True,False,0,0,False,1,6.0,,False
+HP:5210421,Autoimmune hepatitis,Other immune,False,True,False,0,0,False,0,3.0,,False
+HP:5210422,Non-infectious encephalitis,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:5210423,Autoimmune encephalitis,Other immune,False,True,False,0,0,False,0,3.0,,False
+HP:5210424,Increased total CD8+ T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,8.0,,False
+HP:5210425,Decreased total CD8+ T cell number,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,8.0,,False
+HP:5210426,Decreased total CD8+ T cell count,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,5,9.0,,False
+HP:5210427,Increased total CD8+ T cell count,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,4,9.0,,False
+HP:5210428,HSV pneumonia,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:5210429,Recurrent Haemophilus influenzae conjunctivitis,Infections,False,True,False,0,0,False,0,7.0,,False
+HP:6000004,Lymphangiosarcoma,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000031,Phaeohyphomycosis,Infections,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000070,Cutaneous granuloma,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6000160,Splenic lipid-laden macrophage infiltration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000186,Anti-soluble liver antigen/liver pancreas antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000187,Anti-thrombospondin type I domain-containing 7A antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000188,Antisperm antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000193,Anti-osteoprotegerin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000232,Splenic necrosis,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000239,Elevated circulating tumor necrosis factor alpha concentration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000242,Decreased circulating complement component 1s concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000261,Absent circulating kappa chain-bearing immunoglobulin,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000288,Deep neck abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6000343,Antiparietal cell antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000344,Anti-intrinsic factor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000347,Anti-NR2A antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000351,Anti-coagulation factor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000374,Increased circulating interleukin 1beta concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000380,Anti-perilipin-1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000381,Splenic calcification,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000386,Positive cold agglutinin test,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000387,Anti-D-L antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000388,Anti-erythrocyte autoantibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000439,Increased circulating interleukin 15 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000441,Abnormal circulating interleukin 6 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000442,Abnormal circulating interleukin 12 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000446,Abnormal circulating CC chemokine concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000448,Anti-desmocollin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000458,Sulfur-containing abscess,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6000462,Anti-ADAMTS13 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000473,Decreased FOXP3-expressing T cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000474,Elevated circulating complement component concentration,"Antibodies /
+humoral",True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000475,Anti-beta fodrin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000486,Elevated circulating CXCL10 concentration,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000487,Reduced circulating interleukin 12 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000491,Anti-prothrombin antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000492,Anti-factor V antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000493,Anti-factor VII antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000494,Anti-factor VIII antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000495,Anti-factor IX antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000496,Anti-factor X antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000497,Anti-factor XI antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000498,Anti-factor XIII antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000499,Anti-factor H antibody positivity,Other immune,True,False,False,0,0,False,0,5.0,5.0,False
+HP:6000508,Anti-human ferritin peptide antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000513,Diminished neutrophil myeloperoxidase activity,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,8.0,8.0,False
+HP:6000635,Breast granuloma,"Flow cytometry /
+immunophenotyping",True,False,True,1,1,False,0,9.0,3.0,False
+HP:6000639,PAS-positive lymphocyte vacuolization,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000643,Anti-lamin A antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000644,Anti-lamin C antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000645,Anti-vinculin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000646,Anti-annexin A5 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000676,Anti-von Willebrand factor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000677,Increased total natural killer cell count,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,True,1,7.0,7.0,False
+HP:6000678,Myositis-specific autoantibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000687,Elevated circulating CCL3 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000688,Elevated circulating CCL4 concentration,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000704,Elevated circulating CXCL9 concentration,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000758,Elevated circulating interleukin 1 receptor antagonist concentration,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6000795,Anti-folate receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000843,Nonexudative conjunctivitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000876,Anti-Glutamate Receptor delta2 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000877,Anti-dachshund family transcription factor 1 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000878,Anti-potassium channel tetramerization domain containing 16 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000879,Anti-regulator of G protein signaling 8 antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000880,Anti-neurochondrin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000881,Anti-DCC netrin 1 receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000882,Anti-recoverin antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6000906,Positive bloodstream cryptococcus culture,Infections,True,False,True,1,0,False,0,6.0,,False
+HP:6000912,Nummular keratitis,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6000980,Bone marrow hemophagocytosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,7.0,7.0,False
+HP:6000981,Splenic granulomatosis,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001015,Anti-HLA-DQ antibody positivity,Other immune,True,False,False,0,0,False,0,6.0,6.0,False
+HP:6001018,Mediastinal lymph node calcification,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6001019,Eggshell calcification of lymph nodes,Other immune,True,False,False,0,0,False,0,3.0,3.0,False
+HP:6001058,Anti-neuronal intermediate filament antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001059,Anti-DREBRIN antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001060,Anti-lipoprotein lipase autoantibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001061,Anti-apolipoprotein CII autoantibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001064,Anti-acetylcholine receptor antibody positivity,Other immune,True,False,False,0,0,False,0,4.0,4.0,False
+HP:6001096,Decreased CD4+ T cell ZAP-70 protein expression,"Flow cytometry /
+immunophenotyping",True,False,False,0,0,False,1,6.0,6.0,False
+HP:6001119,Purulent drainage from skin,Other immune,False,True,False,0,0,False,0,5.0,,False
+HP:6001188,Preauricular lymphadenopathy,Other immune,False,True,False,0,0,False,0,4.0,,False
+HP:6001190,Abnormal MHC surface expression,Other immune,False,True,False,0,0,False,0,2.0,,False
+HP:6001214,Cutaneous granulomatosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,7.0,,False
+HP:6001283,Severe Candida infection,Infections,False,True,False,0,0,False,3,5.0,,False
+HP:6001370,Acute retinal necrosis,Infections,False,True,False,0,0,False,2,7.0,,False
+HP:6001385,Follicular conjunctivitis,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:6001386,Granulomatous conjunctivitis,Other immune,False,True,False,0,0,False,0,6.0,,False
+HP:6001425,Hyperleukocytosis,"Flow cytometry /
+immunophenotyping",False,True,False,0,0,False,0,6.0,,False
+HP:6001441,CSF anti-myelin oligodendrocyte glycoprotein antibody positivity,Other immune,False,True,False,0,0,False,0,4.0,,False
+HP:6001446,Airway chondritis,Other immune,False,True,False,0,0,False,1,5.0,,False
+HP:6001447,Costochondritis,Other immune,False,True,False,0,0,False,1,5.0,,False
+HP:0002961,Dysgammaglobulinemia,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0003347,Impaired lymphocyte transformation with phytohemagglutinin,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0005354,Lack of T cell function,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0005365,Severe B lymphocytopenia,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0005407,Decreased proportion of CD4-positive helper T cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0005435,Impaired T cell function,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0005512,Impaired neutrophil killing of staphylococci,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0008165,Decreased helper T cell proportion,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0008866,Failure to thrive secondary to recurrent infections,Other immune,True,False,False,0,0,False,0,,4.0,True
+HP:0011837,Partial IgA deficiency,Other immune,True,False,False,0,0,False,0,,6.0,True
+HP:0012178,Reduced natural killer cell activity,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0025620,Abnormal proportion of CD4+ central memory cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0025623,Abnormal proportion of CD4+ effector memory cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0030251,Absence of memory B cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0030253,Defective T cell proliferation,Other immune,True,False,False,0,0,False,0,,6.0,True
+HP:0030333,Abnormal alpha-beta T cell morphology,Other immune,True,False,False,0,0,False,0,,6.0,True
+HP:0030334,"Abnormal CD4-positive, CD25-positive, alpha-beta regulatory T cell morphology",Other immune,True,False,False,0,0,False,0,,7.0,True
+HP:0030335,"Abnormal CD4-positive, CD25-positive, alpha-beta regulatory T cell count",Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0030336,"Absence of CD4-positive, CD25-positive regulatory T cells",Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0030337,"Elevated CD4-positive, CD25-positive regulatory T cell count",Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0033798,Impaired leukocyte adhesion,Other immune,True,False,False,0,0,False,0,,4.0,True
+HP:0034286,Pneumocystis carinii pneumonia,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0041060,Chronic partially decreased circulating IgG4,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0041066,Chronic partially decreased circulating IgG2,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0041070,Chronic partially decreased circulating IgG1,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0041075,Chronic partially decreased circulating IgG3,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0045080,Decreased proportion of CD3-positive T cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0410367,Increased hepatitis A virus antibody level,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0410369,Increased hepatitis B virus antibody level,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0410371,Increased hepatitis C virus antibody level,Other immune,True,False,False,0,0,False,0,,5.0,True
+HP:0410381,"Abnormal proportion of central memory CD4-positive, alpha-beta T cells",Other immune,True,False,False,0,0,False,0,,10.0,True
+HP:0410394,"Increased proportion of effector memory CD4-positive, alpha-beta T cells",Other immune,True,False,False,0,0,False,0,,11.0,True
+HP:0500263,Abnormal helper T cell proportion,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0500264,Increased helper T cell proportion,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0500267,Abnormal proportion of CD4-positive helper T cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0500272,Abnormal proportion of immature gamma-delta T cells,Other immune,True,False,False,0,0,False,0,,8.0,True
+HP:0500273,Increased proportion of immature gamma-delta T cells,Other immune,True,False,False,0,0,False,0,,9.0,True
+HP:0500274,Decreased proportion of immature gamma-delta T cells,Other immune,True,False,False,0,0,False,0,,9.0,True
