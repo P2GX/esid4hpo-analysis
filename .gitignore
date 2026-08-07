@@ -224,5 +224,6 @@ src/analysis/_work/data/
 src/analysis/_work/lirical/SOCS1/new/
 src/analysis/_tools
 
-
+# figures
+src/analysis/figures
 
