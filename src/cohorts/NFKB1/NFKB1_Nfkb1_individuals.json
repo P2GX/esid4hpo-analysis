@@ -1,0 +1,8930 @@
+{
+  "cohortType": "mendelian",
+  "diseaseList": [
+    {
+      "diseaseId": "OMIM:616576",
+      "diseaseLabel": "Common variable Immunodeficiency 12",
+      "modeOfInheritanceList": [],
+      "geneTranscriptList": [
+        {
+          "hgncId": "HGNC:7794",
+          "geneSymbol": "NFKB1",
+          "transcript": "NM_003998.4"
+        }
+      ]
+    }
+  ],
+  "hpoHeaders": [
+    {
+      "hpoLabel": "Ovarian cyst",
+      "hpoId": "HP:0000138"
+    },
+    {
+      "hpoLabel": "Recurrent bacterial vaginosis",
+      "hpoId": "HP:0030683"
+    },
+    {
+      "hpoLabel": "Genital ulcers",
+      "hpoId": "HP:0003249"
+    },
+    {
+      "hpoLabel": "Proteinuria",
+      "hpoId": "HP:0000093"
+    },
+    {
+      "hpoLabel": "Recurrent aphthous stomatitis",
+      "hpoId": "HP:0011107"
+    },
+    {
+      "hpoLabel": "Oral ulcer",
+      "hpoId": "HP:0000155"
+    },
+    {
+      "hpoLabel": "Recurrent upper respiratory tract infections",
+      "hpoId": "HP:0002788"
+    },
+    {
+      "hpoLabel": "Recurrent sinusitis",
+      "hpoId": "HP:0011108"
+    },
+    {
+      "hpoLabel": "Mastoiditis",
+      "hpoId": "HP:0000265"
+    },
+    {
+      "hpoLabel": "Sinusitis",
+      "hpoId": "HP:0000246"
+    },
+    {
+      "hpoLabel": "Otitis media",
+      "hpoId": "HP:0000388"
+    },
+    {
+      "hpoLabel": "Chronic otitis media",
+      "hpoId": "HP:0000389"
+    },
+    {
+      "hpoLabel": "Vertigo",
+      "hpoId": "HP:0002321"
+    },
+    {
+      "hpoLabel": "Headache",
+      "hpoId": "HP:0002315"
+    },
+    {
+      "hpoLabel": "Hypoesthesia",
+      "hpoId": "HP:0033748"
+    },
+    {
+      "hpoLabel": "Hypothyroidism",
+      "hpoId": "HP:0000821"
+    },
+    {
+      "hpoLabel": "Thyroiditis",
+      "hpoId": "HP:0100646"
+    },
+    {
+      "hpoLabel": "Hashimoto thyroiditis",
+      "hpoId": "HP:0000872"
+    },
+    {
+      "hpoLabel": "Pyoderma gangrenosum",
+      "hpoId": "HP:0025452"
+    },
+    {
+      "hpoLabel": "Folliculitis",
+      "hpoId": "HP:0025084"
+    },
+    {
+      "hpoLabel": "Cutaneous abscess",
+      "hpoId": "HP:0031292"
+    },
+    {
+      "hpoLabel": "Unusual skin infection",
+      "hpoId": "HP:0032162"
+    },
+    {
+      "hpoLabel": "Recurrent skin infections",
+      "hpoId": "HP:0001581"
+    },
+    {
+      "hpoLabel": "Unusual bacterial nail bed infection",
+      "hpoId": "HP:5210239"
+    },
+    {
+      "hpoLabel": "Unusual VZV skin infection",
+      "hpoId": "HP:5210235"
+    },
+    {
+      "hpoLabel": "Patchy alopecia",
+      "hpoId": "HP:0002232"
+    },
+    {
+      "hpoLabel": "Alopecia",
+      "hpoId": "HP:0001596"
+    },
+    {
+      "hpoLabel": "Pulmonary arterial hypertension",
+      "hpoId": "HP:0002092"
+    },
+    {
+      "hpoLabel": "Splenomegaly",
+      "hpoId": "HP:0001744"
+    },
+    {
+      "hpoLabel": "Hepatosplenomegaly",
+      "hpoId": "HP:0001433"
+    },
+    {
+      "hpoLabel": "Lymphadenopathy",
+      "hpoId": "HP:0002716"
+    },
+    {
+      "hpoLabel": "Cervical lymphadenopathy",
+      "hpoId": "HP:0025289"
+    },
+    {
+      "hpoLabel": "Supraclavicular lymphadenopathy",
+      "hpoId": "HP:0034750"
+    },
+    {
+      "hpoLabel": "Axillary lymphadenopathy",
+      "hpoId": "HP:0034752"
+    },
+    {
+      "hpoLabel": "Aortic valve stenosis",
+      "hpoId": "HP:0001650"
+    },
+    {
+      "hpoLabel": "Thrombocytopenia",
+      "hpoId": "HP:0001873"
+    },
+    {
+      "hpoLabel": "Autoimmune thrombocytopenia",
+      "hpoId": "HP:0001973"
+    },
+    {
+      "hpoLabel": "Hemolytic anemia",
+      "hpoId": "HP:0001878"
+    },
+    {
+      "hpoLabel": "Autoimmune hemolytic anemia",
+      "hpoId": "HP:0001890"
+    },
+    {
+      "hpoLabel": "Decreased total neutrophil count",
+      "hpoId": "HP:0001875"
+    },
+    {
+      "hpoLabel": "Decreased total leukocyte count",
+      "hpoId": "HP:0001882"
+    },
+    {
+      "hpoLabel": "Pancytopenia",
+      "hpoId": "HP:0001876"
+    },
+    {
+      "hpoLabel": "Decreased circulating IgA concentration",
+      "hpoId": "HP:0002720"
+    },
+    {
+      "hpoLabel": "Decreased circulating IgM concentration",
+      "hpoId": "HP:0002850"
+    },
+    {
+      "hpoLabel": "Decreased circulating IgG concentration",
+      "hpoId": "HP:0004315"
+    },
+    {
+      "hpoLabel": "Transient hypogammaglobulinemia of infancy",
+      "hpoId": "HP:0005432"
+    },
+    {
+      "hpoLabel": "Hypocalcemia",
+      "hpoId": "HP:0002901"
+    },
+    {
+      "hpoLabel": "Fever",
+      "hpoId": "HP:0001945"
+    },
+    {
+      "hpoLabel": "Pleural empyema",
+      "hpoId": "HP:0011919"
+    },
+    {
+      "hpoLabel": "Decreased circulating vitamin D concentration",
+      "hpoId": "HP:0100512"
+    },
+    {
+      "hpoLabel": "Respiratory insufficiency",
+      "hpoId": "HP:0002093"
+    },
+    {
+      "hpoLabel": "Chronic pulmonary obstruction",
+      "hpoId": "HP:0006510"
+    },
+    {
+      "hpoLabel": "Pharyngeal exudate",
+      "hpoId": "HP:0034035"
+    },
+    {
+      "hpoLabel": "Pulmonary fibrosis",
+      "hpoId": "HP:0002206"
+    },
+    {
+      "hpoLabel": "Lymphocytic interstitial pneumonia",
+      "hpoId": "HP:0006527"
+    },
+    {
+      "hpoLabel": "Recurrent respiratory infections",
+      "hpoId": "HP:0002205"
+    },
+    {
+      "hpoLabel": "Recurrent lower respiratory tract infections",
+      "hpoId": "HP:0002783"
+    },
+    {
+      "hpoLabel": "Recurrent pneumonia",
+      "hpoId": "HP:0006532"
+    },
+    {
+      "hpoLabel": "Recurrent sinopulmonary infections",
+      "hpoId": "HP:0005425"
+    },
+    {
+      "hpoLabel": "Pneumonia",
+      "hpoId": "HP:0002090"
+    },
+    {
+      "hpoLabel": "Bronchiectasis",
+      "hpoId": "HP:0002110"
+    },
+    {
+      "hpoLabel": "Pancolitis",
+      "hpoId": "HP:0033256"
+    },
+    {
+      "hpoLabel": "Esophagitis",
+      "hpoId": "HP:0100633"
+    },
+    {
+      "hpoLabel": "Intestinal inflammation",
+      "hpoId": "HP:4000055"
+    },
+    {
+      "hpoLabel": "Recurrent infections",
+      "hpoId": "HP:0002719"
+    },
+    {
+      "hpoLabel": "Recurrent streptococcal infections",
+      "hpoId": "HP:0020096"
+    },
+    {
+      "hpoLabel": "Recurrent Candida infection",
+      "hpoId": "HP:0005401"
+    },
+    {
+      "hpoLabel": "Recurrent gastroenteritis",
+      "hpoId": "HP:0031123"
+    },
+    {
+      "hpoLabel": "Recurrent Giardia lamblia infection",
+      "hpoId": "HP:5210126"
+    },
+    {
+      "hpoLabel": "Chronic active EBV infection",
+      "hpoId": "HP:0032204"
+    },
+    {
+      "hpoLabel": "Unusual Salmonella infection",
+      "hpoId": "HP:5210093"
+    },
+    {
+      "hpoLabel": "Chronic respiratory syncytial virus infection",
+      "hpoId": "HP:5210404"
+    },
+    {
+      "hpoLabel": "Persistent human papillomavirus infection",
+      "hpoId": "HP:0020114"
+    },
+    {
+      "hpoLabel": "Recurrent herpes",
+      "hpoId": "HP:0005353"
+    },
+    {
+      "hpoLabel": "Recurrent herpes simplex virus infection",
+      "hpoId": "HP:5210291"
+    },
+    {
+      "hpoLabel": "Abscess",
+      "hpoId": "HP:0025615"
+    },
+    {
+      "hpoLabel": "Ascites",
+      "hpoId": "HP:0001541"
+    },
+    {
+      "hpoLabel": "Hepatomegaly",
+      "hpoId": "HP:0002240"
+    },
+    {
+      "hpoLabel": "Nodular regenerative hyperplasia of liver",
+      "hpoId": "HP:0011954"
+    },
+    {
+      "hpoLabel": "Abnormal intestine morphology",
+      "hpoId": "HP:0002242"
+    },
+    {
+      "hpoLabel": "Atrophic gastritis",
+      "hpoId": "HP:0002582"
+    },
+    {
+      "hpoLabel": "Chronic diarrhea",
+      "hpoId": "HP:0002028"
+    },
+    {
+      "hpoLabel": "Intermittent diarrhea",
+      "hpoId": "HP:0002254"
+    },
+    {
+      "hpoLabel": "Bloody diarrhea",
+      "hpoId": "HP:0025085"
+    },
+    {
+      "hpoLabel": "Abdominal pain",
+      "hpoId": "HP:0002027"
+    },
+    {
+      "hpoLabel": "Arthralgia",
+      "hpoId": "HP:0002829"
+    },
+    {
+      "hpoLabel": "Non-Hodgkin lymphoma",
+      "hpoId": "HP:0012539"
+    },
+    {
+      "hpoLabel": "Lymphoproliferative disorder",
+      "hpoId": "HP:0005523"
+    },
+    {
+      "hpoLabel": "Squamous cell carcinoma",
+      "hpoId": "HP:0002860"
+    },
+    {
+      "hpoLabel": "Hepatic hemangioma",
+      "hpoId": "HP:0031207"
+    },
+    {
+      "hpoLabel": "Lung adenocarcinoma",
+      "hpoId": "HP:0030078"
+    }
+  ],
+  "rows": [
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_16",
+        "comment": "",
+        "ageOfOnset": "P29Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_18",
+        "comment": "",
+        "ageOfOnset": "P65Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_21",
+        "comment": "",
+        "ageOfOnset": "P31Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_25",
+        "comment": "",
+        "ageOfOnset": "P52Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "\tFamNL1_34",
+        "comment": "",
+        "ageOfOnset": "P44Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_36 [P.2 (6), P.4 (13)]",
+        "comment": "",
+        "ageOfOnset": "P30Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "\tFamNL1_40",
+        "comment": "",
+        "ageOfOnset": "P34Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_42",
+        "comment": "",
+        "ageOfOnset": "na",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_48",
+        "comment": "",
+        "ageOfOnset": "P15Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_49",
+        "comment": "",
+        "ageOfOnset": "P9M",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_57",
+        "comment": "",
+        "ageOfOnset": "P39Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNL1_62",
+        "comment": "",
+        "ageOfOnset": "P30Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c730plus4AtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "Fam089_I1",
+        "comment": "",
+        "ageOfOnset": "P64Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c835plus2TtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "\tFam089_II2 [P.5 (13)]",
+        "comment": "",
+        "ageOfOnset": "P16Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c835plus2TtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "Fam089_III2",
+        "comment": "",
+        "ageOfOnset": "P14M",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c835plus2TtoG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNZ_I2",
+        "comment": "",
+        "ageOfOnset": "na",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c465dupA_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNZ_II1",
+        "comment": "",
+        "ageOfOnset": "P2Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c465dupA_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "FamNZ_II2",
+        "comment": "",
+        "ageOfOnset": "P20Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c465dupA_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "Patient 1",
+        "comment": "",
+        "ageOfOnset": "na",
+        "ageAtLastEncounter": "P7Y",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c1517delC_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "Index patient",
+        "comment": "",
+        "ageOfOnset": "P2Y",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c494delG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "Father",
+        "comment": "",
+        "ageOfOnset": "na",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c494delG_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "individualData": {
+        "pmid": "PMID:29403474",
+        "title": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences.",
+        "individualId": "\tPatient 1",
+        "comment": "",
+        "ageOfOnset": "na",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:616576"
+      ],
+      "alleleCountMap": {
+        "c139delA_NFKB1_NM_003998v4": 1
+      },
+      "hpoData": [
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        },
+        {
+          "type": "Na",
+          "modifiers": []
+        }
+      ]
+    }
+  ],
+  "hgvsVariants": {
+    "c465dupA_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102576931,
+      "refAllele": "G",
+      "altAllele": "GA",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.465dupA",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102576933dup",
+      "pHgvs": "NP_003989.2:p.(Ala156SerfsTer12)",
+      "variantKey": "c465dupA_NFKB1_NM_003998v4"
+    },
+    "c730plus4AtoG_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102579043,
+      "refAllele": "A",
+      "altAllele": "G",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.730+4A>G",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102579043A>G",
+      "pHgvs": "NP_003989.2:p.?",
+      "variantKey": "c730plus4AtoG_NFKB1_NM_003998v4"
+    },
+    "c835plus2TtoG_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102580641,
+      "refAllele": "T",
+      "altAllele": "G",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.835+2T>G",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102580641T>G",
+      "pHgvs": "NP_003989.2:p.?",
+      "variantKey": "c835plus2TtoG_NFKB1_NM_003998v4"
+    },
+    "c1517delC_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102597540,
+      "refAllele": "GC",
+      "altAllele": "G",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.1517delC",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102597541del",
+      "pHgvs": "NP_003989.2:p.(Ala506ValfsTer17)",
+      "variantKey": "c1517delC_NFKB1_NM_003998v4"
+    },
+    "c139delA_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102533862,
+      "refAllele": "CA",
+      "altAllele": "C",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.139delA",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102533865del",
+      "pHgvs": "NP_003989.2:p.(Ile47TyrfsTer2)",
+      "variantKey": "c139delA_NFKB1_NM_003998v4"
+    },
+    "c494delG_NFKB1_NM_003998v4": {
+      "assembly": "hg38",
+      "chr": "chr4",
+      "position": 102576958,
+      "refAllele": "AG",
+      "altAllele": "A",
+      "symbol": "NFKB1",
+      "hgncId": "HGNC:7794",
+      "hgvs": "c.494delG",
+      "transcript": "NM_003998.4",
+      "gHgvs": "NC_000004.12:g.102576962del",
+      "pHgvs": "NP_003989.2:p.(Gly165AlafsTer32)",
+      "variantKey": "c494delG_NFKB1_NM_003998v4"
+    }
+  },
+  "structuralVariants": {},
+  "intergenicVariants": {},
+  "phetoolsSchemaVersion": "0.4",
+  "hpoVersion": "2026-06-06",
+  "cohortAcronym": "NFKB1_Nfkb1",
+  "curationHistory": [
+    {
+      "orcid": "0000-0002-0736-9199",
+      "date": "2025-01-09"
+    }
+  ]
+}
