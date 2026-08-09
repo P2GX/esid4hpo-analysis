@@ -12,3 +12,7 @@ lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/SOCS1.new.csv" "${WORKDIR}/SOC
 # ---- APDS ----
 lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/APDS.old.csv" "${WORKDIR}/APDS/old"/*.json
 lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/APDS.new.csv" "${WORKDIR}/APDS/new"/*.json
+
+# ---- NFKB1 ----
+lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/NFKB1.old.csv" "${WORKDIR}/NFKB1/old"/*.json
+lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/NFKB1.new.csv" "${WORKDIR}/NFKB1/new"/*.json
