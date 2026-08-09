@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-08-05T21:10:02.654799</dc:date>
+    <dc:date>2026-08-09T16:07:26.019641</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 8.01252 42.525552 8.01252 44.782346
 L 8.01252 53.809521 
 Q 8.01252 56.066315 16.13772 56.066315 
 z
-" clip-path="url(#p0099075e37)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p7a7c201ef8)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 16.13772 112.48616 
@@ -53,7 +53,7 @@ Q 8.01252 98.945397 8.01252 101.202191
 L 8.01252 110.229366 
 Q 8.01252 112.48616 16.13772 112.48616 
 z
-" clip-path="url(#p0099075e37)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p7a7c201ef8)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 16.13772 168.906004 
@@ -66,7 +66,7 @@ Q 8.01252 155.365242 8.01252 157.622035
 L 8.01252 166.64921 
 Q 8.01252 168.906004 16.13772 168.906004 
 z
-" clip-path="url(#p0099075e37)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p7a7c201ef8)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 16.13772 225.325849 
@@ -79,7 +79,7 @@ Q 8.01252 211.785086 8.01252 214.04188
 L 8.01252 223.069055 
 Q 8.01252 225.325849 16.13772 225.325849 
 z
-" clip-path="url(#p0099075e37)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p7a7c201ef8)" style="fill: #4e7e96; stroke: #4e7e96; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 467.08632 140.696082 
@@ -92,7 +92,7 @@ Q 458.96112 127.155319 458.96112 129.412113
 L 458.96112 138.439288 
 Q 458.96112 140.696082 467.08632 140.696082 
 z
-" clip-path="url(#p0099075e37)" style="fill: #ffffff; stroke: #c4c9ce; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p7a7c201ef8)" style="fill: #ffffff; stroke: #c4c9ce; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- excluded: Decreased total CD4+ T cell count -->
@@ -1780,7 +1780,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0099075e37">
+  <clipPath id="p7a7c201ef8">
    <rect x="7.2" y="21.086011" width="812.52" height="225.679379"/>
   </clipPath>
  </defs>
