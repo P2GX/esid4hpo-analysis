@@ -218,12 +218,26 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-# LIRICAL files
+# macOS
+.DS_Store
+
+# LIRICAL and HPO data bundles (downloaded, ~GB)
 src/analysis/_work/data/
+src/analysis/_tools/
 
-src/analysis/_work/lirical/SOCS1/new/
-src/analysis/_tools
+# Generated HPOA files: one full copy per publication, ~1.3 GB in total.
+# Regenerate with run_lirical_adjusted.py; the summary TSVs are kept.
+src/analysis/_work/hpoa_adjusted/**/*.hpoa
+src/analysis/_work/hpoa_adjusted/**/bundle_*/
+src/analysis/_work/hpoa_adjusted/aged_cohorts/
 
-# figures
-src/analysis/figures
+# LIRICAL benchmark output: full ranked disease lists, ~300 MB.
+# The per-patient causal ranks are kept in _work/lirical_ranks_long.csv.
+src/analysis/_work/lirical/*.csv
+src/analysis/_work/lirical/parts/
+src/analysis/_work/lirical/*/old/
+src/analysis/_work/lirical/*/new/
+
+# Note: src/analysis/figures/ holds the figure scripts and IS tracked.
+# The rendered figures live in src/analysis/_work/figures/ and are tracked too.
 
