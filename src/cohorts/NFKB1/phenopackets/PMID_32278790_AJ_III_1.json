@@ -1,10 +1,34 @@
 {
-  "id": "PMID_29403474_Index_patient",
+  "id": "PMID_32278790_AJ_III_1",
   "subject": {
-    "id": "Index patient",
+    "id": "AJ.III.1 ",
     "sex": "FEMALE"
   },
   "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0030683",
+        "label": "Recurrent bacterial vaginosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003249",
+        "label": "Genital ulcers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000155",
+        "label": "Oral ulcer"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002633",
+        "label": "Vasculitis"
+      }
+    },
     {
       "type": {
         "id": "HP:0001433",
@@ -13,38 +37,20 @@
     },
     {
       "type": {
-        "id": "HP:0025289",
-        "label": "Cervical lymphadenopathy"
+        "id": "HP:0002716",
+        "label": "Lymphadenopathy"
       }
     },
     {
       "type": {
-        "id": "HP:0034750",
-        "label": "Supraclavicular lymphadenopathy"
+        "id": "HP:0001904",
+        "label": "Autoimmune neutropenia"
       }
     },
     {
       "type": {
-        "id": "HP:0034752",
-        "label": "Axillary lymphadenopathy"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001873",
-        "label": "Thrombocytopenia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001875",
-        "label": "Decreased total neutrophil count"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001882",
-        "label": "Decreased total leukocyte count"
+        "id": "HP:0001876",
+        "label": "Pancytopenia"
       }
     },
     {
@@ -67,44 +73,39 @@
     },
     {
       "type": {
-        "id": "HP:0034035",
-        "label": "Pharyngeal exudate"
+        "id": "HP:0001945",
+        "label": "Fever"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002088",
+        "label": "Abnormal lung morphology"
       }
     },
     {
       "type": {
-        "id": "HP:0002205",
-        "label": "Recurrent respiratory infections"
+        "id": "HP:0410295",
+        "label": "Complete or near-complete absence of specific antibody response to tetanus vaccine"
       }
     },
     {
       "type": {
-        "id": "HP:0100633",
-        "label": "Esophagitis"
+        "id": "HP:0002027",
+        "label": "Abdominal pain"
       }
     },
     {
       "type": {
-        "id": "HP:0032204",
-        "label": "Chronic active EBV infection"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0025615",
-        "label": "Abscess"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0005523",
-        "label": "Lymphoproliferative disorder"
+        "id": "HP:0001410",
+        "label": "Decreased liver function"
       }
     }
   ],
   "interpretations": [
     {
-      "id": "0CitUjVcl1beXPZXQulTtapp",
+      "id": "3IgbZOBqzWZRCgi9C6xFYf45",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -113,13 +114,13 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "Index patient",
+            "subjectOrBiosampleId": "AJ.III.1 ",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
               "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
-                "id": "c494delG_NFKB1_NM_003998v4",
+                "id": "c872delA_NFKB1_NM_003998v4",
                 "geneContext": {
                   "valueId": "HGNC:7794",
                   "symbol": "NFKB1"
@@ -127,23 +128,23 @@
                 "expressions": [
                   {
                     "syntax": "hgvs.c",
-                    "value": "NM_003998.4:c.494delG"
+                    "value": "NM_003998.4:c.872delA"
                   },
                   {
                     "syntax": "hgvs.g",
-                    "value": "NC_000004.12:g.102576962del"
+                    "value": "NC_000004.12:g.102582902del"
                   },
                   {
                     "syntax": "hgvs.p",
-                    "value": "NP_003989.2:p.(Gly165AlafsTer32)"
+                    "value": "NP_003989.2:p.(Asn291MetfsTer141)"
                   }
                 ],
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr4",
-                  "pos": 102576958,
-                  "ref": "AG",
-                  "alt": "A"
+                  "pos": 102582898,
+                  "ref": "GA",
+                  "alt": "G"
                 },
                 "moleculeContext": "genomic",
                 "allelicState": {
@@ -165,13 +166,13 @@
       },
       "onset": {
         "age": {
-          "iso8601duration": "P2Y"
+          "iso8601duration": "P11Y"
         }
       }
     }
   ],
   "metaData": {
-    "created": "2026-08-10T17:28:09.624202Z",
+    "created": "2026-08-10T17:28:09.624432Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
@@ -210,8 +211,8 @@
     "phenopacketSchemaVersion": "2.0.2",
     "externalReferences": [
       {
-        "id": "PMID:29403474",
-        "description": "Human NF-κB1 Haploinsufficiency and Epstein-Barr Virus-Induced Disease-Molecular Mechanisms and Consequences."
+        "id": "PMID:32278790",
+        "description": "Characterization of the clinical and immunologic phenotype and management of 157 individuals with 56 distinct heterozygous NFKB1 mutations."
       }
     ]
   }

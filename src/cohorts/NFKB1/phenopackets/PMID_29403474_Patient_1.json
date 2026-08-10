@@ -1,15 +1,58 @@
 {
   "id": "PMID_29403474_Patient_1",
   "subject": {
-    "id": "Patient 1",
-    "timeAtLastEncounter": {
-      "age": {
-        "iso8601duration": "P7Y"
-      }
-    },
-    "sex": "MALE"
+    "id": "\tPatient 1",
+    "sex": "FEMALE"
   },
   "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0000138",
+        "label": "Ovarian cyst"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030683",
+        "label": "Recurrent bacterial vaginosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003249",
+        "label": "Genital ulcers"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000093",
+        "label": "Proteinuria"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011107",
+        "label": "Recurrent aphthous stomatitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000155",
+        "label": "Oral ulcer"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002788",
+        "label": "Recurrent upper respiratory tract infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000265",
+        "label": "Mastoiditis"
+      }
+    },
     {
       "type": {
         "id": "HP:0000246",
@@ -18,14 +61,56 @@
     },
     {
       "type": {
-        "id": "HP:0100646",
-        "label": "Thyroiditis"
+        "id": "HP:0000389",
+        "label": "Chronic otitis media"
       }
     },
     {
       "type": {
-        "id": "HP:0000872",
-        "label": "Hashimoto thyroiditis"
+        "id": "HP:0002321",
+        "label": "Vertigo"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002315",
+        "label": "Headache"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033748",
+        "label": "Hypoesthesia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5210235",
+        "label": "Unusual VZV skin infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001433",
+        "label": "Hepatosplenomegaly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001973",
+        "label": "Autoimmune thrombocytopenia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001890",
+        "label": "Autoimmune hemolytic anemia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001876",
+        "label": "Pancytopenia"
       }
     },
     {
@@ -48,26 +133,104 @@
     },
     {
       "type": {
-        "id": "HP:0002205",
-        "label": "Recurrent respiratory infections"
+        "id": "HP:0002901",
+        "label": "Hypocalcemia"
       }
     },
     {
       "type": {
-        "id": "HP:0002090",
-        "label": "Pneumonia"
+        "id": "HP:0001945",
+        "label": "Fever"
       }
     },
     {
       "type": {
-        "id": "HP:0002242",
-        "label": "Abnormal intestine morphology"
+        "id": "HP:0100512",
+        "label": "Decreased circulating vitamin D concentration"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0006532",
+        "label": "Recurrent pneumonia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0033256",
+        "label": "Pancolitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020096",
+        "label": "Recurrent streptococcal infections"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005401",
+        "label": "Recurrent Candida infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0032204",
+        "label": "Chronic active EBV infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5210404",
+        "label": "Chronic respiratory syncytial virus infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0020114",
+        "label": "Persistent human papillomavirus infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0005353",
+        "label": "Recurrent herpes"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:5210291",
+        "label": "Recurrent herpes simplex virus infection"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001541",
+        "label": "Ascites"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002028",
+        "label": "Chronic diarrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0025085",
+        "label": "Bloody diarrhea"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002027",
+        "label": "Abdominal pain"
       }
     }
   ],
   "interpretations": [
     {
-      "id": "JCS5EuBL3HvWMnNFL3oQwjC5",
+      "id": "BPYeaUijPLsjjnGuSNCV1gG5",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -76,13 +239,13 @@
         },
         "genomicInterpretations": [
           {
-            "subjectOrBiosampleId": "Patient 1",
+            "subjectOrBiosampleId": "\tPatient 1",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
               "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
-                "id": "c1517delC_NFKB1_NM_003998v4",
+                "id": "c139delA_NFKB1_NM_003998v4",
                 "geneContext": {
                   "valueId": "HGNC:7794",
                   "symbol": "NFKB1"
@@ -90,23 +253,23 @@
                 "expressions": [
                   {
                     "syntax": "hgvs.c",
-                    "value": "NM_003998.4:c.1517delC"
+                    "value": "NM_003998.4:c.139delA"
                   },
                   {
                     "syntax": "hgvs.g",
-                    "value": "NC_000004.12:g.102597541del"
+                    "value": "NC_000004.12:g.102533865del"
                   },
                   {
                     "syntax": "hgvs.p",
-                    "value": "NP_003989.2:p.(Ala506ValfsTer17)"
+                    "value": "NP_003989.2:p.(Ile47TyrfsTer2)"
                   }
                 ],
                 "vcfRecord": {
                   "genomeAssembly": "hg38",
                   "chrom": "chr4",
-                  "pos": 102597540,
-                  "ref": "GC",
-                  "alt": "G"
+                  "pos": 102533862,
+                  "ref": "CA",
+                  "alt": "C"
                 },
                 "moleculeContext": "genomic",
                 "allelicState": {
@@ -129,7 +292,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-08-07T09:27:46.052957Z",
+    "created": "2026-08-10T17:28:09.624318Z",
     "createdBy": "0009-0004-8124-8864",
     "resources": [
       {
