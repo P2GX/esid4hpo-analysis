@@ -22,6 +22,11 @@ release does not contain the cohort curation yet, so the new arm is built here:
                   phenopackets. Isolates the effect of the new terms alone.
   none            no augmentation, only the leave-one-publication-out removal.
 
+Outputs of the non-default modes are suffixed so that runs coexist instead of
+overwriting each other: hpoadjust output goes to _work/hpoa_adjusted.<mode>/
+and the merged rank tables to _work/lirical/<cohort>.<arm>.<mode>.csv. The
+default mode (new) keeps the original paths, so the notebook works unchanged.
+
 Usage, from src/analysis:
     python run_lirical_adjusted.py
     python run_lirical_adjusted.py --dry-run
@@ -45,6 +50,14 @@ ANALYSIS_DIR = Path(__file__).resolve().parent
 WORK = ANALYSIS_DIR / "_work"
 COHORT_DIR = ANALYSIS_DIR.parent / "cohorts"
 ARMS = ("old", "new")
+
+# Filled in by main(): "" for the default mode, ".both" / ".none" otherwise,
+# so that a decomposition run cannot clobber the headline results again.
+SUFFIX = ""
+
+
+def hpoa_root() -> Path:
+    return WORK / ("hpoa_adjusted" + SUFFIX)
 
 
 def parse_args():
@@ -74,7 +87,7 @@ def cohort_source(arm, cohorts, dry_run):
     """Curated phenopackets for the new arm, their aged counterparts for the old arm."""
     if arm == "new":
         return COHORT_DIR
-    staged = WORK / "hpoa_adjusted" / "aged_cohorts"
+    staged = WORK / ("hpoa_adjusted" + SUFFIX) / "aged_cohorts"
     if dry_run:
         return staged
     if staged.exists():
@@ -89,7 +102,7 @@ def cohort_source(arm, cohorts, dry_run):
 
 def adjust_hpoas(args):
     for arm in ARMS:
-        outdir = WORK / "hpoa_adjusted" / arm
+        outdir = hpoa_root() / arm
         if args.skip_adjust and (outdir / "adjustment_summary.tsv").exists():
             print(f"[adjust:{arm}] reusing {outdir}")
             continue
@@ -106,7 +119,7 @@ def adjust_hpoas(args):
 
 
 def read_summary(arm):
-    path = WORK / "hpoa_adjusted" / arm / "adjustment_summary.tsv"
+    path = hpoa_root() / arm / "adjustment_summary.tsv"
     adjusted, insufficient = {}, []
     if not path.exists():
         print(f"[warn] {path} missing (dry run before first adjust?)")
@@ -124,7 +137,7 @@ def build_bundles(arm, adjusted, dry_run):
     stock = WORK / "data" / arm
     bundles = {}
     for pmid, hpoa in adjusted.items():
-        bundle = WORK / "hpoa_adjusted" / arm / ("bundle_" + pmid.replace(":", "_"))
+        bundle = hpoa_root() / arm / ("bundle_" + pmid.replace(":", "_"))
         bundles[pmid] = bundle
         if dry_run:
             print(f"[bundle:{arm}] would build {bundle}")
@@ -168,13 +181,13 @@ def benchmark_cohort(cohort, arm, bundles, args):
     parts = []
     for label, members in sorted(groups.items(), key=lambda item: item[0]):
         data_dir = WORK / "data" / arm if label == "stock" else bundles[label]
-        part = parts_dir / f"{cohort}.{arm}.{label.replace(':', '_')}.csv"
+        part = parts_dir / f"{cohort}.{arm}{SUFFIX}.{label.replace(':', '_')}.csv"
         print(f"[lirical:{cohort}:{arm}] {label}: {len(members)} phenopackets vs {data_dir.name}")
         run(["java", "-jar", args.lirical_jar, "benchmark",
              "-d", data_dir, "-o", part] + members, args.dry_run)
         parts.append(part)
 
-    merged = WORK / "lirical" / f"{cohort}.{arm}.csv"
+    merged = WORK / "lirical" / f"{cohort}.{arm}{SUFFIX}.csv"
     if args.dry_run:
         print(f"[merge] would write {merged} from {len(parts)} part(s)")
         return
@@ -193,6 +206,11 @@ def benchmark_cohort(cohort, arm, bundles, args):
 
 def main():
     args = parse_args()
+    global SUFFIX
+    SUFFIX = "" if args.augment_arms == "new" else "." + args.augment_arms
+    if SUFFIX:
+        print(f"[mode] augment-arms={args.augment_arms}: writing to "
+              f"{hpoa_root()} and _work/lirical/<cohort>.<arm>{SUFFIX}.csv")
     for jar in (args.hpotools_jar, args.lirical_jar):
         if not args.dry_run and not jar.exists():
             sys.exit(f"jar not found: {jar}")
