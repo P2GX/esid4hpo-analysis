@@ -1,6 +1,7 @@
 # =====================================================================
 # FIGURE 3 - information content (panels A-D)
-#   A  paired per-patient IC per cohort (+ Holm-corrected p-values)
+#   A  paired per-patient IC per cohort (mean paired delta-IC with 95% CI;
+#      Wilcoxon/Holm stays in the stats table, not on the panel)
 #   B  cross-cohort summary bars with % gain
 #   C  fraction of annotations using post-workshop terms
 #   D  worked example: annotation collapse in a single patient
@@ -116,7 +117,10 @@ def ic_stats(df_patient, alternative="two-sided"):
         s = _cohort_data(df_patient, ch).dropna(subset=["mean_ic_aged", "mean_ic_new"])
         if not len(s):
             rows.append(dict(cohort=ch, n=0, n_informative=0, W=np.nan,
-                             p_raw=np.nan, rank_biserial=np.nan, gain_pct=np.nan))
+                             p_raw=np.nan, rank_biserial=np.nan, gain_pct=np.nan,
+                             delta_mean=np.nan, delta_lo=np.nan, delta_hi=np.nan,
+                             hl_delta=np.nan, hl_lo=np.nan, hl_hi=np.nan,
+                             n_improved=0, n_worse=0))
             continue
         aged, newv = s.mean_ic_aged.values, s.mean_ic_new.values
         n_inf = int(np.sum(newv - aged != 0))
@@ -124,16 +128,60 @@ def ic_stats(df_patient, alternative="two-sided"):
             W, p = stats.wilcoxon(newv, aged, alternative=alternative)
         else:
             W, p = np.nan, np.nan
+        d = newv - aged
+        boot_lo, boot_hi = _boot_ci_mean(d)
+        hl, hl_lo, hl_hi = _hodges_lehmann(d) if _HAVE_SCIPY else (np.nan,) * 3
         rows.append(dict(cohort=ch, n=len(s), n_informative=n_inf, W=W, p_raw=p,
                          rank_biserial=_rank_biserial(newv, aged) if _HAVE_SCIPY else np.nan,
                          gain_pct=((newv.mean() - aged.mean()) / aged.mean() * 100
-                                   if aged.mean() else np.nan)))
+                                   if aged.mean() else np.nan),
+                         delta_mean=float(d.mean()), delta_lo=boot_lo, delta_hi=boot_hi,
+                         hl_delta=hl, hl_lo=hl_lo, hl_hi=hl_hi,
+                         n_improved=int((d > 0).sum()), n_worse=int((d < 0).sum())))
     res = pd.DataFrame(rows)
     m = res.p_raw.notna()
     res["p_holm"] = np.nan
     if m.any():
         res.loc[m, "p_holm"] = _holm(res.loc[m, "p_raw"].values)
     return res
+
+
+def _boot_ci_mean(d, n_boot=10000, seed=20260813, level=0.95):
+    """Bootstrap percentile CI for the mean paired difference. Fixed seed so
+    the figure is reproducible run-to-run."""
+    d = np.asarray(d, float)
+    if d.size == 0:
+        return np.nan, np.nan
+    rng = np.random.default_rng(seed)
+    idx = rng.integers(0, d.size, size=(n_boot, d.size))
+    means = d[idx].mean(axis=1)
+    a = (1.0 - level) / 2.0
+    return float(np.quantile(means, a)), float(np.quantile(means, 1.0 - a))
+
+
+def _hodges_lehmann(d, level=0.95):
+    """Pseudomedian (Hodges-Lehmann) of the paired differences with a CI from
+    the Walsh averages, normal approximation to the signed-rank distribution
+    (what R's wilcox.test(conf.int=TRUE) computes). Zero differences are
+    retained, so with many unchanged patients the estimate can be 0 even when
+    the Wilcoxon on the informative pairs is significant (NFKB1!) - that is
+    honest, not a bug; report n_improved alongside. Written to the stats CSV
+    as a companion to delta_mean."""
+    d = np.asarray(d, float)
+    n = d.size
+    if n == 0:
+        return np.nan, np.nan, np.nan
+    walsh = np.sort(np.array([(d[i] + d[j]) / 2.0
+                              for i in range(n) for j in range(i, n)]))
+    est = float(np.median(walsh))
+    m = walsh.size
+    z = stats.norm.ppf(1.0 - (1.0 - level) / 2.0)
+    k = int(np.floor(n * (n + 1) / 4.0
+                     - z * np.sqrt(n * (n + 1) * (2 * n + 1) / 24.0)))
+    k = max(k, 0)
+    if k >= m - k - 1:
+        return est, float(walsh[0]), float(walsh[-1])
+    return est, float(walsh[k]), float(walsh[m - k - 1])
 
 
 def _stars(p):
@@ -146,11 +194,30 @@ def _stars(p):
 # ------------------------------------------------------------- panel A
 def fig3_panelA(df_patient, stats_tbl):
     """Paired per-patient IC. Clean strip + box: no connecting lines, points sit
-    exactly on the category centre (overlap shown by transparency)."""
+    exactly on the category centre (overlap shown by transparency).
+
+    The annotation reports the mean paired difference (aged -> curated) with a
+    95% bootstrap CI plus how many patients improved. The direction of the
+    difference is fixed by construction (ageing can only lower IC), so no
+    p-value is printed on the panel; the Wilcoxon tests remain in the stats
+    table (fig3_ic_stats.csv / Table 1)."""
     _f3style()
     n = len(FIG3_COHORTS)
     fig, axes = plt.subplots(1, n, figsize=(FIG3_WIDTH, FIG3_H_A),
                              squeeze=False, sharey=True)
+
+    # Global y-range, computed once: with sharey=True a per-axes set_ylim is
+    # overridden by whichever cohort is drawn last (the old behaviour - the
+    # visible limits were silently those of the final cohort).
+    have = df_patient.dropna(subset=["mean_ic_aged", "mean_ic_new"])
+    have = have[have.cohort.isin(FIG3_COHORTS)]
+    if len(have):
+        glo = float(min(have.mean_ic_aged.min(), have.mean_ic_new.min()))
+        ghi = float(max(have.mean_ic_aged.max(), have.mean_ic_new.max()))
+    else:
+        glo, ghi = 0.0, 1.0
+    gpad = (ghi - glo) * 0.12 if ghi > glo else 0.05
+
     for ax, ch in zip(axes[0], FIG3_COHORTS):
         s = _cohort_data(df_patient, ch).dropna(subset=["mean_ic_aged", "mean_ic_new"])
         if not len(s):
@@ -174,19 +241,18 @@ def fig3_panelA(df_patient, stats_tbl):
                    alpha=.55, linewidths=0, zorder=3)
 
         r = stats_tbl.loc[stats_tbl.cohort == ch]
-        if len(r) and not np.isnan(r.iloc[0].p_holm):
+        if len(r) and not np.isnan(r.iloc[0].delta_mean):
             r = r.iloc[0]
-            lo = min(s.mean_ic_aged.min(), s.mean_ic_new.min())
             hi = max(s.mean_ic_aged.max(), s.mean_ic_new.max())
-            pad = (hi - lo) * 0.12 if hi > lo else 0.05
-            yb = hi + pad * 0.55
-            ax.plot([1, 1, 2, 2], [yb, yb + pad * .28, yb + pad * .28, yb],
+            yb = hi + gpad * 0.55
+            ax.plot([1, 1, 2, 2], [yb, yb + gpad * .28, yb + gpad * .28, yb],
                     color=C_MUTED, lw=1.0, zorder=4)
-            gain = "" if np.isnan(r.gain_pct) else f"   (+{r.gain_pct:.1f}%)"
-            ax.text(1.5, yb + pad * .34,
-                    f"{_stars(r.p_holm)}  p = {r.p_holm:.1e}{gain}",
-                    ha="center", va="bottom", fontsize=8.5, color=C_INK)
-            ax.set_ylim(lo - pad * .6, hi + pad * 1.5)
+            gain = "" if np.isnan(r.gain_pct) else f"  (+{r.gain_pct:.1f}%)"
+            line1 = (f"\u0394IC = +{r.delta_mean:.3f} "
+                     f"[{r.delta_lo:.3f}, {r.delta_hi:.3f}]{gain}")
+            line2 = f"{int(r.n_improved)}/{int(r.n)} patients improved"
+            ax.text(1.5, yb + gpad * .34, line1 + "\n" + line2,
+                    ha="center", va="bottom", fontsize=8.0, color=C_INK)
 
         ax.set_xlim(0.45, 2.55)
         ax.set_xticks([1, 2])
@@ -195,6 +261,7 @@ def fig3_panelA(df_patient, stats_tbl):
         ax.grid(axis="y", color="#000", alpha=.06, lw=.8)
         ax.set_axisbelow(True)
         ax.tick_params(length=0)
+    axes[0][0].set_ylim(glo - gpad * .6, ghi + gpad * 2.6)
     axes[0][0].set_ylabel("Mean information content per term")
     fig.tight_layout()
     return fig
