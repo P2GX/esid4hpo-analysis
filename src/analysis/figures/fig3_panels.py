@@ -1,10 +1,9 @@
 # =====================================================================
-# FIGURE 3 - information content (panels A-D)
+# FIGURE 3 - information content (panels A and C)
 #   A  paired per-patient IC per cohort (mean paired delta-IC with 95% CI;
 #      Wilcoxon/Holm stays in the stats table, not on the panel)
-#   B  cross-cohort summary bars with % gain
 #   C  fraction of annotations using post-workshop terms
-#   D  worked example: annotation collapse in a single patient
+# (panels B and D removed 2026-08-23; recover from git history if needed)
 #
 # Panels are saved separately (png/pdf/svg) in FPATH_FIGS for assembly
 # in PowerPoint. Cohorts listed in FIG3_COHORTS but not yet analysed
@@ -23,13 +22,10 @@ except Exception:
     print("scipy unavailable - p-values will be skipped")
 
 # cohorts to show, in order; those without data get a reserved empty slot
-FIG3_COHORTS = ["SOCS1", "APDS", "NFKB1"]
+FIG3_COHORTS = ["SOCS1", "APDS1", "NFKB1"]
 
-# which panels to produce: "A" paired IC, "B" summary bars, "C" post-workshop
-# fraction, "D" annotation collapse. Panel B is redundant with A (same data,
-# and the % gain is now printed on A) so it is off by default - add "B" back
-# if you want it as a separate panel.
-FIG3_PANELS = ["A", "C", "D"]
+# which panels to produce: "A" paired IC, "C" post-workshop fraction
+FIG3_PANELS = ["A", "C"]
 
 # Panels A and C are stacked in the final figure, so they are rendered on a
 # fixed canvas of identical width. NOTE: they are saved WITHOUT
@@ -42,7 +38,6 @@ FIG3_H_C   = 2.9   # panel C height (flatter)
 
 C_OLDBAR = "#dde4e8"   # pre-workshop  (BIH navy tint)
 C_NEWBAR = "#4e7e96"   # post-workshop (BIH navy)
-C_ACC    = "#c8a870"   # accent: merged / collapsed
 C_INK    = "#003754"
 C_MUTED  = "#5f7078"
 C_PEND   = "#aab4ba"   # pending / reserved slot
@@ -63,8 +58,7 @@ def _f3style():
 
 
 def save_panel(fig, name, tight=False):
-    """tight=False keeps the exact figsize (so stacked panels share a width);
-    tight=True crops to content (used for the wide panel D)."""
+    """tight=False keeps the exact figsize (so stacked panels A and C share a width)."""
     FPATH_FIGS.mkdir(parents=True, exist_ok=True)
     kw = dict(bbox_inches="tight") if tight else {}
     for ext in ("png", "pdf", "svg"):
@@ -184,13 +178,6 @@ def _hodges_lehmann(d, level=0.95):
     return est, float(walsh[k]), float(walsh[m - k - 1])
 
 
-def _stars(p):
-    if p is None or (isinstance(p, float) and np.isnan(p)):
-        return "n.s."
-    return ("****" if p < 1e-4 else "***" if p < 1e-3
-            else "**" if p < 1e-2 else "*" if p < 0.05 else "n.s.")
-
-
 # ------------------------------------------------------------- panel A
 def fig3_panelA(df_patient, stats_tbl):
     """Paired per-patient IC. Clean strip + box: no connecting lines, points sit
@@ -267,47 +254,6 @@ def fig3_panelA(df_patient, stats_tbl):
     return fig
 
 
-# ------------------------------------------------------------- panel B
-def fig3_panelB(df_patient, stats_tbl):
-    _f3style()
-    xs = np.arange(len(FIG3_COHORTS))
-    w = .36
-    fig, ax = plt.subplots(figsize=(1.9 * len(FIG3_COHORTS) + 2.4, 4.5))
-    for off, col, lab, key in [
-            (-w / 2, C_OLDBAR, f"pre-workshop ({HPO_OLD_TAG})", "mean_ic_aged"),
-            (w / 2, C_NEWBAR, f"post-workshop ({HPO_NEW_TAG})", "mean_ic_new")]:
-        means, errs = [], []
-        for ch in FIG3_COHORTS:
-            sub = _cohort_data(df_patient, ch)
-            v = sub[key].dropna() if len(sub) else pd.Series(dtype=float)
-            means.append(v.mean() if len(v) else 0.0)
-            errs.append(1.96 * v.std(ddof=1) / np.sqrt(len(v)) if len(v) > 1 else 0.0)
-        ax.bar(xs + off, means, w, yerr=errs, capsize=3, color=col,
-               edgecolor="white", lw=.8, label=lab,
-               error_kw=dict(lw=1, ecolor="#6b7279"))
-    ymax = max(list(ax.get_ylim()) + [0.01])
-    for i, ch in enumerate(FIG3_COHORTS):
-        s = _cohort_data(df_patient, ch)
-        r = stats_tbl.loc[stats_tbl.cohort == ch]
-        if not len(s):
-            ax.text(i, ymax * 0.06, f"{ch}\n(pending)", ha="center", va="bottom",
-                    fontsize=9.5, color=C_PEND)
-            continue
-        if len(r) and not np.isnan(r.iloc[0].gain_pct):
-            top = max(s.mean_ic_new.mean(), s.mean_ic_aged.mean())
-            ax.text(i, top * 1.12, f"+{r.iloc[0].gain_pct:.0f}%", ha="center",
-                    fontsize=10.5, fontweight="bold", color=C_NEWBAR)
-    ax.set_xticks(xs)
-    ax.set_xticklabels(FIG3_COHORTS)
-    ax.set_ylabel("Mean information content per term")
-    ax.grid(axis="y", color="#000", alpha=.06, lw=.8)
-    ax.set_axisbelow(True)
-    ax.tick_params(length=0)
-    ax.legend(loc="upper center", bbox_to_anchor=(.5, -.09), ncol=2)
-    fig.tight_layout()
-    return fig
-
-
 # ------------------------------------------------------------- panel C
 def fig3_panelC(df_patient):
     _f3style()
@@ -351,98 +297,6 @@ def fig3_panelC(df_patient):
     return fig
 
 
-# ------------------------------------------------------------- panel D
-def collapse_map(pp, hpo_old, hpo_new, include_excluded=True):
-    return [(c, e, age_feature(c, e, hpo_old, hpo_new))
-            for c, e in feature_pairs(pp, include_excluded)]
-
-
-def pick_collapse_example(cohort, hpo_old, hpo_new, include_excluded=True):
-    best = None
-    for fname, pp in load_phenopackets(cohort.pp_dir()):
-        m = collapse_map(pp, hpo_old, hpo_new, include_excluded)
-        groups = {}
-        for c, e, a in m:
-            if a is not None:
-                groups.setdefault(a, []).append(c)
-        merged = sum(len(v) - 1 for v in groups.values() if len(v) > 1)
-        dropped = sum(1 for _, _, a in m if a is None)
-        score = merged * 2 + dropped
-        if best is None or score > best[0]:
-            best = (score, fname, m, groups)
-    return best
-
-
-def _short(txt, n=46):
-    return txt if len(txt) <= n else txt[:n - 1] + "\u2026"
-
-
-def fig3_panelD(cohort, hpo_old, hpo_new, max_rows=14):
-    _f3style()
-    picked = pick_collapse_example(cohort, hpo_old, hpo_new)
-    if picked is None:
-        print("  no phenopackets for", cohort.name)
-        return None, None
-    score, fname, m, groups = picked
-    rows = [(c, e, a) for c, e, a in m if (a is None) or (a != c)]
-    rows.sort(key=lambda t: (t[2] is None, t[2] or ""))
-    rows = rows[:max_rows]
-    if not rows:
-        print("  no collapse to illustrate in", cohort.name)
-        return None, fname
-
-    src = {}
-    for i, (_, _, a) in enumerate(rows):
-        src.setdefault(a if a is not None else "__dropped__", []).append(i)
-
-    fig, ax = plt.subplots(figsize=(11.6, 0.52 * len(rows) + 1.7))
-    ax.set_axis_off()
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    yL = {i: 1 - (i + 0.5) / len(rows) for i in range(len(rows))}
-    yR = {k: float(np.mean([yL[i] for i in v])) for k, v in src.items()}
-    XL, WL, XR, WR = 0.005, 0.435, 0.560, 0.435
-
-    def box(x, y, w, text, fc, ec, tc, bold=False):
-        ax.add_patch(mpl.patches.FancyBboxPatch(
-            (x, y - 0.026), w, 0.052,
-            boxstyle="round,pad=0.004,rounding_size=0.010",
-            facecolor=fc, edgecolor=ec, lw=1.2))
-        ax.text(x + 0.012, y, text, va="center", ha="left", fontsize=8.5,
-                color=tc, fontweight="bold" if bold else "normal")
-
-    for i, (c, e, a) in enumerate(rows):
-        key = a if a is not None else "__dropped__"
-        merged = len(src[key]) > 1
-        lab = _short(hpo_new.get_term_name(c))
-        if e:
-            lab = "excluded: " + lab
-        box(XL, yL[i], WL, lab, C_NEWBAR, C_NEWBAR, "white")
-        ax.annotate("", xy=(XR - 0.004, yR[key]), xytext=(XL + WL + 0.004, yL[i]),
-                    arrowprops=dict(arrowstyle="-|>",
-                                    color=C_ACC if merged else "#b9c3c9",
-                                    lw=1.7 if merged else 1.0,
-                                    shrinkA=0, shrinkB=0))
-    for key, ys in yR.items():
-        n = len(src[key])
-        if key == "__dropped__":
-            box(XR, ys, WR, "not representable \u2014 annotation lost",
-                "white", "#c4c9ce", C_MUTED)
-        else:
-            lab = _short(hpo_old.get_term_name(key))
-            suffix = f"    [{n} terms merged]" if n > 1 else ""
-            box(XR, ys, WR, lab + suffix, C_OLDBAR,
-                C_ACC if n > 1 else "#b9c3c9", C_INK, bold=n > 1)
-
-    ax.text(XL, 1.015, f"Curated with {HPO_NEW_TAG}", fontsize=10.5,
-            fontweight="bold", color=C_INK, va="bottom")
-    ax.text(XR, 1.015, f"Same patient expressed in {HPO_OLD_TAG}", fontsize=10.5,
-            fontweight="bold", color=C_INK, va="bottom")
-    ax.text(0, -0.035, f"{cohort.name}  \u00b7  {fname}", fontsize=9, color=C_MUTED)
-    fig.tight_layout()
-    return fig, fname
-
-
 # ------------------------------------------------------------- driver
 print(f"Figure 3 -> {FPATH_FIGS}")
 stats_tbl = ic_stats(df_patient, alternative="two-sided")
@@ -455,16 +309,6 @@ stats_tbl.to_csv(FPATH_WORK / "fig3_ic_stats.csv", index=False)
 
 if "A" in FIG3_PANELS:
     save_panel(fig3_panelA(df_patient, stats_tbl), "fig3A_paired_ic")
-if "B" in FIG3_PANELS:
-    save_panel(fig3_panelB(df_patient, stats_tbl), "fig3B_summary_gain")
 if "C" in FIG3_PANELS:
     save_panel(fig3_panelC(df_patient), "fig3C_post_workshop_fraction")
-
-if "D" in FIG3_PANELS:
-    _with_data = [c for c in ACTIVE if len(_cohort_data(df_patient, c.name))]
-    if _with_data:
-        figD, ex_name = fig3_panelD(_with_data[0], hpo_old, hpo_new)
-        if figD is not None:
-            save_panel(figD, "fig3D_annotation_collapse", tight=True)
-            print("  collapse example:", _with_data[0].name, ex_name)
 print("Figure 3 done.")
