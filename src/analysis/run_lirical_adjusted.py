@@ -67,7 +67,7 @@ def parse_args():
     parser.add_argument("--lirical-jar", type=Path,
                         default=ANALYSIS_DIR / "_tools" / "lirical-cli-2.4.1" / "lirical-cli-2.4.1.jar")
     parser.add_argument("--augment-arms", choices=["new", "both", "none"], default="new")
-    parser.add_argument("--cohorts", nargs="+", default=["APDS", "NFKB1", "SOCS1"])
+    parser.add_argument("--cohorts", nargs="+", default=["APDS1", "NFKB1", "SOCS1"])
     parser.add_argument("--skip-adjust", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()

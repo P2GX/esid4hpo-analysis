@@ -31,7 +31,7 @@ from pathlib import Path
 
 ANALYSIS = Path(__file__).resolve().parent
 WORK = ANALYSIS / "_work"
-DISEASE = {"SOCS1": "OMIM:619375", "APDS": "OMIM:615513", "NFKB1": "OMIM:616576"}
+DISEASE = {"SOCS1": "OMIM:619375", "APDS1": "OMIM:615513", "NFKB1": "OMIM:616576"}
 ARMS = ("old", "new")
 
 

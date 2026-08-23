@@ -1,4 +1,4 @@
-cohort,n_patients,mean_terms_new,mean_terms_aged,mean_ic_new,mean_ic_aged,total_ic_new,total_ic_aged,pct_post_workshop,ic_gain_%
-APDS,38,24.342,22.632,0.669,0.627,16.398,14.274,13.888,6.7
-NFKB1,24,9.083,9.042,0.54,0.516,4.977,4.755,4.4,4.7
-SOCS1,28,28.036,26.357,0.637,0.609,17.977,16.151,9.238,4.6
+cohort,n_patients,mean_terms_new,mean_terms_aged,mean_ic_new,mean_ic_aged,total_ic_new,total_ic_aged,pct_post_workshop
+APDS1,38,24.342,22.632,0.667,0.63,15.913,14.248,13.888
+NFKB1,24,9.083,9.042,0.526,0.517,4.672,4.656,4.4
+SOCS1,28,28.036,26.357,0.636,0.608,17.823,16.032,9.238

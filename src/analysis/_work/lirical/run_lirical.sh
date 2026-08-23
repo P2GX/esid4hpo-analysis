@@ -9,9 +9,9 @@ NEW_DATA="${WORKDIR}/../data/new"   # built with v2026-06-23
 lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/SOCS1.old.csv" "${WORKDIR}/SOCS1/old"/*.json
 lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/SOCS1.new.csv" "${WORKDIR}/SOCS1/new"/*.json
 
-# ---- APDS ----
-lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/APDS.old.csv" "${WORKDIR}/APDS/old"/*.json
-lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/APDS.new.csv" "${WORKDIR}/APDS/new"/*.json
+# ---- APDS1 ----
+lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/APDS1.old.csv" "${WORKDIR}/APDS1/old"/*.json
+lirical benchmark -d "${NEW_DATA}" -o "${WORKDIR}/APDS1.new.csv" "${WORKDIR}/APDS1/new"/*.json
 
 # ---- NFKB1 ----
 lirical benchmark -d "${OLD_DATA}" -o "${WORKDIR}/NFKB1.old.csv" "${WORKDIR}/NFKB1/old"/*.json
