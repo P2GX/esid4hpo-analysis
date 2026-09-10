@@ -30,15 +30,20 @@ src/
     run_lirical_adjusted.py          HPOA augmentation + leave-one-publication-out + LIRICAL
     diagnose_profile_overlap.py      per-arm verbatim overlap between patients and their LOO profiles
     rerun_all.sh                     build hpotools, run the above, print next steps
-    figures/                         standalone figure scripts
+    figures/                         fig1_ontology_stats.py (ontology statistics), fig3_panels.py (run by the notebook)
     _tools/                          LIRICAL distribution (not tracked)
     _work/                           scratch and outputs
       data/{old,new}/                version-matched LIRICAL data bundles (not tracked)
       hpoa_adjusted/{old,new}/       generated HPOA files (not tracked) + summary TSVs
-      lirical/                       benchmark output (not tracked) + staged phenopackets
+      lirical/                       staged phenopackets and benchmark output (not tracked)
       figures/                       rendered manuscript figures
       *.csv                          result tables
 ```
+
+`fig3_panels.py` is executed from inside the notebook. `fig1_ontology_stats.py` computes the
+term-level statistics of the immune branch between the two releases (Figure 1c) and is run on
+its own from `src/analysis/figures/`; it needs the two `hp.json` files of the data bundles. The
+manuscript figure layouts themselves are assembled in PowerPoint and are not part of the repository.
 
 ## Why the HPOA was modified
 
@@ -55,9 +60,13 @@ frequency pooled over all cohort publications using true-path (ancestor-aware) c
 denominator equal to the cohort size, and every contributing PMID in the reference field.
 Pre-existing annotations are superseded where they derive from a publication the cohort
 re-curates, and pooled with the cohort counts where they derive from an independent
-publication. In the current run this adds 149 (`OMIM:615513`), 103 (`OMIM:616576`) and 180
-(`OMIM:619375`) pooled annotations; the exact per-disease counts of every run are written to
-`_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`.
+publication. In the current run this raises the disease profiles to 149 (`OMIM:615513`), 115
+(`OMIM:616576`) and 180 (`OMIM:619375`) distinct observed phenotype terms; the number of
+annotation lines added, pooled and superseded per disease is written to
+`_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`. A pre-existing line without a frequency
+value cannot be pooled arithmetically and is left in place next to the cohort line; LIRICAL's
+annotation loader (phenol) treats such a line as a 1/1 case report and sums it into the cohort
+ratio, so the result is the same as pooling.
 
 **Leave-one-publication-out.** Phenopackets and disease annotations derive from the same
 publications, so each patient must be scored against annotations that exclude its own source.
@@ -69,9 +78,9 @@ a pooled annotation restores the original HPOA counts.
 
 ## Reproducing the analysis
 
-Prerequisites: Java 21, Maven, Python 3.11+ (install the pinned packages with
-`pip install -r src/analysis/requirements.txt`; the file is generated with `pip freeze`
-from the analysis environment), the [hpotools](https://github.com/P2GX/hpotools) repository
+Prerequisites: Java 21, Maven, Python 3.12 (install the pinned packages with
+`pip install -r src/analysis/requirements.txt`; the file is a `pip freeze` of the analysis
+environment), the [hpoadj](https://github.com/P2GX/hpoadj) repository
 checked out next to this one on branch `hpoa-adjuster-module` at commit `c7101e1`
 ([PR #20](https://github.com/P2GX/hpotools/pull/20), which adds the `hpoadjust` command;
 design discussion in issues [#17](https://github.com/P2GX/hpotools/issues/17),
@@ -82,13 +91,15 @@ design discussion in issues [#17](https://github.com/P2GX/hpotools/issues/17),
 release artifacts of `v2024-08-13` and `v2026-06-23`).
 
 ```bash
-# 1. sections 1-3 of the notebook: aged phenopackets, semantic analysis, LIRICAL inputs
-jupyter lab src/analysis/esid4hpo_analysis.ipynb
-
-# 2. HPOA augmentation and LIRICAL benchmark (~40 min, 36 LIRICAL runs)
+# 1. HPOA augmentation and LIRICAL benchmark (~40 min, 36 LIRICAL runs).
+#    Needs the aged phenopackets staged by notebook section 3: on a fresh checkout,
+#    first run notebook sections 0, 1 and 3 (section 2 needs the augmented HPOA
+#    that this step produces, so skip it on the first pass).
 cd src/analysis && bash rerun_all.sh
 
-# 3. sections 4+ of the notebook: rank tables, statistics, figures
+# 2. the whole notebook, Restart & Run All: semantic analysis (needs the augmented
+#    HPOA from step 1), Table 1, LIRICAL rank tables, Table 2 and the figures
+jupyter lab src/analysis/esid4hpo_analysis.ipynb
 ```
 
 `run_lirical_adjusted.py --dry-run` prints the plan without running anything.
@@ -103,9 +114,11 @@ scored against.
 
 ## What is tracked
 
-Tracked: phenopackets, notebook, scripts, rendered figures, and the small result tables
-(`_work/lirical_ranks_long.csv`, `_work/lirical_ranks_long.both.csv`, `_work/semantic_*.csv`,
-`_work/fig3_ic_stats.csv`) plus the provenance summaries
+Tracked: phenopackets, notebook (outputs stripped), scripts, the figures rendered by the
+notebook and by `fig1_ontology_stats.py`, and the small result tables
+(`_work/lirical_ranks_long.csv`, `_work/semantic_*.csv`, `_work/fig3_ic_stats.csv`,
+`_work/table1_manuscript.csv`, `_work/table2_lirical.csv`, `_work/tableS2_ic_undefined.csv`,
+`_work/figures/fig1_*.csv`) plus the provenance summaries
 `_work/hpoa_adjusted*/<arm>/{augmentation,adjustment}_summary.tsv` for every augmentation mode.
 
 Not tracked: the HPO/LIRICAL data bundles, the LIRICAL distribution, the generated HPOA
