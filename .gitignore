@@ -242,9 +242,15 @@ src/analysis/_work/lirical/parts/
 src/analysis/_work/lirical/*/old/
 src/analysis/_work/lirical/*/new/
 
-# Note: src/analysis/figures/ holds the figure scripts and IS tracked.
-# The rendered figures live in src/analysis/_work/figures/ and are tracked too.
-
-# Old netherton analysis
-src/analysis/Evaluate utility of new annotations in Netherton.ipynb
+# Note: src/analysis/figures/ holds the figure scripts. Only the two that compute
+# results are tracked (fig1_ontology_stats.py: ontology statistics; fig3_panels.py:
+# run from the notebook). The manuscript figure layouts are assembled in PowerPoint
+# and the local design scripts and their outputs are not distributed.
+src/analysis/figures/fig1_map.py
+src/analysis/figures/fig2_single.py
+src/analysis/figures/esid4hpo_figures.pptx
+src/analysis/_work/figures/map_eu_inset.*
+src/analysis/_work/figures/*.pptx
+src/analysis/_work/figures/figure1_panels_claude_pallete.png
+src/analysis/_work/figures/semantic_per_cohort.png
 
