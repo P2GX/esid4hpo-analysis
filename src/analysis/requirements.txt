@@ -9,7 +9,6 @@ debugpy==1.8.21
 decorator==5.3.1
 executing==2.2.1
 fonttools==4.63.0
-google==3.0.0
 hpo-toolkit==0.8.1
 ipykernel==7.3.0
 ipython==9.14.1

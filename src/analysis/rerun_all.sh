@@ -13,6 +13,5 @@ echo "   36 LIRICAL runs (18 publications x 2 arms), roughly 40 minutes"
 
 echo "== 3/3 done =="
 echo "Now open esid4hpo_analysis.ipynb and Restart & Run All."
-echo "Figures land in _work/figures/ (lirical_per_cohort.png, lirical_summary.png/pdf),"
-echo "stats in section 4.1, ranks in _work/lirical_ranks_long.csv."
-echo "What the cohort added per disease: _work/hpoa_adjusted/<arm>/augmentation_summary.tsv"
+echo "Figures land in _work/figures/, tables in _work/*.csv,"
+echo "per-disease augmentation counts in _work/hpoa_adjusted/<arm>/augmentation_summary.tsv"

@@ -3,16 +3,15 @@
 #   A  paired per-patient IC per cohort (mean paired delta-IC with 95% CI;
 #      Wilcoxon/Holm stays in the stats table, not on the panel)
 #   C  fraction of annotations using post-workshop terms
-# (panels B and D removed 2026-08-23; recover from git history if needed)
 #
 # Panels are saved separately (png/pdf/svg) in FPATH_FIGS for assembly
-# in PowerPoint. Cohorts listed in FIG3_COHORTS but not yet analysed
-# (e.g. NFKB1) still get a reserved, labelled slot so the figure layout
-# does not change when their data arrive.
+# in PowerPoint.
 #
-# Run from the notebook with:
+# This file is executed from esid4hpo_analysis.ipynb (section 2) with
 #     exec(open(FIG3_PATH).read())
-# (the loader cell resolves FIG3_PATH robustly - see the notebook)
+# and expects df_patient, FPATH_FIGS, FPATH_WORK, HPO_OLD_TAG, HPO_NEW_TAG,
+# np, pd and mpl in the calling namespace. It writes _work/fig3_ic_stats.csv
+# and leaves `stats_tbl` behind for the manuscript table.
 # =====================================================================
 try:
     from scipy import stats
@@ -21,7 +20,7 @@ except Exception:
     _HAVE_SCIPY = False
     print("scipy unavailable - p-values will be skipped")
 
-# cohorts to show, in order; those without data get a reserved empty slot
+# cohorts to show, in order
 FIG3_COHORTS = ["SOCS1", "APDS1", "NFKB1"]
 
 # which panels to produce: "A" paired IC, "C" post-workshop fraction
@@ -40,7 +39,6 @@ C_OLDBAR = "#dde4e8"   # pre-workshop  (BIH navy tint)
 C_NEWBAR = "#4e7e96"   # post-workshop (BIH navy)
 C_INK    = "#003754"
 C_MUTED  = "#5f7078"
-C_PEND   = "#aab4ba"   # pending / reserved slot
 
 
 def _f3style():
@@ -68,19 +66,8 @@ def save_panel(fig, name, tight=False):
 
 
 def _cohort_data(df_patient, ch):
-    """Rows for a cohort; empty DataFrame if it has no data yet."""
+    """Rows for a cohort."""
     return df_patient[df_patient.cohort == ch]
-
-
-def _pending(ax, ch):
-    """Draw a reserved, clearly-labelled empty slot for a cohort with no data."""
-    ax.set_xticks([])
-    ax.set_yticks([])
-    for sp in ax.spines.values():
-        sp.set_linestyle((0, (4, 4)))
-        sp.set_color("#d3d9dd")
-    ax.text(0.5, 0.5, f"{ch}\n(pending)", ha="center", va="center",
-            fontsize=11, color=C_PEND, transform=ax.transAxes)
 
 
 # ---------------------------------------------------------------- stats
@@ -158,9 +145,8 @@ def _hodges_lehmann(d, level=0.95):
     the Walsh averages, normal approximation to the signed-rank distribution
     (what R's wilcox.test(conf.int=TRUE) computes). Zero differences are
     retained, so with many unchanged patients the estimate can be 0 even when
-    the Wilcoxon on the informative pairs is significant (NFKB1!) - that is
-    honest, not a bug; report n_improved alongside. Written to the stats CSV
-    as a companion to delta_mean."""
+    the Wilcoxon on the informative pairs is significant; report n_improved
+    alongside. Written to the stats CSV as a companion to delta_mean."""
     d = np.asarray(d, float)
     n = d.size
     if n == 0:
@@ -180,11 +166,11 @@ def _hodges_lehmann(d, level=0.95):
 
 # ------------------------------------------------------------- panel A
 def fig3_panelA(df_patient, stats_tbl):
-    """Paired per-patient IC. Clean strip + box: no connecting lines, points sit
+    """Paired per-individual IC. Clean strip + box: no connecting lines, points sit
     exactly on the category centre (overlap shown by transparency).
 
     The annotation reports the mean paired difference (aged -> curated) with a
-    95% bootstrap CI plus how many patients improved. The direction of the
+    95% bootstrap CI plus how many individuals improved. The direction of the
     difference is fixed by construction (ageing can only lower IC), so no
     p-value is printed on the panel; the Wilcoxon tests remain in the stats
     table (fig3_ic_stats.csv / Table 1)."""
@@ -193,9 +179,8 @@ def fig3_panelA(df_patient, stats_tbl):
     fig, axes = plt.subplots(1, n, figsize=(FIG3_WIDTH, FIG3_H_A),
                              squeeze=False, sharey=True)
 
-    # Global y-range, computed once: with sharey=True a per-axes set_ylim is
-    # overridden by whichever cohort is drawn last (the old behaviour - the
-    # visible limits were silently those of the final cohort).
+    # Global y-range, computed once: with sharey=True a per-axes set_ylim would
+    # be overridden by whichever cohort is drawn last.
     have = df_patient.dropna(subset=["mean_ic_aged", "mean_ic_new"])
     have = have[have.cohort.isin(FIG3_COHORTS)]
     if len(have):
@@ -207,11 +192,6 @@ def fig3_panelA(df_patient, stats_tbl):
 
     for ax, ch in zip(axes[0], FIG3_COHORTS):
         s = _cohort_data(df_patient, ch).dropna(subset=["mean_ic_aged", "mean_ic_new"])
-        if not len(s):
-            _pending(ax, ch)
-            ax.set_title(ch, fontweight="bold", color=C_PEND)
-            continue
-
         bp = ax.boxplot([s.mean_ic_aged, s.mean_ic_new], positions=[1, 2],
                         widths=.46, showfliers=False, patch_artist=True, zorder=2)
         for b_, c_ in zip(bp["boxes"], [C_OLDBAR, C_NEWBAR]):
@@ -237,7 +217,7 @@ def fig3_panelA(df_patient, stats_tbl):
             gain = "" if np.isnan(r.gain_pct) else f"  (+{r.gain_pct:.1f}%)"
             line1 = (f"\u0394IC = +{r.delta_mean:.3f} "
                      f"[{r.delta_lo:.3f}, {r.delta_hi:.3f}]{gain}")
-            line2 = f"{int(r.n_improved)}/{int(r.n)} patients improved"
+            line2 = f"{int(r.n_improved)}/{int(r.n)} individuals improved"
             ax.text(1.5, yb + gpad * .34, line1 + "\n" + line2,
                     ha="center", va="bottom", fontsize=8.0, color=C_INK)
 
@@ -258,35 +238,26 @@ def fig3_panelA(df_patient, stats_tbl):
 def fig3_panelC(df_patient):
     _f3style()
     fig, ax = plt.subplots(figsize=(FIG3_WIDTH, FIG3_H_C))
-    vals, errs, have = [], [], []
+    vals, errs = [], []
     for ch in FIG3_COHORTS:
-        s = _cohort_data(df_patient, ch)
-        v = s.frac_newly_enabled.dropna() * 100 if len(s) else pd.Series(dtype=float)
-        have.append(bool(len(v)))
-        vals.append(v.mean() if len(v) else 0.0)
+        v = _cohort_data(df_patient, ch).frac_newly_enabled.dropna() * 100
+        vals.append(v.mean())
         errs.append(1.96 * v.std(ddof=1) / np.sqrt(len(v)) if len(v) > 1 else 0.0)
     bars = ax.bar(FIG3_COHORTS, vals, .42, yerr=errs, capsize=3, color=C_NEWBAR,
                   edgecolor="white", lw=.8, error_kw=dict(lw=1, ecolor="#6b7279"))
-    top = max(vals) if any(have) else 1.0
-    for b, v, e, h, ch in zip(bars, vals, errs, have, FIG3_COHORTS):
-        if h:
-            # value label INSIDE the bar, near its base. It cannot sit just under
-            # the bar top because the error bar reaches down into the bar there
-            # and would cross the text.
-            if v > top * 0.20:
-                ax.text(b.get_x() + b.get_width() / 2, top * .06, f"{v:.1f}%",
-                        ha="center", va="bottom", fontsize=10.5, fontweight="bold",
-                        color="white")
-            else:
-                # bar too short for inside text -> above the upper whisker cap
-                ax.text(b.get_x() + b.get_width() / 2, v + e + top * .05,
-                        f"{v:.1f}%", ha="center", va="bottom", fontsize=10.5,
-                        fontweight="bold", color=C_INK)
+    top = max(vals)
+    for b, v, e in zip(bars, vals, errs):
+        # value label inside the bar near its base (the error bar reaches down
+        # into the bar top); above the whisker cap if the bar is too short
+        if v > top * 0.20:
+            ax.text(b.get_x() + b.get_width() / 2, top * .06, f"{v:.1f}%",
+                    ha="center", va="bottom", fontsize=10.5, fontweight="bold",
+                    color="white")
         else:
-            ax.text(b.get_x() + b.get_width() / 2, top * .06, f"{ch}\n(pending)",
-                    ha="center", va="bottom", fontsize=9.5, color=C_PEND)
-    # short label: a long rotated ylabel is taller than the flat axes and clips
-    ax.set_ylabel("Post-workshop terms (%)")
+            ax.text(b.get_x() + b.get_width() / 2, v + e + top * .05,
+                    f"{v:.1f}%", ha="center", va="bottom", fontsize=10.5,
+                    fontweight="bold", color=C_INK)
+    ax.set_ylabel("Post-workshop terms (%)")   # short: a long rotated label clips
     ax.set_ylim(0, top * 1.25)
     ax.margins(x=0.06)
     ax.grid(axis="y", color="#000", alpha=.06, lw=.8)

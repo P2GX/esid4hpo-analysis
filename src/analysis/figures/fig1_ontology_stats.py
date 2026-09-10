@@ -12,7 +12,11 @@ in scope. Per subbranch:
 is_a edge churn and mean depth are written to the summary CSV (reported in text
 / supplement rather than plotted).
 
-USAGE
+Inputs are the two release hp.json files of the LIRICAL data bundles
+(src/analysis/_work/data/{old,new}/hp.json); outputs go to
+src/analysis/_work/figures/.
+
+USAGE (from src/analysis/figures)
   python fig1_ontology_stats.py --list-anchors
   python fig1_ontology_stats.py
 """
@@ -35,10 +39,10 @@ import hpotk
 # CONFIG
 # =============================================================================
 
-HERE = pathlib.Path(__file__).resolve().parent
-HP_OLD = HERE / "_work" / "data" / "old" / "hp.json"     # v2024-08-13
-HP_NEW = HERE / "_work" / "data" / "new" / "hp.json"     # v2026-06-23
-OUTDIR = HERE / "_work" / "figures"
+ANALYSIS = pathlib.Path(__file__).resolve().parents[1]    # src/analysis
+HP_OLD = ANALYSIS / "_work" / "data" / "old" / "hp.json"     # v2024-08-13
+HP_NEW = ANALYSIS / "_work" / "data" / "new" / "hp.json"     # v2026-06-23
+OUTDIR = ANALYSIS / "_work" / "figures"
 
 OLD_TAG = "v2024-08-13"
 NEW_TAG = "v2026-06-23"
@@ -49,12 +53,10 @@ GROUPS = {
     "Flow cytometry /\nimmunophenotyping": ["HP:0010987"],
     "Antibodies /\nhumoral":               ["HP:0005368"],
     "Infections":                          ["HP:0032101"],
-    # "Autoimmunity":                      ["HP:0002960"],
 }
 OTHER_LABEL = "Other immune"
 
-# ---- palette: BIH brand colours, lightened for an NEJM look -----------------
-# BIH theme -> navy 003754, red AF1821, gold 9D7220, teal 009AA9, purple 7876B6.
+# ---- palette: BIH brand colours, lightened -----------------------------------
 C_EXIST = "#dde4e8"   # pale tint of BIH navy    (existing terms)
 C_NEW   = "#4e7e96"   # BIH navy/teal, softened  (new terms)
 C_REPAR = "#c8a870"   # BIH gold, softened       (re-parented)
@@ -63,10 +65,6 @@ C_OBS   = "#c9cdd1"   # neutral grey             (obsoleted)
 C_SYN   = "#a6a3cd"   # BIH purple, softened     (synonyms)
 INK, MUTED = "#003754", "#5f7078"   # BIH navy for text; muted blue-grey
 
-# ---- previous palette: comment the block above and uncomment here to compare
-# C_EXIST, C_NEW, C_REPAR = "#e4e7ea", "#5b8fb9", "#e0a55c"
-# C_DEF, C_OBS, C_SYN     = "#7bb3a6", "#c7ccd1", "#9d8cbf"
-# INK, MUTED              = "#2b2f33", "#6b7279"
 FIGSIZE = (13.6, 4.6)
 BARH = 0.58
 
