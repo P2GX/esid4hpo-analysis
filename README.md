@@ -29,7 +29,7 @@ src/
     esid4hpo_analysis.ipynb          main notebook: both analyses and all figures
     run_lirical_adjusted.py          HPOA augmentation + leave-one-publication-out + LIRICAL
     diagnose_profile_overlap.py      per-arm verbatim overlap between patients and their LOO profiles
-    rerun_all.sh                     build hpotools, run the above, print next steps
+    rerun_all.sh                     build hpoadj, run the above, print next steps
     figures/                         fig1_ontology_stats.py (ontology statistics), fig3_panels.py (run by the notebook)
     _tools/                          LIRICAL distribution (not tracked)
     _work/                           scratch and outputs
@@ -52,8 +52,8 @@ cohort curation: the annotation lines of the three benchmark diseases are identi
 `v2024-08-13` release. Without ingesting the cohorts, the disease profiles do not differ
 between arms and the comparison cannot detect any effect.
 
-`run_lirical_adjusted.py` therefore calls the `hpoadjust` command of
-[hpotools](https://github.com/P2GX/hpotools) in two steps.
+`run_lirical_adjusted.py` therefore calls [hpoadj](https://github.com/P2GX/hpoadj) in two
+steps (`hpoadj augment`, `hpoadj loo`).
 
 **Augmentation.** For each disease, one annotation per observed HPO term is written, with the
 frequency pooled over all cohort publications using true-path (ancestor-aware) counting, the
@@ -64,9 +64,8 @@ publication. In the current run this raises the disease profiles to 149 (`OMIM:6
 (`OMIM:616576`) and 180 (`OMIM:619375`) distinct observed phenotype terms; the number of
 annotation lines added, pooled and superseded per disease is written to
 `_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`. A pre-existing line without a frequency
-value cannot be pooled arithmetically and is left in place next to the cohort line; LIRICAL's
-annotation loader (phenol) treats such a line as a 1/1 case report and sums it into the cohort
-ratio, so the result is the same as pooling.
+value is pooled as a 1/1 case report (0/1 for a `NOT` annotation), which is how LIRICAL's
+annotation loader (phenol) reads such a line.
 
 **Leave-one-publication-out.** Phenopackets and disease annotations derive from the same
 publications, so each patient must be scored against annotations that exclude its own source.
@@ -80,9 +79,8 @@ a pooled annotation restores the original HPOA counts.
 
 Prerequisites: Java 21, Maven, Python 3.12 (install the pinned packages with
 `pip install -r src/analysis/requirements.txt`; the file is a `pip freeze` of the analysis
-environment), the [hpoadj](https://github.com/P2GX/hpoadj) repository
-checked out next to this one on branch `hpoa-adjuster-module` at commit `c7101e1`
-([PR #20](https://github.com/P2GX/hpotools/pull/20), which adds the `hpoadjust` command;
+environment), the [hpoadj](https://github.com/P2GX/hpoadj) repository (v0.0.1) checked out
+next to this one (the tool grew out of [hpotools PR #20](https://github.com/P2GX/hpotools/pull/20);
 design discussion in issues [#17](https://github.com/P2GX/hpotools/issues/17),
 [#18](https://github.com/P2GX/hpotools/issues/18) and
 [#19](https://github.com/P2GX/hpotools/issues/19)), LIRICAL v2.4.1 unpacked in

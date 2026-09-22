@@ -2,10 +2,10 @@
 set -euo pipefail
 
 ANALYSIS_DIR="$(cd "$(dirname "$0")" && pwd)"
-HPOTOOLS_DIR="${ANALYSIS_DIR}/../../../hpotools"
+HPOADJ_DIR="${ANALYSIS_DIR}/../../../hpoadj"
 
-echo "== 1/3 build hpotools =="
-(cd "${HPOTOOLS_DIR}" && mvn -q test && mvn -q -DskipTests package)
+echo "== 1/3 build hpoadj =="
+(cd "${HPOADJ_DIR}" && mvn -q package)
 
 echo "== 2/3 augment the HPOA with the cohort annotations and run LIRICAL =="
 echo "   36 LIRICAL runs (18 publications x 2 arms), roughly 40 minutes"

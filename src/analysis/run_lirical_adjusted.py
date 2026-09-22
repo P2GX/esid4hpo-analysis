@@ -4,10 +4,10 @@
 The workshop contributed both new HPO terms and the curated cohorts. The 2026-06-23 HPOA
 release does not contain the cohort curation yet, so the new arm is built here:
 
-  1. `hpotools hpoadjust --augment` adds one annotation per disease and observed term,
-     with the frequency pooled over all cohort publications (ancestor-aware counting) and
-     every contributing PMID in the reference field
-  2. for each publication, the same command writes a copy of that HPOA in which the
+  1. `hpoadj augment` adds one annotation per disease and observed term, with the
+     frequency pooled over all cohort publications (ancestor-aware counting) and every
+     contributing PMID in the reference field
+  2. `hpoadj loo` writes, for each publication, a copy of that HPOA in which the
      publication's own contribution is subtracted again (leave-one-publication-out)
   3. one data bundle per publication is assembled (symlinks + the adjusted phenotype.hpoa)
   4. `lirical benchmark` runs per (cohort, arm, bundle) group
@@ -23,7 +23,7 @@ release does not contain the cohort curation yet, so the new arm is built here:
   none            no augmentation, only the leave-one-publication-out removal.
 
 Outputs of the non-default modes are suffixed so that runs coexist instead of
-overwriting each other: hpoadjust output goes to _work/hpoa_adjusted.<mode>/
+overwriting each other: hpoadj output goes to _work/hpoa_adjusted.<mode>/
 and the merged rank tables to _work/lirical/<cohort>.<arm>.<mode>.csv. The
 default mode (new) keeps the original paths, so the notebook works unchanged.
 
@@ -62,8 +62,8 @@ def hpoa_root() -> Path:
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--hpotools-jar", type=Path,
-                        default=ANALYSIS_DIR.parents[2] / "hpotools" / "target" / "hpotools.jar")
+    parser.add_argument("--hpoadj-jar", type=Path,
+                        default=ANALYSIS_DIR.parents[2] / "hpoadj" / "hpoadj-cli" / "target" / "hpoadj-0.0.1.jar")
     parser.add_argument("--lirical-jar", type=Path,
                         default=ANALYSIS_DIR / "_tools" / "lirical-cli-2.4.1" / "lirical-cli-2.4.1.jar")
     parser.add_argument("--augment-arms", choices=["new", "both", "none"], default="new")
@@ -108,14 +108,14 @@ def adjust_hpoas(args):
             continue
         augmented = augments(arm, args.augment_arms)
         print(f"[adjust:{arm}] augment={augmented}")
-        cmd = ["java", "-jar", args.hpotools_jar, "hpoadjust",
-               "-a", WORK / "data" / arm / "phenotype.hpoa",
-               "--hpo", WORK / "data" / arm / "hp.json",
-               "-p", cohort_source(arm, args.cohorts, args.dry_run) if augmented else COHORT_DIR,
-               "-o", outdir]
+        hpoa = WORK / "data" / arm / "phenotype.hpoa"
+        phenopackets = cohort_source(arm, args.cohorts, args.dry_run) if augmented else COHORT_DIR
+        common = ["--hpo", WORK / "data" / arm / "hp.json", "-p", phenopackets, "-o", outdir]
         if augmented:
-            cmd.append("--augment")
-        run(cmd, args.dry_run)
+            run(["java", "-jar", args.hpoadj_jar, "augment", "-a", hpoa,
+                 "--biocuration", "HPO:esid4hpo"] + common, args.dry_run)
+            hpoa = outdir / "phenotype_augmented.hpoa"
+        run(["java", "-jar", args.hpoadj_jar, "loo", "-a", hpoa] + common, args.dry_run)
 
 
 def read_summary(arm):
@@ -211,7 +211,7 @@ def main():
     if SUFFIX:
         print(f"[mode] augment-arms={args.augment_arms}: writing to "
               f"{hpoa_root()} and _work/lirical/<cohort>.<arm>{SUFFIX}.csv")
-    for jar in (args.hpotools_jar, args.lirical_jar):
+    for jar in (args.hpoadj_jar, args.lirical_jar):
         if not args.dry_run and not jar.exists():
             sys.exit(f"jar not found: {jar}")
 
