@@ -8,7 +8,7 @@ echo "== 1/3 build hpoadj =="
 (cd "${HPOADJ_DIR}" && mvn -q package)
 
 echo "== 2/3 augment the HPOA with the cohort annotations and run LIRICAL =="
-echo "   36 LIRICAL runs (18 publications x 2 arms), roughly 40 minutes"
+echo "   four (vocabulary x knowledge base) jobs, up to 18 leave-one-out bundles each, roughly 80 minutes"
 (cd "${ANALYSIS_DIR}" && python run_lirical_adjusted.py "$@")
 
 echo "== 3/3 done =="

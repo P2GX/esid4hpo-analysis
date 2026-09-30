@@ -1,0 +1,896 @@
+new_term,new_label,immune_branch,aged_term,aged_label,steps_up,dfs_alternative
+HP:0020026,Positive Coombs test,True,HP:0030057,Autoimmune antibody positivity,1,
+HP:0020027,Direct antiglobulin test positive for IgG,True,HP:0030057,Autoimmune antibody positivity,2,
+HP:0020028,Direct antiglobulin test positive for IgM,True,HP:0030057,Autoimmune antibody positivity,2,
+HP:0020031,Direct antiglobulin test positive for C3d,True,HP:0030057,Autoimmune antibody positivity,2,
+HP:0020115,Abnormal CD8+ T cell subset proportion,True,HP:0025540,Abnormal T cell subset number,1,
+HP:0020116,Subcutaneous abscess,True,HP:0025615,Abscess,1,
+HP:0020339,Increased mucosal-associated invariant T cell proportion,True,HP:0025540,Abnormal T cell subset number,2,
+HP:0020340,Abnormal mucosal-associated invariant T cell proportion,True,HP:0025540,Abnormal T cell subset number,1,
+HP:0020341,Unusual periodontitis,True,HP:0031815,Abnormal oral physiology,2,HP:0032158
+HP:0020342,Unusual stomatitis,True,HP:0010280,Stomatitis,1,HP:0032158
+HP:0020343,Unusual pharyngitis,True,HP:0025439,Pharyngitis,1,HP:0032158
+HP:0025067,Recurrent sepsis,True,HP:0100806,Sepsis,1,
+HP:0025183,Abnormal total CD4+ T cell number,True,HP:0025540,Abnormal T cell subset number,1,
+HP:0025794,Reduced MHC I cell surface expression,True,HP:0010978,Abnormality of immune system physiology,2,
+HP:0025805,Absent circulating T cells,True,HP:0011839,Abnormal total T cell number,1,
+HP:0025807,Decreased natural killer cell degranulation,True,HP:0012177,Abnormal natural killer cell physiology,1,
+HP:0025808,Decreased natural killer cell-induced killing of target cells,True,HP:0012177,Abnormal natural killer cell physiology,1,
+HP:0025812,Seborrheic scales on scalp,True,HP:0001051,Seborrheic dermatitis,1,HP:0040189
+HP:0025824,Decreased neutrophil phagocytosis,True,HP:0011990,Abnormal neutrophil physiology,1,
+HP:0025825,Decreased neutrophil adhesion,True,HP:0011990,Abnormal neutrophil physiology,1,
+HP:0025826,Severely decreased neutrophil count,True,HP:0001875,Decreased total neutrophil count,1,
+HP:0025827,Abnormal Th1 T cell proportion,True,HP:0011840,Abnormal T cell physiology,1,
+HP:0025828,Increased Th1 T cell proportion,True,HP:0011840,Abnormal T cell physiology,2,
+HP:0025829,Decreased Th1 T cell proportion,True,HP:0011840,Abnormal T cell physiology,2,
+HP:0025830,Abnormal Th17 T cell proportion,True,HP:0011840,Abnormal T cell physiology,1,
+HP:0025831,Increased Th17 T cell proportion,True,HP:0011840,Abnormal T cell physiology,2,
+HP:0025832,Decreased Th17 T cell proportion,True,HP:0011840,Abnormal T cell physiology,2,
+HP:0025833,Decreased PMA/ionomycin-induced T-cell proliferation,True,HP:0031381,Decreased mitogen-induced T-cell proliferation,1,
+HP:0025834,Impaired phytohemagglutinin-induced T lymphocyte transformation,True,HP:0031381,Decreased mitogen-induced T-cell proliferation,1,
+HP:0025835,Decreased CD8+ T cell degranulation,True,HP:0011840,Abnormal T cell physiology,1,
+HP:0025836,Increased total CD8+ T cell proportion,True,HP:0031393,Abnormal total CD8+ T cell number,2,
+HP:0025837,Abnormal RTE CD4+ T cell proportion,True,HP:0031392,Abnormal CD4+ T cell subset proportion,1,
+HP:0025838,Increased RTE CD4+ T cell proportion,True,HP:0031392,Abnormal CD4+ T cell subset proportion,2,
+HP:0025839,Decreased RTE CD4+ T cell proportion,True,HP:0031392,Abnormal CD4+ T cell subset proportion,2,
+HP:0025840,Abnormal HLA-DR+ CD4+ T cell proportion,True,HP:0031392,Abnormal CD4+ T cell subset proportion,1,HP:0025540
+HP:0025841,Decreased HLA-DR+ CD4+ T cell proportion,True,HP:0031392,Abnormal CD4+ T cell subset proportion,2,HP:0025540
+HP:0025842,Abnormal HLA-DR+ CD8+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,2,
+HP:0025843,Increased HLA-DR+ CD8+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,3,
+HP:0025844,Decreased HLA-DR+ CD8+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,3,
+HP:0025845,Abnormal TCR repertoire,True,HP:0002843,Abnormal T cell morphology,1,
+HP:0025846,Decreased natural killer cell perforin expression,True,HP:0012177,Abnormal natural killer cell physiology,1,
+HP:0025847,Fish allergy,True,HP:0410333,Seafood allergy,1,
+HP:0025848,Shellfish allergy,True,HP:0410333,Seafood allergy,1,
+HP:5200023,Abnormal HLA-DR+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,1,
+HP:5200033,Increased HLA-DR+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,2,
+HP:5200034,Decreased HLA-DR+ T cell proportion,True,HP:0025540,Abnormal T cell subset number,2,
+HP:5210000,Unusual bacterial infection,True,HP:0032101,Unusual infection,1,
+HP:5210001,Unusual gram-positive bacterial infection,True,HP:0032101,Unusual infection,2,
+HP:5210002,Unusual gram-negative bacterial infection,True,HP:0032101,Unusual infection,2,
+HP:5210003,Unusual Staphylococcus aureus infection,True,HP:0032101,Unusual infection,3,
+HP:5210004,Severe Staphylococcus aureus infection,True,HP:0032101,Unusual infection,4,
+HP:5210005,Chronic absent circulating IgA,True,HP:0002720,Decreased circulating IgA concentration,1,
+HP:5210006,Unusual Enterococcus infection,True,HP:0032101,Unusual infection,3,
+HP:5210007,Severe Enterococcus infection,True,HP:0032101,Unusual infection,4,
+HP:5210008,Recurrent Enterococcus infection,True,HP:0032101,Unusual infection,4,
+HP:5210009,Unusual Streptococcus infection,True,HP:0032101,Unusual infection,3,
+HP:5210010,Unusual Streptococcus pneumoniae infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210011,Severe Streptococcus pneumoniae infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210012,Recurrent Streptococcus pneumoniae infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210013,Unusual Streptococcus pyogenes infection,True,HP:0032101,Unusual infection,4,
+HP:5210014,Severe Streptococcus pyogenes infection,True,HP:0032101,Unusual infection,5,
+HP:5210015,Recurrent Streptococcus pyogenes infection,True,HP:0032101,Unusual infection,5,
+HP:5210016,Unusual Streptococcus agalactiae infection,True,HP:0032101,Unusual infection,4,
+HP:5210017,Severe Streptococcus agalactiae infection,True,HP:0032101,Unusual infection,5,
+HP:5210018,Recurrent Streptococcus agalactiae infection,True,HP:0032101,Unusual infection,5,
+HP:5210019,Unusual Listeria infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210020,Severe Listeria infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210021,Recurrent Listeria infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210022,Unusual Nocardia infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210023,Severe Nocardia infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210024,Recurrent Nocardia infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210025,Unusual Actinomyces infection,True,HP:0032101,Unusual infection,3,
+HP:5210026,Severe Actinomyces infection,True,HP:0032101,Unusual infection,4,
+HP:5210027,Recurrent Actinomyces infection,True,HP:0032101,Unusual infection,4,
+HP:5210028,Unusual Clostridium infection,True,HP:0032101,Unusual infection,3,
+HP:5210029,Severe Clostridium infection,True,HP:0032101,Unusual infection,4,
+HP:5210030,Recurrent Clostridium infection,True,HP:0032101,Unusual infection,4,
+HP:5210031,Chronic decreased circulating IgM concentration,True,HP:0002850,Decreased circulating IgM concentration,1,
+HP:5210032,Chronic absent circulating IgM,True,HP:0002850,Decreased circulating IgM concentration,1,
+HP:5210033,Transient decreased circulating IgM concentration,True,HP:0002850,Decreased circulating IgM concentration,1,
+HP:5210034,Complete or near-complete absence of specific antibody response to unconjugated Salmonella typhi vaccine,True,HP:0410299,Decreased specific antibody response to unconjugated polysaccharide vaccine,1,
+HP:5210035,Partial absence of specific antibody response to unconjugated Salmonella typhi vaccine,True,HP:0410299,Decreased specific antibody response to unconjugated polysaccharide vaccine,1,
+HP:5210036,Decreased circulating specific Haemophilus influenzae type b antibody concentration,True,HP:0002848,Decreased specific anti-polysaccharide antibody concentration,1,
+HP:5210037,Unusual Shigella infection,True,HP:0032101,Unusual infection,3,
+HP:5210038,Severe Shigella infection,True,HP:0032101,Unusual infection,4,
+HP:5210039,Recurrent Shigella infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210040,Unusual Klebsiella infection,True,HP:0032101,Unusual infection,3,
+HP:5210041,Severe Klebsiella infection,True,HP:0032101,Unusual infection,4,
+HP:5210043,Unusual Enterobacter infection,True,HP:0032101,Unusual infection,3,
+HP:5210044,Severe Enterobacter infection,True,HP:0032101,Unusual infection,4,
+HP:5210045,Recurrent Enterobacter infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210046,Unusual Serratia infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210047,Severe Serratia infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210049,Unusual Proteus infection,True,HP:0032101,Unusual infection,3,
+HP:5210050,Severe Proteus infection,True,HP:0032101,Unusual infection,4,
+HP:5210051,Recurrent Proteus infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210052,Unusual Citrobacter infection,True,HP:0032101,Unusual infection,3,
+HP:5210053,Severe Citrobacter infection,True,HP:0032101,Unusual infection,4,
+HP:5210054,Recurrent Citrobacter infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210055,Unusual Pseudomonas aeruginosa infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210056,Severe Pseudomonas aeruginosa infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210057,Recurrent Pseudomonas aeruginosa infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210058,Unusual Acinetobacter baumannii infection,True,HP:0032101,Unusual infection,3,
+HP:5210059,Severe Acinetobacter baumannii infection,True,HP:0032101,Unusual infection,4,
+HP:5210060,Recurrent Acinetobacter baumannii infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210061,Unusual Legionella pneumophila infection,True,HP:0032101,Unusual infection,3,
+HP:5210062,Severe Legionella pneumophila infection,True,HP:0032101,Unusual infection,4,
+HP:5210063,Recurrent Legionella pneumophila infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210064,Unusual Neisseria gonorrhoeae infection,True,HP:0032101,Unusual infection,3,
+HP:5210065,Severe Neisseria gonorrhoeae infection,True,HP:0032101,Unusual infection,4,
+HP:5210066,Recurrent Neisseria gonorrhoeae infection,True,HP:0005430,Recurrent Neisserial infections,1,HP:0032101
+HP:5210067,Unusual Neisseria meningitidis infection,True,HP:0032101,Unusual infection,3,
+HP:5210068,Severe Neisseria meningitidis infection,True,HP:0032101,Unusual infection,4,
+HP:5210070,Unusual Haemophilus influenzae infection,True,HP:0032101,Unusual infection,3,
+HP:5210071,Severe Haemophilus influenzae infection,True,HP:0032101,Unusual infection,4,
+HP:5210073,Unusual Moraxella catarrhalis infection,True,HP:0032101,Unusual infection,3,
+HP:5210074,Severe Moraxella catarrhalis infection,True,HP:0032101,Unusual infection,4,
+HP:5210075,Recurrent Moraxella catarrhalis infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210076,Unusual Vibrio cholerae infection,True,HP:0032101,Unusual infection,3,
+HP:5210077,Severe Vibrio cholerae infection,True,HP:0032101,Unusual infection,4,
+HP:5210078,Recurrent Vibrio cholerae infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210079,Unusual Burkholderia cepacia infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210080,Severe Burkholderia cepacia infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210082,Unusual Bacteroides infection,True,HP:0032101,Unusual infection,3,
+HP:5210083,Severe Bacteroides infection,True,HP:0032101,Unusual infection,4,
+HP:5210084,Recurrent Bacteroides infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210085,Unusual Fusobacterium infection,True,HP:0032101,Unusual infection,3,
+HP:5210086,Severe Fusobacterium infection,True,HP:0032101,Unusual infection,4,
+HP:5210087,Recurrent Fusobacterium infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210088,Unusual Prevotella infection,True,HP:0032101,Unusual infection,3,
+HP:5210089,Severe Prevotella infection,True,HP:0032101,Unusual infection,4,
+HP:5210090,Recurrent Prevotella infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210091,Unusual Escherichia coli infection,True,HP:0032101,Unusual infection,3,
+HP:5210092,Severe Escherichia coli infection,True,HP:0032101,Unusual infection,4,
+HP:5210093,Unusual Salmonella infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210094,Severe Salmonella infection,True,HP:0032260,Opportunistic bacterial infection,2,HP:0032101
+HP:5210095,Recurrent Salmonella infection,True,HP:0005420,Recurrent gram-negative bacterial infections,1,HP:0032101
+HP:5210096,Unusual Pneumocystis jirovecii infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210097,Severe Pneumocystis jirovecii infection,True,HP:0020101,Invasive fungal infection,1,HP:0032255
+HP:5210098,Recurrent Pneumocystis jirovecii infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210099,Unusual Aspergillus infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210100,Severe Aspergillus infection,True,HP:0020101,Invasive fungal infection,1,HP:0032255
+HP:5210101,Unusual adenovirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210102,Unusual Candida infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210103,Cytomegalovirus hepatitis,True,HP:0006562,Viral hepatitis,1,HP:0034317
+HP:5210104,Unusual BK virus infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210105,Unusual Cryptococcus infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210106,Recurrent Cryptococcus infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210107,Disseminated Cryptococcus infection,True,HP:0020101,Invasive fungal infection,1,HP:0032255
+HP:5210108,Sclerosing cholangitis due to Cryptococcus,True,HP:0030991,Sclerosing cholangitis,1,HP:0032166
+HP:5210109,Chronic hepatitis due to Cryptococcus,True,HP:0200123,Chronic hepatitis,1,HP:0032166
+HP:5210110,Unusual mycobacterial infection,True,HP:0032101,Unusual infection,1,
+HP:5210111,Tuberculosis infection,True,HP:0032101,Unusual infection,2,
+HP:5210112,Disseminated tuberculosis infection,True,HP:0032101,Unusual infection,3,
+HP:5210113,Recurrent tuberculosis infection,True,HP:0032101,Unusual infection,3,
+HP:5210114,Tuberculous osteomyelitis,True,HP:0032101,Unusual infection,3,HP:0032158
+HP:5210115,Non-tuberculous mycobacterial infection,True,HP:0032101,Unusual infection,2,
+HP:5210116,Unusual VZV infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210117,Recurrent non-tuberculous mycobacterial infection,True,HP:0032101,Unusual infection,3,
+HP:5210118,Opportunistic mycobacterial infection,True,HP:0032101,Unusual infection,2,
+HP:5210119,Unusual Cryptosporidium infection,True,HP:0020104,Unusual protozoan infection,1,HP:0020108
+HP:5210120,Recurrent Cryptosporidium infection,True,HP:0020104,Unusual protozoan infection,2,HP:0020108
+HP:5210121,Unusual upper respiratory tract infection,True,HP:0011947,Respiratory tract infection,1,HP:0032158
+HP:5210122,Sclerosing cholangitis due to Cryptosporidium infection,True,HP:0030991,Sclerosing cholangitis,1,HP:0032166
+HP:5210123,Unusual lower respiratory tract infection,True,HP:0011947,Respiratory tract infection,1,HP:0032158
+HP:5210124,Unusual Giardia lamblia infection,True,HP:0020108,Unusual parasitic infection,1,
+HP:5210125,Persistent Giardia lamblia infection,True,HP:0020108,Unusual parasitic infection,2,
+HP:5210126,Recurrent Giardia lamblia infection,True,HP:0020108,Unusual parasitic infection,2,
+HP:5210127,Unusual Toxoplasma infection,True,HP:0020104,Unusual protozoan infection,1,HP:0020108
+HP:5210128,Unusual cardiovascular system infection,True,HP:0032158,Unusual infection by anatomical site,1,
+HP:5210129,Toxoplasma infection of the central nervous system (CNS),True,HP:0011450,Unusual CNS infection,1,HP:0020108
+HP:5210130,Unusual Leishmania infection,True,HP:0020104,Unusual protozoan infection,1,HP:0020108
+HP:5210131,Severe Leishmania infection,True,HP:0020104,Unusual protozoan infection,2,HP:0020108
+HP:5210132,Recurrent Leishmania infection,True,HP:0020104,Unusual protozoan infection,2,HP:0020108
+HP:5210133,Opportunistic parasitic infection,True,HP:0020108,Unusual parasitic infection,1,
+HP:5210134,Unusual cholangitis,True,HP:0032166,Unusual gastrointestinal infection,1,
+HP:5210135,Unusual genitourinary infection,True,HP:0011277,Abnormality of the urinary system physiology,1,HP:0032158
+HP:5210137,Unusual eye infection,True,HP:0032158,Unusual infection by anatomical site,1,
+HP:5210138,Unusual liver infection,True,HP:0012115,Hepatitis,1,HP:0032166
+HP:5210139,Infectious hepatitis,True,HP:0012115,Hepatitis,2,HP:0032166
+HP:5210140,Bacterial sepsis,True,HP:0100806,Sepsis,1,HP:0032101
+HP:5210141,Fungal sepsis,True,HP:0020100,Unusual fungal infection,1,HP:0100806
+HP:5210142,Viral sepsis,True,HP:0034317,Unusual viral infection,1,HP:0100806
+HP:5210143,Mycobacterial sepsis,True,HP:0100806,Sepsis,1,HP:0032101
+HP:5210144,Pneumonia with consolidation,True,HP:0002090,Pneumonia,1,
+HP:5210146,Unusual cytomegalovirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210147,Unusual pleural empyema,True,HP:0011919,Pleural empyema,1,HP:0032158
+HP:5210148,Severe pleural empyema,True,HP:0011919,Pleural empyema,2,HP:0032158
+HP:5210149,Recurrent pleural empyema,True,HP:0011919,Pleural empyema,2,HP:0032158
+HP:5210150,Unusual endocarditis,True,HP:0100584,Endocarditis,1,HP:0032158
+HP:5210151,Severe endocarditis,True,HP:0100584,Endocarditis,2,HP:0032158
+HP:5210152,Recurrent endocarditis,True,HP:0100584,Endocarditis,2,HP:0032158
+HP:5210153,Unusual myocarditis,True,HP:0012819,Myocarditis,1,HP:0032158
+HP:5210154,Severe myocarditis,True,HP:0012819,Myocarditis,2,HP:0032158
+HP:5210155,Recurrent myocarditis,True,HP:0012819,Myocarditis,2,HP:0032158
+HP:5210156,Unusual pericarditis,True,HP:0001701,Pericarditis,1,HP:0032158
+HP:5210157,Severe pericarditis,True,HP:0001701,Pericarditis,2,HP:0032158
+HP:5210158,Recurrent pericarditis,True,HP:0001701,Pericarditis,2,HP:0032158
+HP:5210159,Unusual infectious vasculitis,True,HP:0002633,Vasculitis,1,HP:0032158
+HP:5210160,Severe infectious vasculitis,True,HP:0002633,Vasculitis,2,HP:0032158
+HP:5210161,Recurrent infectious vasculitis,True,HP:0002633,Vasculitis,2,HP:0032158
+HP:5210163,Bacterial liver abscess,True,HP:0100523,Liver abscess,1,
+HP:5210164,Staphylococcal liver abscess,True,HP:0100523,Liver abscess,2,
+HP:5210165,Klebsiella liver abscess,True,HP:0100523,Liver abscess,2,
+HP:5210166,Fungal liver abscess,True,HP:0100523,Liver abscess,1,
+HP:5210167,Hepatic candidiasis,True,HP:0032255,Opportunistic fungal infection,2,HP:0100523
+HP:5210168,Parasitic liver abscess,True,HP:0100523,Liver abscess,1,
+HP:5210169,Amoebic liver abscess,True,HP:0100523,Liver abscess,2,
+HP:5210170,Echinococcal liver cyst,True,HP:0100523,Liver abscess,2,
+HP:5210171,Hepatic schistosomiasis,True,HP:0100523,Liver abscess,2,
+HP:5210172,Bacterial splenic abscess,True,HP:0025059,Splenic abscess,1,HP:0032101
+HP:5210173,Fungal splenic abscess,True,HP:0020100,Unusual fungal infection,1,HP:0025059
+HP:5210174,Parasitic splenic abscess,True,HP:0020108,Unusual parasitic infection,1,HP:0025059
+HP:5210175,Unusual infectious gastroenteritis,True,HP:0032166,Unusual gastrointestinal infection,1,
+HP:5210176,Unusual bacterial gastroenteritis,True,HP:0032101,Unusual infection,2,HP:0032166
+HP:5210177,Unusual viral gastroenteritis,True,HP:0034317,Unusual viral infection,1,HP:0032166
+HP:5210178,Unusual fungal gastroenteritis,True,HP:0020100,Unusual fungal infection,1,HP:0032166
+HP:5210179,Unusual parasitic gastroenteritis,True,HP:0020108,Unusual parasitic infection,1,HP:0032166
+HP:5210180,Unusual infectious colitis,True,HP:0002583,Colitis,1,HP:0032166
+HP:5210181,Unusual bacterial colitis,True,HP:0032101,Unusual infection,2,HP:0032166
+HP:5210182,Unusual viral colitis,True,HP:0034317,Unusual viral infection,1,HP:0032166
+HP:5210183,Unusual fungal colitis,True,HP:0020100,Unusual fungal infection,1,HP:0032166
+HP:5210184,Unusual parasitic colitis,True,HP:0020108,Unusual parasitic infection,1,HP:0032166
+HP:5210185,Unusual infectious pancreatitis,True,HP:0001733,Pancreatitis,1,HP:0032166
+HP:5210186,Unusual bacterial pancreatitis,True,HP:0032101,Unusual infection,2,HP:0032166
+HP:5210187,Unusual viral pancreatitis,True,HP:0034317,Unusual viral infection,1,HP:0032166
+HP:5210188,Unusual fungal pancreatitis,True,HP:0020100,Unusual fungal infection,1,HP:0032166
+HP:5210189,Unusual parasitic pancreatitis,True,HP:0020108,Unusual parasitic infection,1,HP:0032166
+HP:5210190,Unusual bacterial cholangitis,True,HP:0032166,Unusual gastrointestinal infection,2,
+HP:5210191,Unusual cystitis,True,HP:0011277,Abnormality of the urinary system physiology,2,HP:0032158
+HP:5210192,Unusual hemorrhagic cystitis,True,HP:0034317,Unusual viral infection,2,HP:0032158
+HP:5210193,Unusual fungal cystitis,True,HP:0032255,Opportunistic fungal infection,1,HP:0032158
+HP:5210194,Unusual bacterial cystitis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210195,Unusual pyelonephritis,True,HP:0012330,Pyelonephritis,1,HP:0032158
+HP:5210196,Unusual kidney abscess,True,HP:0012210,Abnormal renal morphology,1,HP:0032158
+HP:5210197,Bacterial kidney abscess,True,HP:0012210,Abnormal renal morphology,2,HP:0032158
+HP:5210198,Fungal kidney abscess,True,HP:0012210,Abnormal renal morphology,2,HP:0032158
+HP:5210199,Parasitic kidney abscess,True,HP:0012210,Abnormal renal morphology,2,HP:0032158
+HP:5210200,Unusual vaginal infection,True,HP:0011277,Abnormality of the urinary system physiology,2,HP:0032158
+HP:5210201,Unusual bacterial vaginal infection,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210202,Unusual viral vaginal infection,True,HP:0011277,Abnormality of the urinary system physiology,3,HP:0032158
+HP:5210203,Unusual fungal vaginal infection,True,HP:0032255,Opportunistic fungal infection,1,HP:0032158
+HP:5210204,Unusual parasitic vaginal infection,True,HP:0020108,Unusual parasitic infection,1,HP:0032158
+HP:5210205,Unusual bacterial osteomyelitis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210206,Unusual fungal osteomyelitis,True,HP:0020100,Unusual fungal infection,1,HP:0032158
+HP:5210207,Unusual infectious arthritis,True,HP:0001369,Arthritis,1,HP:0032158
+HP:5210208,Unusual bacterial arthritis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210209,Unusual fungal arthritis,True,HP:0020100,Unusual fungal infection,1,HP:0032158
+HP:5210210,Unusual mycobacterial arthritis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210211,Unusual infectious myositis,True,HP:0100614,Myositis,1,HP:0032158
+HP:5210212,Unusual bacterial myositis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210213,Unusual fungal myositis,True,HP:0020100,Unusual fungal infection,1,HP:0032158
+HP:5210214,Unusual mycobacterial myositis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210215,Unusual viral myositis,True,HP:0034317,Unusual viral infection,1,HP:0032158
+HP:5210216,Viral meningitis,True,HP:0001287,Meningitis,1,HP:0034317
+HP:5210217,Bacterial meningitis,True,HP:0001287,Meningitis,1,HP:0032101
+HP:5210218,Parasitic meningitis,True,HP:0001287,Meningitis,1,HP:0020108
+HP:5210219,Mycobacterial meningitis,True,HP:0001287,Meningitis,1,HP:0032101
+HP:5210220,Fungal encephalitis,True,HP:0002383,Infectious encephalitis,1,HP:0020100
+HP:5210221,Parasitic encephalitis,True,HP:0002383,Infectious encephalitis,1,HP:0020108
+HP:5210222,Mycobacterial encephalitis,True,HP:0002383,Infectious encephalitis,1,HP:0032101
+HP:5210223,Bacterial brain abscess,True,HP:0030049,Brain abscess,1,HP:0032101
+HP:5210224,Fungal brain abscess,True,HP:0020100,Unusual fungal infection,1,HP:0030049
+HP:5210225,Parasitic brain abscess,True,HP:0020108,Unusual parasitic infection,1,HP:0030049
+HP:5210226,Mycobacterial brain abscess,True,HP:0030049,Brain abscess,1,HP:0032101
+HP:5210227,Unusual spinal cord infection,True,HP:0011450,Unusual CNS infection,1,
+HP:5210228,Unusual bacterial skin infection,True,HP:0032162,Unusual skin infection,1,HP:0032101
+HP:5210229,Unusual bacterial skin abscess,True,HP:0031292,Cutaneous abscess,1,HP:0032101
+HP:5210230,Recurrent boils,True,HP:0032162,Unusual skin infection,2,HP:0032101
+HP:5210231,Bacterial cellulitis,True,HP:0032162,Unusual skin infection,2,HP:0032101
+HP:5210232,Unusual viral skin infection,True,HP:0032162,Unusual skin infection,1,
+HP:5210233,Unusual HSV skin infection,True,HP:0032162,Unusual skin infection,2,HP:0034317
+HP:5210234,Unusual parasitic skin infection,True,HP:0020108,Unusual parasitic infection,1,HP:0032162
+HP:5210235,Unusual VZV skin infection,True,HP:0034317,Unusual viral infection,2,HP:0032162
+HP:5210236,Unusual fungal skin infection,True,HP:0020100,Unusual fungal infection,1,HP:0032162
+HP:5210237,Recurrent diaper rash,True,HP:0011370,Recurrent cutaneous fungal infections,1,HP:0032162
+HP:5210238,Unusual nail infection,True,HP:0032162,Unusual skin infection,1,
+HP:5210239,Unusual bacterial nail bed infection,True,HP:0032162,Unusual skin infection,2,
+HP:5210240,Unusual HSV infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210241,Recurrent onychomycosis,True,HP:0002841,Recurrent fungal infections,1,HP:0012203
+HP:5210242,Unusual mycobacterial skin infection,True,HP:0032162,Unusual skin infection,1,HP:0032101
+HP:5210243,Unusual fascia infection,True,HP:0100537,Fasciitis,1,HP:0032158
+HP:5210244,Unusual cutaneous larva migrans,True,HP:0020108,Unusual parasitic infection,2,HP:0032162
+HP:5210245,Unusual cutaneous leishmaniasis,True,HP:0007408,Tegumentary leishmaniasis susceptibility,1,HP:0032162
+HP:5210246,Severe gingivitis,True,HP:0000230,Gingivitis,1,
+HP:5210247,Recurrent periodontitis,True,HP:0031815,Abnormal oral physiology,3,HP:0032158
+HP:5210248,Severe dental abscess,True,HP:0030757,Tooth abscess,1,
+HP:5210249,Recurrent dental abscesses,True,HP:0030757,Tooth abscess,1,
+HP:5210250,Severe stomatitis,True,HP:0010280,Stomatitis,2,HP:0032158
+HP:5210251,Recurrent stomatitis,True,HP:0010280,Stomatitis,2,HP:0032158
+HP:5210252,Unusual oral thrush,True,HP:0032255,Opportunistic fungal infection,2,HP:0032158
+HP:5210253,Severe oral thrush,True,HP:0032255,Opportunistic fungal infection,3,HP:0032158
+HP:5210254,Severe pharyngitis,True,HP:0025439,Pharyngitis,2,HP:0032158
+HP:5210255,Severe otitis media,True,HP:0000388,Otitis media,1,
+HP:5210258,Unusual conjunctivitis,True,HP:0034317,Unusual viral infection,2,HP:0032158
+HP:5210259,Severe conjunctivitis,True,HP:0034317,Unusual viral infection,3,HP:0032158
+HP:5210260,Recurrent conjunctivitis,True,HP:0034317,Unusual viral infection,3,HP:0032158
+HP:5210261,Unusual keratitis,True,HP:0032158,Unusual infection by anatomical site,2,
+HP:5210262,Severe keratitis,True,HP:0032158,Unusual infection by anatomical site,3,
+HP:5210263,Recurrent keratitis,True,HP:0032158,Unusual infection by anatomical site,3,
+HP:5210264,Unusual retinitis,True,HP:0032158,Unusual infection by anatomical site,2,
+HP:5210265,Severe retinitis,True,HP:0032158,Unusual infection by anatomical site,3,
+HP:5210266,Recurrent retinitis,True,HP:0032158,Unusual infection by anatomical site,3,
+HP:5210276,Unusual mycobacterial osteomyelitis,True,HP:0032101,Unusual infection,2,HP:0032158
+HP:5210277,Unusual musculoskeletal infection,True,HP:0032158,Unusual infection by anatomical site,1,
+HP:5210278,Unusual infectious osteomyelitis,True,HP:0002754,Osteomyelitis,1,HP:0032158
+HP:5210279,Unusual lymphatic system infection,True,HP:0032158,Unusual infection by anatomical site,1,HP:0100763
+HP:5210280,Unusual oral cavity infection,True,HP:0031815,Abnormal oral physiology,1,HP:0032158
+HP:5210281,Post-vaccination mumps,True,HP:0020085,Infection following live vaccination,1,
+HP:5210282,Cytomegalovirus retinitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032158
+HP:5210283,Cytomegalovirus pneumonitis,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210284,Cytomegalovirus encephalitis,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210286,Unusual EBV infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210288,EBV-driven HLH,True,HP:0034317,Unusual viral infection,2,
+HP:5210290,Disseminated herpes simplex virus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210291,Recurrent herpes simplex virus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210293,Persistent adenovirus viremia,True,HP:0032248,Persistent viremia,1,HP:0034317
+HP:5210294,Adenovirus colitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032166
+HP:5210295,Adenovirus hepatitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032166
+HP:5210296,Adenovirus encephalitis,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210297,Adenovirus pneumonitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032158
+HP:5210298,Recurrent chickenpox infection,True,HP:0034317,Unusual viral infection,2,
+HP:5210299,Severe chickenpox infection,True,HP:0031691,Severe viral infection,1,HP:0034317
+HP:5210301,VZV encephalitis,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210302,VZV pneumonitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032158
+HP:5210303,Unusual warts,True,HP:0034317,Unusual viral infection,1,HP:0032162
+HP:5210304,Disseminated warts,True,HP:0034317,Unusual viral infection,2,HP:0032162
+HP:5210305,Recurrent warts,True,HP:0034317,Unusual viral infection,2,HP:0032162
+HP:5210306,Chronic warts,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210309,Persistent molluscum infection,True,HP:0032163,Unusual molluscum contagiosum,1,
+HP:5210310,Unusual norovirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210312,Chronic norovirus infection,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210313,Unusual Aichi virus hepatitis,True,HP:0033432,Opportunistic viral infection,1,HP:0032166
+HP:5210314,Unusual enterovirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210315,Enteroviral central nervous system infection,True,HP:0011450,Unusual CNS infection,1,HP:0034317
+HP:5210316,Enteroviral sepsis,True,HP:0020071,Viremia,1,HP:0034317
+HP:5210317,Unusual astrovirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210318,Disseminated astrovirus infection,True,HP:0020071,Viremia,1,HP:0034317
+HP:5210319,Astrovirus central nervous system infection,True,HP:0011450,Unusual CNS infection,1,HP:0034317
+HP:5210320,Unusual influenza infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210321,Persitent influenza viremia,True,HP:0020071,Viremia,1,HP:0034317
+HP:5210323,Unusual parainfluenza infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210325,Recurrent parainfluenza virus infection,True,HP:0034317,Unusual viral infection,2,
+HP:5210326,Chronic SARS-CoV-2 infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210328,Severe seasonal coronavirus infection,True,HP:0031691,Severe viral infection,1,HP:0034317
+HP:5210329,Chronic seasonal coronavirus infection,True,HP:0034317,Unusual viral infection,1,
+HP:5210330,Unusual HHV6 infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210331,Unusual HHV8 infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210332,BK virus nephropathy,True,HP:0033432,Opportunistic viral infection,2,HP:0032158
+HP:5210333,BK virus encephalitis,True,HP:0033993,Viral encephalitis,1,HP:0033432
+HP:5210334,Unusual JC virus infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210335,JC nephropathy,True,HP:0011277,Abnormality of the urinary system physiology,2,HP:0033432
+HP:5210336,JC encephalitis,True,HP:0033993,Viral encephalitis,1,HP:0033432
+HP:5210337,Infectious granulomatosis,True,HP:0002955,Granulomatosis,1,
+HP:5210338,Non-infectious granulomatosis,True,HP:0002955,Granulomatosis,1,
+HP:5210339,Caseating granulomatosis,True,HP:0002955,Granulomatosis,2,
+HP:5210340,Non-caseating granulomatosis,True,HP:0002955,Granulomatosis,2,
+HP:5210341,Granulomatous lymphocytic interstitial lung disease,True,HP:0033551,Non-necrotizing pulmonary granulomatosis,1,
+HP:5210342,Granulomatous lymphadenopathy,True,HP:0002716,Lymphadenopathy,1,HP:0002955
+HP:5210343,Granuloma annulare,True,HP:6000070,Cutaneous granuloma,1,
+HP:5210344,Granulomatous synovitis,True,HP:0002955,Granulomatosis,1,HP:0100769
+HP:5210345,Granulomatous uveitis,True,HP:0000554,Uveitis,1,HP:0002955
+HP:5210346,Granulomatous gingivitis,True,HP:0000230,Gingivitis,1,HP:0002955
+HP:5210347,Granulomatous iritis,True,HP:0001101,Iritis,1,HP:0002955
+HP:5210348,Unusual Burkholderia pseudomallei infection,True,HP:0032260,Opportunistic bacterial infection,1,HP:0032101
+HP:5210349,Unusual coagulase-negative Staphylococcus infection,True,HP:0032101,Unusual infection,3,
+HP:5210350,Recurrent coagulase-negative Staphylococcus infection,True,HP:0032101,Unusual infection,4,
+HP:5210351,Severe coagulase-negative Staphylococcus infection,True,HP:0032101,Unusual infection,4,
+HP:5210352,Unusual Enterococcus faecalis infection,True,HP:0032101,Unusual infection,4,
+HP:5210353,Recurrent Enterococcus faecalis infection,True,HP:0032101,Unusual infection,5,
+HP:5210354,Severe Enterococcus faecalis infection,True,HP:0032101,Unusual infection,5,
+HP:5210355,Unusual Enterococcus faecium infection,True,HP:0032101,Unusual infection,4,
+HP:5210356,Recurrent Enterococcus faecium infection,True,HP:0032101,Unusual infection,5,
+HP:5210357,Severe Enterococcus faecium infection,True,HP:0032101,Unusual infection,5,
+HP:5210358,Unusual Viridans Streptococci infection,True,HP:0032101,Unusual infection,4,
+HP:5210359,Endocarditis caused by Streptococcus viridans infection,True,HP:0100584,Endocarditis,1,HP:0032101
+HP:5210360,Liver abscess due to Streptococcus viridans,True,HP:0100523,Liver abscess,1,HP:0032101
+HP:5210361,Unusual Mycobacterium abscessus infection,True,HP:0032101,Unusual infection,3,
+HP:5210362,Recurrent Mycobacterium abscessus infection,True,HP:0032101,Unusual infection,4,
+HP:5210363,Severe Mycobacterium abscessus infection,True,HP:0032101,Unusual infection,4,
+HP:5210364,Unusual Mycobacterium avium complex infection,True,HP:0032101,Unusual infection,3,
+HP:5210365,Recurrent Mycobacterium avium complex infection,True,HP:0032101,Unusual infection,4,
+HP:5210366,Severe Mycobacterium avium complex infection,True,HP:0032101,Unusual infection,4,
+HP:5210367,Unusual Mycoplasma infection,True,HP:0032101,Unusual infection,2,
+HP:5210368,Recurrent Mycoplasma infection,True,HP:0032101,Unusual infection,3,
+HP:5210369,Severe Mycoplasma infection,True,HP:0032101,Unusual infection,3,
+HP:5210370,Unusual Ureaplasma infection,True,HP:0032101,Unusual infection,2,
+HP:5210371,Pulmonary cryptococcosis,True,HP:0032255,Opportunistic fungal infection,2,HP:0032158
+HP:5210372,Cryptococcoma,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210373,Unusual mucormycosis,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210374,Unusual Talaromyces marneffei infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210375,Unusual dermatophyte infection,True,HP:0020100,Unusual fungal infection,1,HP:0032162
+HP:5210376,Recurrent dermatophyte infection,True,HP:0020100,Unusual fungal infection,2,HP:0032162
+HP:5210377,Increased CD4+ TEMRA T cell proportion,True,HP:0410379,Abnormal memory CD4+ T cell proportion,1,
+HP:5210378,Unusual mold infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210379,Unusual Blastomyces dermatitidis infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210380,Recurrent Blastomyces dermatitidis infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210381,Severe Blastomyces dermatitidis infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210382,Unusual Coccidioides infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210383,Recurrent Coccidioides infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210384,Severe Coccidioides infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210385,Unusual Paracoccidioides brasiliensis infection,True,HP:0032255,Opportunistic fungal infection,1,
+HP:5210386,Recurrent Paracoccidioides brasiliensis infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210387,Severe Paracoccidioides brasiliensis infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210389,Recurrent Histoplasma capsulatum infection,True,HP:0032256,Unusual Histoplasma capsulatum infection,1,
+HP:5210391,Unusual Candida auris infection,True,HP:0032255,Opportunistic fungal infection,2,
+HP:5210392,Chronic Candida auris infection,True,HP:0032255,Opportunistic fungal infection,3,
+HP:5210393,Severe Candida auris infection,True,HP:0032255,Opportunistic fungal infection,3,
+HP:5210394,HSV hepatitis,True,HP:0006562,Viral hepatitis,1,HP:0034317
+HP:5210395,VZV meningitis,True,HP:0034317,Unusual viral infection,2,
+HP:5210396,Giant molluscum,True,HP:0032163,Unusual molluscum contagiosum,1,
+HP:5210397,Unusual HHV7 infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210398,BK virus cystitis,True,HP:0033432,Opportunistic viral infection,2,HP:0032158
+HP:5210399,Unusual poliovirus infection,True,HP:0033432,Opportunistic viral infection,1,HP:0034317
+HP:5210400,Chronic poliovirus excretion,True,HP:0033432,Opportunistic viral infection,2,HP:0034317
+HP:5210401,Severe rotavirus infection,True,HP:0031691,Severe viral infection,1,HP:0034317
+HP:5210402,Unusual respiratory syncytial virus infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210403,Severe respiratory syncytial virus infection,True,HP:0031691,Severe viral infection,1,HP:0033432
+HP:5210404,Chronic respiratory syncytial virus infection,True,HP:0033432,Opportunistic viral infection,2,
+HP:5210405,Chronic rhinovirus infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210406,Unusual human metapneumovirus infection,True,HP:0033432,Opportunistic viral infection,1,
+HP:5210407,Toxoplasma eye infection,True,HP:0020104,Unusual protozoan infection,2,HP:0032158
+HP:5210408,BCG-associated disease,True,HP:0020085,Infection following live vaccination,1,HP:0032101
+HP:5210409,Abnormal effector memory CD4+ T cell proportion,True,HP:0410379,Abnormal memory CD4+ T cell proportion,1,
+HP:5210410,Abnormal central memory CD4+ T cell proportion,True,HP:0410379,Abnormal memory CD4+ T cell proportion,1,
+HP:5210411,Decreased total T cell number,True,HP:0011839,Abnormal total T cell number,1,
+HP:5210412,Increased total T cell number,True,HP:0011839,Abnormal total T cell number,1,
+HP:5210413,Decreased total T cell proportion,True,HP:0011839,Abnormal total T cell number,2,
+HP:5210414,Increased total T cell proportion,True,HP:0011839,Abnormal total T cell number,2,
+HP:5210415,Decreased total CD4+ T cell number,True,HP:0025540,Abnormal T cell subset number,2,
+HP:5210416,Increased CD4+ T cell number,True,HP:0025540,Abnormal T cell subset number,2,
+HP:5210417,Increased total CD4+ T cell count,True,HP:0025540,Abnormal T cell subset number,3,
+HP:5210418,Decreased total CD4+ T cell count,True,HP:0025540,Abnormal T cell subset number,3,
+HP:5210419,Autoimmune cytopenia,True,HP:0002960,Autoimmunity,1,
+HP:5210420,Severe eczema,True,HP:0000964,Eczematoid dermatitis,1,
+HP:5210421,Autoimmune hepatitis,True,HP:0002960,Autoimmunity,1,HP:0012115
+HP:5210422,Non-infectious encephalitis,True,HP:0033429,Neuroinflammation,1,
+HP:5210423,Autoimmune encephalitis,True,HP:0002960,Autoimmunity,1,HP:0033429
+HP:5210424,Increased total CD8+ T cell number,True,HP:0031393,Abnormal total CD8+ T cell number,1,
+HP:5210425,Decreased total CD8+ T cell number,True,HP:0031393,Abnormal total CD8+ T cell number,1,
+HP:5210426,Decreased total CD8+ T cell count,True,HP:0031393,Abnormal total CD8+ T cell number,2,
+HP:5210427,Increased total CD8+ T cell count,True,HP:0031393,Abnormal total CD8+ T cell number,2,
+HP:5210428,HSV pneumonia,True,HP:0034317,Unusual viral infection,2,
+HP:5210429,Recurrent Haemophilus influenzae conjunctivitis,True,HP:0005376,Recurrent Haemophilus influenzae infection,1,HP:0032158
+HP:6001119,Purulent drainage from skin,True,HP:0011123,Inflammatory abnormality of the skin,1,
+HP:6001188,Preauricular lymphadenopathy,True,HP:0002716,Lymphadenopathy,1,
+HP:6001190,Abnormal MHC surface expression,True,HP:0010978,Abnormality of immune system physiology,1,
+HP:6001214,Cutaneous granulomatosis,True,HP:0002955,Granulomatosis,1,
+HP:6001283,Severe Candida infection,True,HP:0020101,Invasive fungal infection,1,HP:0032255
+HP:6001370,Acute retinal necrosis,True,HP:0000479,Abnormal retinal morphology,1,HP:0032158
+HP:6001385,Follicular conjunctivitis,True,HP:0000509,Conjunctivitis,1,
+HP:6001386,Granulomatous conjunctivitis,True,HP:0000509,Conjunctivitis,1,
+HP:6001425,Hyperleukocytosis,True,HP:0001974,Increased total leukocyte count,1,
+HP:6001441,CSF anti-myelin oligodendrocyte glycoprotein antibody positivity,True,HP:0032265,CSF autoimmune antibody positivity,1,
+HP:6001446,Airway chondritis,True,HP:0002087,Abnormality of the upper respiratory tract,1,HP:0100662
+HP:6001447,Costochondritis,True,HP:0000772,Abnormal rib morphology,1,HP:0100662
+HP:0020001,Clinical anophthalmos,False,HP:0000528,Anophthalmia,1,
+HP:0020002,Ileal stricture,False,HP:0001549,Abnormal ileum morphology,1,
+HP:0020003,Embryo developmental arrest,False,HP:0033335,Abnormal preimplantation embryonic development,1,
+HP:0020004,Abnormal CSF guanidinoacetic acid concentration,False,HP:0500184,Abnormal CSF amino acid concentration,1,
+HP:0020005,Decreased CSF guanidinoacetic acid concentration,False,HP:0500184,Abnormal CSF amino acid concentration,2,
+HP:0020007,Abnormal affect regulation,False,HP:0025766,Abnormal affect,1,
+HP:0020013,Slough,False,HP:0033126,Cutaneous necrosis,1,
+HP:0020014,Local paresthesia at bite site,False,HP:0003401,Paresthesia,1,
+HP:0020015,Amyloid deposition by anatomical site,False,HP:0011034,Amyloid deposition,1,
+HP:0020016,Amyloid deposition by type of amyloid,False,HP:0011034,Amyloid deposition,1,
+HP:0020017,Transthyretin amyloid deposition,False,HP:0011034,Amyloid deposition,2,
+HP:0020018,Cerebral transthyretin amyloid deposition,False,HP:0011034,Amyloid deposition,3,
+HP:0020019,Abnormal CSF 5-hydroxyindoleacetic acid concentration,False,HP:0500183,Abnormal CSF carboxylic acid concentration,1,
+HP:0020020,Decreased CSF 5-hydroxyindoleacetic acid concentration,False,HP:0500183,Abnormal CSF carboxylic acid concentration,2,
+HP:0020021,Hip external rotation contracture,False,HP:0003273,Hip contracture,1,
+HP:0020022,Hip abduction contracture,False,HP:0003273,Hip contracture,1,
+HP:0020023,Hip adduction contracture,False,HP:0003273,Hip contracture,1,
+HP:0020024,Hip extension contracture,False,HP:0003273,Hip contracture,1,
+HP:0020025,Hip flexion contracture,False,HP:0003273,Hip contracture,1,
+HP:0020029,Abnormal spinal cord white matter morphology,False,HP:0002143,Abnormal spinal cord morphology,1,
+HP:0020030,Abnormal spinal cord lateral corticospinal tract morphology,False,HP:0002143,Abnormal spinal cord morphology,2,
+HP:0020032,Hyperreflective retinal dots on OCT,False,HP:0030612,Abnormal retinal morphology on macular OCT,1,
+HP:0020033,Irregularity of the retinal pigment epithelium layer on OCT,False,HP:0030603,Abnormal optical coherence tomography,1,
+HP:0020039,Retinal thickening on OCT,False,HP:0030603,Abnormal optical coherence tomography,2,
+HP:0020040,Abnormal anteroposterior retina thickness on OCT,False,HP:0030603,Abnormal optical coherence tomography,1,
+HP:0020051,Abnormal seminiferous tubule morphology,False,HP:0000035,Abnormal testis morphology,1,
+HP:0020066,Pathological inclusion body by subcellular location,False,HP:6001025,Pathological inclusion body,1,
+HP:0020067,Pathological inclusion body by anatomical location,False,HP:6001025,Pathological inclusion body,1,
+HP:0020068,Intranuclear inclusion bodies,False,HP:6001025,Pathological inclusion body,2,
+HP:0020109,Glomerular basement membrane duplication,False,HP:0033282,Abnormal glomerular basement membrane morphology,1,
+HP:0020124,Echopraxia,False,HP:6000768,Echophenomenon,1,
+HP:0020232,Abnormal Q wave,False,HP:0025074,Abnormal QRS complex,1,
+HP:0020252,Abnormal bursal fluid morphology,False,HP:0001367,Abnormal joint morphology,1,
+HP:0020256,Elevated bursal fluid leukocyte count,False,HP:0001367,Abnormal joint morphology,2,
+HP:0020259,Decreased biparietal diameter,False,HP:0034245,Fetal head anomaly,2,
+HP:0020260,Increased biparietal diameter,False,HP:0034245,Fetal head anomaly,2,
+HP:0020297,Abnormal occipitofrontal diameter,False,HP:0034245,Fetal head anomaly,1,
+HP:0020298,Decreased occipitofrontal diameter,False,HP:0034245,Fetal head anomaly,2,
+HP:0020299,Increased occipitofrontal diameter,False,HP:0034245,Fetal head anomaly,2,
+HP:0020300,Abnormal elbow morphology,False,HP:0009811,Abnormality of the elbow,1,
+HP:0020301,Abnormal elbow physiology,False,HP:0009811,Abnormality of the elbow,1,
+HP:0020302,Restrictive eating,False,HP:0100738,Abnormal eating behavior,1,
+HP:0020303,Abnormal fetal abdominal circumference,False,HP:0034207,Abnormal fetal gastrointestinal system morphology,1,
+HP:0020304,Increased fetal abdominal circumference,False,HP:0034207,Abnormal fetal gastrointestinal system morphology,2,
+HP:0020305,Abnormal fetal head circumference,False,HP:0034245,Fetal head anomaly,1,
+HP:0020306,Decreased fetal head circumference,False,HP:0034245,Fetal head anomaly,2,
+HP:0020307,Increased fetal head circumference,False,HP:0034245,Fetal head anomaly,2,
+HP:0020308,Increased anteroposterior lens thickness,False,HP:0011526,Abnormality of lens shape,1,
+HP:0020309,Ankle instability,False,HP:0034674,Abnormal ankle physiology,1,
+HP:0020310,Retinal phlebitis,False,HP:0025188,Retinal vasculitis,1,
+HP:0020311,Ophthalmic artery hypoperfusion,False,HP:0000630,Abnormal retinal arterial/arteriolar morphology,1,
+HP:0020312,Focal hyperpigmented area associated with subretinal scar tissue,False,HP:0011512,Fundus hyperpigmentation,1,
+HP:0020313,Discrete fundus hypopigmentation,False,HP:0007894,Fundus hypopigmentation,1,
+HP:0020314,Macular pseudohole,False,HP:0001103,Abnormal macular morphology,1,
+HP:0020315,Lamellar macular hole,False,HP:0001103,Abnormal macular morphology,1,
+HP:0020316,Middle cerebral artery berry aneurysm,False,HP:0007029,Cerebral berry aneurysm,1,
+HP:0020317,Abnormal abdominal aorta branch artery morphology,False,HP:0011004,Abnormal systemic arterial morphology,1,
+HP:0020318,Posterior humeral circumflex artery occlusion,False,HP:0011004,Abnormal systemic arterial morphology,1,
+HP:0020319,Scapulothoracic incongruity,False,HP:0000782,Abnormal scapula morphology,1,
+HP:0020320,Latissimus dorsi rupture,False,HP:0009127,Abnormal appendicular muscle morphology,1,
+HP:0020321,Distal clavicular osteolysis,False,HP:0000889,Abnormal clavicle morphology,1,
+HP:0020330,Abnormal circulating inorganic anion concentration,False,HP:0003111,Abnormal circulating electrolyte concentration,1,
+HP:0020331,Blue-field entoptic phenomenon,False,HP:6001103,Entoptic phenomenon,1,
+HP:0020332,Phosphene,False,HP:6001103,Entoptic phenomenon,1,
+HP:0020333,Palinopsia,False,HP:0000504,Abnormality of vision,1,
+HP:0020334,Positive scapular compression test,False,HP:0033129,Abnormal shoulder physiology,2,
+HP:0020335,Pectoralis major tear,False,HP:0011957,Abnormal pectoral muscle morphology,1,
+HP:0020336,Increased urinary 18-oxocortisol level,False,HP:0012029,Abnormal urine steroid level,1,
+HP:0020337,Increased urinary 18-hydroxycortisol level,False,HP:0012029,Abnormal urine steroid level,1,
+HP:0020338,Malignant melanotic nerve sheath tumor,False,HP:0030448,Soft tissue sarcoma,1,
+HP:0020344,Abnormal mental imagery,False,HP:0025792,Abnormal cognitive process,1,
+HP:0020345,Aphantasia,False,HP:0025792,Abnormal cognitive process,2,
+HP:0020346,Hyperphantasia,False,HP:0025792,Abnormal cognitive process,2,
+HP:0020347,Abnormal circulating monosaccharide concentration,False,HP:0011013,Abnormal circulating carbohydrate concentration,1,
+HP:0020348,Abnormal circulating disaccharide concentration,False,HP:0011013,Abnormal circulating carbohydrate concentration,1,
+HP:0020349,Abnormal circulating sugar alcohol concentration,False,HP:0011013,Abnormal circulating carbohydrate concentration,1,
+HP:0020350,Abnormal circulating vitamin concentration,False,HP:0032180,Abnormal circulating metabolite concentration,1,
+HP:0020351,Abnormal CSF folate concentration,False,HP:0025454,Abnormal CSF metabolite concentration,1,
+HP:0020352,Lisfranc injury,False,HP:0001832,Abnormal metatarsal morphology,1,
+HP:0025002,Abnormal cecum morphology,False,HP:0002250,Abnormal large intestine morphology,1,
+HP:0025003,Flail chest,False,HP:0002793,Abnormal pattern of respiration,1,
+HP:0025036,Type I radial ray deficiency,False,HP:0006433,Radial ray deficiency,1,
+HP:0025054,Type II radial ray deficiency,False,HP:0006433,Radial ray deficiency,1,
+HP:0025055,Type III radial ray deficiency,False,HP:0006433,Radial ray deficiency,1,
+HP:0025056,Type IV radial ray deficiency,False,HP:0006433,Radial ray deficiency,1,
+HP:0025091,Wrist sign,False,HP:0100807,Long fingers,1,
+HP:0025111,Acquired aphakia,False,HP:0000517,Abnormal lens morphology,2,
+HP:0025120,Abnormal circulating reverse T3 concentration,False,HP:0031508,Abnormal circulating thyroid hormone concentration,1,
+HP:0025184,Arousal parasomnia,False,HP:0025234,Parasomnia,1,
+HP:0025187,Sleep talking,False,HP:5200300,Abnormal movement during sleep,1,
+HP:0025189,Hypnic jerks,False,HP:5200300,Abnormal movement during sleep,1,
+HP:0025199,Fragmented sleep,False,HP:0002360,Sleep disturbance,2,
+HP:0025288,Excessive sleep,False,HP:0002360,Sleep disturbance,1,
+HP:0025298,Extended nighttime sleep,False,HP:0002360,Sleep disturbance,2,
+HP:0025299,Frequent napping,False,HP:0002360,Sleep disturbance,2,
+HP:0025365,Free-running sleep pattern,False,HP:0006979,Sleep-wake cycle disturbance,1,
+HP:0025795,Positive urine infectious agent test,False,HP:0430030,Positive infectious agent test,1,
+HP:0025796,Positive urine Legionella pneumophila antigen test,False,HP:0430030,Positive infectious agent test,2,
+HP:0025797,Unilateral sensorineural hearing impairment,False,HP:0000407,Sensorineural hearing impairment,1,
+HP:0025798,Abnormal wrist morphology,False,HP:0003019,Abnormality of the wrist,1,
+HP:0025799,Abnormal wrist physiology,False,HP:0003019,Abnormality of the wrist,1,
+HP:0025800,Wrist instability,False,HP:0003019,Abnormality of the wrist,2,
+HP:0025801,Nail elevation,False,HP:0009723,Abnormal subungual morphology,1,
+HP:0025802,Talipes varus,False,HP:0034673,Abnormal ankle morphology,1,HP:0001760
+HP:0025809,Generalized scaling,False,HP:0040189,Scaling skin,1,
+HP:0025810,Ichthyosis linearis circumflexa,False,HP:0008064,Ichthyosis,1,
+HP:0025811,Trichorrhexis invaginata,False,HP:0003328,Abnormal hairshaft morphology,1,
+HP:0025813,Eyebrow scaling skin,False,HP:0040189,Scaling skin,1,
+HP:0025814,Patchy stratum granulosum of epidermis,False,HP:0033806,Abnormal epidermis stratum granulosum morphology,1,
+HP:0025815,Absent stratum granulosum of epidermis,False,HP:0033806,Abnormal epidermis stratum granulosum morphology,1,
+HP:0025816,Hypogranulosis,False,HP:0033806,Abnormal epidermis stratum granulosum morphology,1,
+HP:0025817,Psoriasiform acanthosis,False,HP:0025092,Epidermal acanthosis,1,
+HP:0025818,Intraepidermal microabscess formation,False,HP:0011124,Abnormal epidermal morphology,1,
+HP:0025819,Palmoplantar peeling,False,HP:0100872,Abnormality of the plantar skin of foot,1,
+HP:0025821,Lower eyelid erythema,False,HP:0040323,Eyelid erythema,1,
+HP:0025822,Upper eyelid erythema,False,HP:0040323,Eyelid erythema,1,
+HP:0025823,Positive provocative functional shoulder test,False,HP:0033129,Abnormal shoulder physiology,1,
+HP:0025850,Abnormal synovial cavity morphology,False,HP:0001367,Abnormal joint morphology,1,
+HP:0041090,Pelvic avulsion fracture,False,HP:4000052,Avulsion fracture,1,
+HP:0041161,Pelvis fracture,False,HP:0040163,Abnormal pelvis bone morphology,1,
+HP:4000063,Sleep related hallucination,False,HP:0000738,Hallucinations,1,HP:5200293
+HP:4000064,Poor sleep,False,HP:0002360,Sleep disturbance,1,
+HP:5000040,Distal radioulnar joint space widening,False,HP:0006439,Radioulnar dislocation,1,
+HP:5000049,Distal radioulnar joint translation,False,HP:0006439,Radioulnar dislocation,1,
+HP:5210256,Severe otitis externa,False,HP:0410017,Otitis externa,1,
+HP:5210257,Recurrent otitis externa,False,HP:0410017,Otitis externa,1,
+HP:5210430,Hindfoot deformity,False,HP:0001760,Abnormal foot morphology,1,
+HP:6001115,EEG with temporal slowing,False,HP:0010843,EEG with focal slow activity,1,
+HP:6001117,Hypertrophic ulnar styloid process,False,HP:0040071,Abnormal morphology of ulna,1,
+HP:6001124,Sphenoid wing dysplasia,False,HP:0011821,Abnormal facial skeleton morphology,1,
+HP:6001125,Skin laceration,False,HP:0011355,Localized skin lesion,1,
+HP:6001126,Metacarpal fracture,False,HP:0004277,Fractured hand bones,1,
+HP:6001127,Pain at the base of the thumb,False,HP:0046505,Hand pain,1,
+HP:6001130,Distal radioulnar joint arthritis,False,HP:0003059,Abnormality of the radioulnar joints,1,
+HP:6001131,Radial head fracture,False,HP:0003978,Fractured radius,1,
+HP:6001132,Elbow lateral collateral ligament tear,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001133,Elbow medial collateral ligament tear,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001134,Coronoid fracture,False,HP:0003987,Fractured ulna,1,
+HP:6001137,Triceps tendon rupture,False,HP:0100550,Tendon rupture,1,
+HP:6001139,Upper arm pain,False,HP:0012513,Upper limb pain,1,
+HP:6001140,Capitellum fracture,False,HP:0041055,Fractured humerus,1,
+HP:6001141,Anterior shoulder pain,False,HP:0030834,Shoulder pain,1,
+HP:6001142,Pain at the anterior aspect of the elbow,False,HP:0030835,Elbow pain,1,
+HP:6001143,Posterior fat pad sign of the elbow,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001144,Pain at the anterior aspect of the knee,False,HP:0030839,Knee pain,1,
+HP:6001145,Pain at the posterior aspect of the knee,False,HP:0030839,Knee pain,1,
+HP:6001146,Biceps tendonitis,False,HP:0025230,Tendonitis,1,
+HP:6001147,Increased peripheral nerve cross sectional area,False,HP:0000759,Abnormal peripheral nervous system morphology,1,
+HP:6001149,Positive hook test at the elbow,False,HP:0034430,Abnormal joint physiology,1,
+HP:6001150,Positive Speed's test,False,HP:0033129,Abnormal shoulder physiology,2,
+HP:6001151,Triangular lunate bone,False,HP:0004248,Abnormal lunate bone morphology,1,
+HP:6001153,Pain on the lateral aspect of the foot,False,HP:0025238,Foot pain,1,
+HP:6001154,Pain at the medial aspect of the knee,False,HP:0030839,Knee pain,1,
+HP:6001155,Pain at the lateral aspect of the knee,False,HP:0030839,Knee pain,1,
+HP:6001158,Trochanteric pain,False,HP:0030838,Hip pain,1,
+HP:6001159,Pulsatile mass in extremity,False,HP:0040064,Abnormality of limbs,1,
+HP:6001160,Abnormal R wave,False,HP:0003115,Abnormal EKG,1,
+HP:6001161,Poor R-wave progression,False,HP:0003115,Abnormal EKG,2,
+HP:6001162,Prominent V1-V2 R wave,False,HP:0003115,Abnormal EKG,2,
+HP:6001163,Finger mass,False,HP:0001167,Abnormal finger morphology,1,
+HP:6001164,Foot mass,False,HP:0001760,Abnormal foot morphology,1,
+HP:6001165,Abnormal retinal vein morphology,False,HP:0008046,Abnormal retinal vascular morphology,1,
+HP:6001166,Spongiosis,False,HP:0011124,Abnormal epidermal morphology,1,
+HP:6001167,Discoid adrenal gland,False,HP:0011732,Abnormal adrenal morphology,1,
+HP:6001168,Abnormal optic disc vasculature morphology,False,HP:0012795,Abnormal optic disc morphology,1,
+HP:6001170,Limited shoulder internal rotation,False,HP:0006467,Limited shoulder movement,1,
+HP:6001171,Superior displacement of the humeral head,False,HP:0003887,Abnormal humeral head morphology,1,
+HP:6001172,Increased compartment pressure,False,HP:0011804,Abnormal muscle physiology,1,
+HP:6001173,Pain at the lateral aspect of the elbow,False,HP:0030835,Elbow pain,1,
+HP:6001174,Pain at the posterior aspect of the elbow,False,HP:0030835,Elbow pain,1,
+HP:6001175,Pain at the medial aspect of the elbow,False,HP:0030835,Elbow pain,1,
+HP:6001177,Omovertebral bone,False,HP:0000782,Abnormal scapula morphology,1,
+HP:6001178,Clavicular edema,False,HP:0000969,Edema,1,
+HP:6001179,Positive CSF anti-measles antibody test,False,HP:0430123,Positive CSF infectious agent test,1,
+HP:6001180,Vogt striae,False,HP:0011492,Abnormal corneal stroma morphology,1,
+HP:6001181,Choroid thickening,False,HP:0000610,Abnormal choroid morphology,1,
+HP:6001182,Corneal epithelial edema,False,HP:0011495,Abnormal corneal epithelium morphology,1,
+HP:6001183,Retinal shunt vessels,False,HP:0008046,Abnormal retinal vascular morphology,1,
+HP:6001184,Filamentary keratitis,False,HP:0011495,Abnormal corneal epithelium morphology,1,
+HP:6001185,Elevated circulating glucosylsphingosine concentration,False,HP:0011013,Abnormal circulating carbohydrate concentration,1,
+HP:6001186,Optic disc hemorrhage,False,HP:0012795,Abnormal optic disc morphology,1,
+HP:6001187,Decreased circulating progranulin concentration,False,HP:0010876,Abnormal circulating protein concentration,1,
+HP:6001189,Onychoheterotopia,False,HP:0001597,Abnormal nail morphology,1,
+HP:6001191,Forward displacement of posterior cervical dura mater on neck flexion,False,HP:0410263,Brain imaging abnormality,1,
+HP:6001192,Corneal dellen,False,HP:0100689,Decreased corneal thickness,1,
+HP:6001193,Conjunctival xerosis,False,HP:0000502,Abnormal conjunctiva morphology,1,
+HP:6001194,Limited shoulder external rotation,False,HP:0006467,Limited shoulder movement,1,
+HP:6001196,Inability to fully extend finger at metacarpophalangeal joint,False,HP:0006135,Decreased finger mobility,1,
+HP:6001197,Wrist arthritis,False,HP:0001369,Arthritis,1,
+HP:6001198,Scapholunate interval widening,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001200,Ulnar wrist pain,False,HP:0030836,Wrist pain,1,
+HP:6001201,Lunotriquetral interval widening,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001202,Ulnar translocation of the carpus,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001206,Scapholunate ligament tear,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001207,Lunotriquetral ligament tear,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001208,Pisotriquetral arthritis,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001209,Volar intercalated segment instability,False,HP:0001191,Abnormal carpal morphology,1,
+HP:6001210,Inaccurate finger pulse oximetry oxygen saturation measurement,False,HP:0025323,Abnormal arterial physiology,1,
+HP:6001211,Finger pulse oximetry lower than arterial blood gas analysis measurement of oxygen saturation,False,HP:0025323,Abnormal arterial physiology,2,
+HP:6001212,Finger pulse oximetry higher than arterial blood gas analysis measurement of oxygen saturation,False,HP:0025323,Abnormal arterial physiology,2,
+HP:6001215,Ureteric stricture,False,HP:0025633,Abnormal ureter morphology,1,
+HP:6001216,Arteriovenous crossing sign,False,HP:0008046,Abnormal retinal vascular morphology,1,
+HP:6001217,Haab striae,False,HP:0011490,Abnormal Descemet membrane morphology,1,
+HP:6001218,Positive Legionella sputum culture,False,HP:0430107,Sputum infectious agent,1,
+HP:6001219,Positive Streptococcus pneumoniae sputum culture,False,HP:0430107,Sputum infectious agent,1,
+HP:6001220,Positive Blastomyces dermatitidis sputum fungal stain,False,HP:0430107,Sputum infectious agent,1,
+HP:6001221,Posterior shoulder pain,False,HP:0030834,Shoulder pain,1,
+HP:6001222,Superior shoulder pain,False,HP:0030834,Shoulder pain,1,
+HP:6001223,Lateral shoulder pain,False,HP:0030834,Shoulder pain,1,
+HP:6001224,Shoulder instability,False,HP:0033129,Abnormal shoulder physiology,1,
+HP:6001225,Shoulder labrum tear,False,HP:0003043,Abnormal shoulder morphology,1,
+HP:6001226,Positive modified dynamic labral shear test,False,HP:0033129,Abnormal shoulder physiology,1,
+HP:6001227,Positive O'Brien active compression test,False,HP:0033129,Abnormal shoulder physiology,2,
+HP:6001228,Positive shoulder apprehension test,False,HP:0033129,Abnormal shoulder physiology,2,
+HP:6001229,Foamy tear film,False,HP:0000632,Lacrimation abnormality,1,
+HP:6001230,Salzmann corneal nodules,False,HP:0007705,Corneal degeneration,1,
+HP:6001231,Corneal stromal vascularisation,False,HP:0011496,Corneal neovascularization,1,
+HP:6001232,Corneal iron line,False,HP:0011495,Abnormal corneal epithelium morphology,1,
+HP:6001233,Conjunctivochalasis,False,HP:0000502,Abnormal conjunctiva morphology,1,
+HP:6001234,Conjunctival hyperpigmentation,False,HP:0000502,Abnormal conjunctiva morphology,1,
+HP:6001235,Anti-Saccharomyces cerevisiae antibodies,False,HP:0430076,Bloodstream antifungal antibody positivity,1,
+HP:6001236,Elevated fraction exhaled nitric oxide,False,HP:0002795,Abnormal respiratory system physiology,1,
+HP:6001237,Iris hyperemia,False,HP:0007905,Abnormal iris vasculature,1,
+HP:6001238,Elevated circulating reticulated platelet count,False,HP:0011873,Abnormal platelet count,1,
+HP:6001239,Reduced circulating reticulated platelet count,False,HP:0011873,Abnormal platelet count,1,
+HP:6001240,Abnormal circulating reticulated platelet count,False,HP:0011873,Abnormal platelet count,1,
+HP:6001241,Flexed posturing of finger,False,HP:0034430,Abnormal joint physiology,1,
+HP:6001242,Positive synovial fluid alpha-defensin,False,HP:6000581,Positive synonvial fluid infectious agent test,1,
+HP:6001249,Nail bed laceration,False,HP:0001597,Abnormal nail morphology,1,
+HP:6001252,Reduced plantar creases,False,HP:0100872,Abnormality of the plantar skin of foot,1,
+HP:6001253,Skin burn,False,HP:0011121,Abnormal skin morphology,1,
+HP:6001254,Elevanted carboxysterol concentration in cultured lymphoblasts,False,HP:0032243,Abnormal tissue metabolite concentration,1,
+HP:6001255,Superficial CNS hemosiderin deposition,False,HP:0010651,Abnormal meningeal morphology,1,
+HP:6001256,Cortical superficial CNS hemosiderin deposition,False,HP:0010651,Abnormal meningeal morphology,2,
+HP:6001257,Infratentorial superficial CNS hemosiderin deposition,False,HP:0010651,Abnormal meningeal morphology,2,
+HP:6001258,Pulmonary hyperplasia,False,HP:0002088,Abnormal lung morphology,1,
+HP:6001259,Positive protozoan parasite CSF wet mount test,False,HP:0430123,Positive CSF infectious agent test,1,
+HP:6001260,Gallbladder polyp,False,HP:0012437,Abnormal gallbladder morphology,1,
+HP:6001261,Gallbladder polyposis,False,HP:0012437,Abnormal gallbladder morphology,1,
+HP:6001262,Biceps tendon rupture,False,HP:0100550,Tendon rupture,1,
+HP:6001263,Medial epicondyle apophysitis,False,HP:0031095,Abnormal humerus morphology,2,
+HP:6001264,Thumb carpometacarpal subluxation,False,HP:0001172,Abnormal thumb morphology,1,
+HP:6001267,Halo vision,False,HP:0000505,Visual impairment,1,
+HP:6001268,Hematospermia,False,HP:0012874,Abnormal male reproductive system physiology,1,
+HP:6001269,Choledocholithiasis,False,HP:0035013,Abnormal extrahepatic bile duct morphology,1,
+HP:6001271,Pelvic ring fracture,False,HP:0040163,Abnormal pelvis bone morphology,2,
+HP:6001272,Scapulothoracic dissociation,False,HP:0000782,Abnormal scapula morphology,1,
+HP:6001274,Thumb sign,False,HP:0001167,Abnormal finger morphology,1,
+HP:6001275,Tibialis anterior tendon rupture,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001276,Decreased circulating ADAMTS13 activity,False,HP:0012379,Abnormal circulating enzyme concentration or activity,1,
+HP:6001277,Abnormal methacholine challenge test,False,HP:0030878,Abnormality on pulmonary function testing,1,
+HP:6001278,Positive stool glutamate dehydrogenase test,False,HP:0034866,Positive stool infectious agent test,1,
+HP:6001279,Retrocorneal membrane,False,HP:0000593,Abnormal anterior chamber morphology,1,
+HP:6001280,Adrenal hemorrhage,False,HP:0011732,Abnormal adrenal morphology,1,
+HP:6001281,Optic nerve sheath dilatation,False,HP:0000587,Abnormal optic nerve morphology,1,
+HP:6001282,Right ventricular thrombus,False,HP:0001707,Abnormal right ventricle morphology,1,
+HP:6001284,Phrenic neuropathy,False,HP:0032120,Abnormal peripheral nervous system physiology,1,
+HP:6001285,Glomerular basement membrane subendothelial remodeling,False,HP:0033282,Abnormal glomerular basement membrane morphology,1,
+HP:6001286,Glomerular endothelium swelling,False,HP:0000095,Abnormal renal glomerulus morphology,1,
+HP:6001287,Medullary collecting duct ectasia,False,HP:0004742,Abnormal renal collecting system morphology,1,
+HP:6001289,Corneal keloid,False,HP:0011495,Abnormal corneal epithelium morphology,1,
+HP:6001290,Podocytic mitochondrial proliferation,False,HP:0031265,Abnormal glomerular visceral epithelial cell morphology,1,
+HP:6001291,Elevated vitamin D metabolite ratio,False,HP:0100511,Abnormal circulating vitamin D concentration,1,
+HP:6001294,Tubular accumulation of uromodulin,False,HP:0032950,Abnormal renal tubular lumen morphology,1,
+HP:6001295,Elevated stool reducing substances,False,HP:0031685,Abnormal stool composition,1,
+HP:6001296,Osteochondral lesion of talus,False,HP:0008365,Abnormal talus morphology,1,
+HP:6001297,Mallet toe,False,HP:0034398,Toe deformity,1,
+HP:6001298,Bunionette deformity,False,HP:0008089,Abnormality of the fifth metatarsal bone,1,
+HP:6001299,Elevated CSF beta chorionic gonadotropin concentration,False,HP:0025456,Abnormal CSF protein concentration,1,
+HP:6001300,Pigment epithelium detachment,False,HP:0007703,Abnormal retinal pigmentation,1,
+HP:6001301,Retinal gliosis,False,HP:0000546,Retinal degeneration,1,
+HP:6001302,Aphakia,False,HP:0000517,Abnormal lens morphology,1,
+HP:6001303,Pain on thumb extension,False,HP:0046505,Hand pain,1,
+HP:6001304,Fractured lunate bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001305,Fractured triquetrum bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001306,Fractured pisiform bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001307,Fractured trapezium bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001308,Fractured trapezoid bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001309,Fractured capitate bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001310,Fractured hamate bone,False,HP:0041248,Fractured carpal bone,1,
+HP:6001311,Pulsatile abdominal mass,False,HP:0031500,Abdominal mass,1,
+HP:6001312,Nonpulsatile abdominal mass,False,HP:0031500,Abdominal mass,1,
+HP:6001313,Iatrogenic anophthalmos,False,HP:0012372,Abnormal eye morphology,1,
+HP:6001314,Reduced erythrocyte glutathione peroxidase,False,HP:0030272,Abnormal erythrocyte enzyme concentration or activity,1,
+HP:6001315,Elevated circulating malonyl carnitine concentration,False,HP:0010966,Abnormal circulating fatty acid anion concentration,1,
+HP:6001316,Sertoli cell hypoplasia,False,HP:0000035,Abnormal testis morphology,1,
+HP:6001317,Positive talar tilt test,False,HP:0034674,Abnormal ankle physiology,1,
+HP:6001318,Plantar ecchymosis,False,HP:0031364,Ecchymosis,1,
+HP:6001320,Lateral ankle pain,False,HP:0030840,Ankle pain,1,
+HP:6001321,Medial ankle pain,False,HP:0030840,Ankle pain,1,
+HP:6001322,Posterior ankle pain,False,HP:0030840,Ankle pain,1,
+HP:6001323,Anterior ankle pain,False,HP:0030840,Ankle pain,1,
+HP:6001325,Retinal periphlebitis,False,HP:0008046,Abnormal retinal vascular morphology,2,
+HP:6001326,Purulent pericardial effusion,False,HP:0001698,Pericardial effusion,1,
+HP:6001327,Conjunctival erosion,False,HP:0000502,Abnormal conjunctiva morphology,1,
+HP:6001328,Positive Mycobacterium tuberculosis sputum culture,False,HP:0430107,Sputum infectious agent,1,
+HP:6001329,Increased external rotation of shoulder,False,HP:0430047,Large joint hypermobility,1,
+HP:6001330,Positive trunk flexion test,False,HP:0001382,Joint hypermobility,1,
+HP:6001331,Tibiotalar arthritis,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001332,Anterior ankle osteophyte,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001333,Midfoot arthritis,False,HP:0001832,Abnormal metatarsal morphology,1,
+HP:6001334,Decreased circulating reverse T3 concentration,False,HP:0031508,Abnormal circulating thyroid hormone concentration,2,
+HP:6001336,Hairy kidney sign,False,HP:0012210,Abnormal renal morphology,1,
+HP:6001337,White appearance of duodenal mucosa,False,HP:0002246,Abnormal duodenum morphology,1,
+HP:6001338,Acromioclavicular joint separation,False,HP:0000889,Abnormal clavicle morphology,1,
+HP:6001339,Acromioclavicular joint arthritis,False,HP:0000889,Abnormal clavicle morphology,1,
+HP:6001340,Positive shoulder cross-body adduction test,False,HP:0033129,Abnormal shoulder physiology,1,
+HP:6001341,Proximal humeral epiphysiolysis,False,HP:0010598,Abnormality of the proximal humeral epiphysis,1,
+HP:6001342,Positive anterior drawer test,False,HP:0034674,Abnormal ankle physiology,1,
+HP:6001343,Peroneal tendon tear,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001344,Fifth metatarsal apophysitis,False,HP:0008089,Abnormality of the fifth metatarsal bone,1,
+HP:6001345,Tibial tubercle apophysitis,False,HP:0002992,Abnormal tibia morphology,1,
+HP:6001346,Enteric anendocrinosis,False,HP:0002242,Abnormal intestine morphology,1,
+HP:6001347,Metatarsal head osteochondrosis,False,HP:0001832,Abnormal metatarsal morphology,1,
+HP:6001348,Hallux sesamoiditis,False,HP:0001844,Abnormal hallux morphology,1,
+HP:6001349,Os trigonum,False,HP:0008365,Abnormal talus morphology,1,
+HP:6001350,Positive heel squeeze test,False,HP:0034674,Abnormal ankle physiology,1,
+HP:6001351,Calcaneal apophysitis,False,HP:0008364,Abnormality of the calcaneus,1,
+HP:6001352,Decreased circulating guanidinoacetic acid concentration,False,HP:0033108,Abnormal circulating proteinogenic amino acid derivative concentration,1,
+HP:6001353,Elevated circulating C-triol concentration,False,HP:0003119,Abnormal circulating lipid concentration,1,
+HP:6001354,Germinal vesicle oocyte maturation arrest,False,HP:0034914,Oocyte maturation arrest,1,
+HP:6001355,Metaphase II oocyte maturation arrest,False,HP:0034914,Oocyte maturation arrest,1,
+HP:6001356,Mixed oocyte maturation arrest,False,HP:0034914,Oocyte maturation arrest,1,
+HP:6001357,Dorsal forearm pain,False,HP:6000299,Forearm pain,1,
+HP:6001358,Volar forearm pain,False,HP:6000299,Forearm pain,1,
+HP:6001359,Cholesterol gallbladder polyp,False,HP:0012437,Abnormal gallbladder morphology,2,
+HP:6001360,Hyperlordotic gait,False,HP:0001288,Gait disturbance,1,
+HP:6001361,Radioulnar interosseous membrane tear,False,HP:0002818,Abnormal morphology of the radius,1,
+HP:6001362,Fleck sign of elbow,False,HP:0004032,Abnormal olecranon morphology,1,
+HP:6001363,Resisted wrist flexion provokes pain,False,HP:0030836,Wrist pain,1,
+HP:6001364,Lateral epicondylitis of the elbow,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001365,Medial epicondylitis of the elbow,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001366,Popeye sign,False,HP:0034430,Abnormal joint physiology,1,
+HP:6001367,Distal biceps tendon rupture,False,HP:0100550,Tendon rupture,2,
+HP:6001368,Proximal biceps tendon rupture,False,HP:0100550,Tendon rupture,2,
+HP:6001369,Positive bursal fluid infectious agent test,False,HP:0430030,Positive infectious agent test,1,
+HP:6001371,Cystic changes in greater tuberosity of the humerus,False,HP:0031095,Abnormal humerus morphology,1,
+HP:6001372,Positive Hawkins test,False,HP:0033129,Abnormal shoulder physiology,2,
+HP:6001373,Hallux weakness,False,HP:0003690,Limb muscle weakness,1,
+HP:6001374,Hallux dorsiflexion weakness,False,HP:0003690,Limb muscle weakness,1,
+HP:6001375,Hallux plantarflexion weakness,False,HP:0003690,Limb muscle weakness,1,
+HP:6001376,Forefoot pain,False,HP:0025238,Foot pain,1,
+HP:6001377,Spur at inferior pole of patella,False,HP:0003045,Abnormal patella morphology,1,
+HP:6001378,Urinary ascites,False,HP:0001541,Ascites,1,
+HP:6001379,Abnormal mixed venous oxygen saturation,False,HP:0500165,Abnormal blood oxygen level,1,
+HP:6001380,Elevated circulating lysosphingomyelin concentration,False,HP:0003119,Abnormal circulating lipid concentration,1,
+HP:6001381,Abnormal lens capsule morphology,False,HP:0004328,Abnormal anterior eye segment morphology,1,
+HP:6001382,Posterior capsule opacification,False,HP:0004328,Abnormal anterior eye segment morphology,1,
+HP:6001383,Bronchial stenosis,False,HP:0025426,Abnormal bronchus morphology,1,
+HP:6001384,Skin tenting due to fracture,False,HP:0011355,Localized skin lesion,1,
+HP:6001387,Areas of hypopigmentation and hyperpigmentation that follow Blaschko lines,False,HP:0009123,Mixed hypo- and hyperpigmentation of the skin,1,
+HP:6001388,Retinal drusen,False,HP:0000479,Abnormal retinal morphology,1,
+HP:6001389,Intrauterine amputation,False,HP:0025662,Abnormal fetal skeletal morphology,1,
+HP:6001390,Intrauterine digital amputation,False,HP:0025662,Abnormal fetal skeletal morphology,2,
+HP:6001391,Intrauterine limb amputation,False,HP:0025662,Abnormal fetal skeletal morphology,2,
+HP:6001392,Proximal interphalangeal joint arthritis,False,HP:0001369,Arthritis,1,
+HP:6001393,Dorsal intercalated segment instability,False,HP:0003019,Abnormality of the wrist,2,
+HP:6001394,Disruption of carpal arcs,False,HP:0003019,Abnormality of the wrist,2,
+HP:6001395,Spilled teacup sign of the wrist,False,HP:0004248,Abnormal lunate bone morphology,1,
+HP:6001396,Positive Finkelstein sign,False,HP:0003019,Abnormality of the wrist,2,
+HP:6001397,Forefoot abduction,False,HP:0001760,Abnormal foot morphology,1,
+HP:6001398,Posterior tibial tendon injury,False,HP:0001760,Abnormal foot morphology,1,
+HP:6001399,Plantar pain,False,HP:0025238,Foot pain,1,
+HP:6001400,Flexor hallucis longus tendon injury,False,HP:0001844,Abnormal hallux morphology,1,
+HP:6001401,Hallux pain,False,HP:0030841,Toe pain,1,
+HP:6001402,Pain on the medial aspect of the foot,False,HP:0025238,Foot pain,1,
+HP:6001403,Hallux sesamoid injury,False,HP:0001844,Abnormal hallux morphology,1,
+HP:6001404,Radial wrist pain,False,HP:0030836,Wrist pain,1,
+HP:6001405,Volar wrist pain,False,HP:0030836,Wrist pain,1,
+HP:6001406,Dorsal wrist pain,False,HP:0030836,Wrist pain,1,
+HP:6001407,Peroneal tendon tenderness,False,HP:0025238,Foot pain,1,
+HP:6001408,Peroneal tendon subluxation,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001409,Peroneal tendon injury,False,HP:0034673,Abnormal ankle morphology,1,
+HP:6001410,Elevated circulating succinylacetone concentration,False,HP:0004354,Abnormal circulating carboxylic acid concentration,1,
+HP:6001411,Flat palate,False,HP:0000174,Abnormal palate morphology,1,
+HP:6001412,Elevated circulating C-terminal telopeptide cross-link of type1 collagen concentration,False,HP:0033386,Abnormal circulating collagen degradation product concentration,1,
+HP:6001415,Urinoma,False,HP:6000285,Retroperitoneal mass,1,
+HP:6001416,Umbilical discharge,False,HP:0004298,Abnormal abdominal wall morphology,1,
+HP:6001417,Abnormal biparietal diameter,False,HP:0034245,Fetal head anomaly,1,
+HP:6001418,Abnormal fetal femur length,False,HP:0025662,Abnormal fetal skeletal morphology,1,
+HP:6001421,Ulnar positive variance,False,HP:0002973,Abnormal forearm morphology,1,
+HP:6001422,Negative ulnar variance,False,HP:0002973,Abnormal forearm morphology,1,
+HP:6001423,Flexor carpi radialis tendonitis,False,HP:0025230,Tendonitis,1,
+HP:6001426,Elbow instability,False,HP:0009811,Abnormality of the elbow,2,
+HP:6001427,Valgus instability of the elbow,False,HP:0009811,Abnormality of the elbow,3,
+HP:6001428,Varus instability of the elbow,False,HP:0009811,Abnormality of the elbow,3,
+HP:6001429,Limited foot eversion,False,HP:0034430,Abnormal joint physiology,1,
+HP:6001430,Limited foot inversion,False,HP:0034430,Abnormal joint physiology,1,
+HP:6001431,Positive synovial Tropheryma whipplei bacteria microscopy,False,HP:6000581,Positive synonvial fluid infectious agent test,1,
+HP:6001432,Positive calf squeeze test,False,HP:0011843,Abnormal musculoskeletal physiology,1,
+HP:6001433,Achilles tendon tear,False,HP:0005109,Abnormal Achilles tendon morphology,1,
+HP:6001434,Positive bursa fluid gram stain,False,HP:0430030,Positive infectious agent test,1,
+HP:6001435,Abnormal medial epicondyle morphology,False,HP:0031095,Abnormal humerus morphology,1,
+HP:6001436,Medial humerus epicondyle avulsion fracture,False,HP:0031095,Abnormal humerus morphology,2,
+HP:6001437,Hand mass,False,HP:0005922,Abnormal hand morphology,1,
+HP:6001438,Tenosynovitis,False,HP:0100261,Abnormal tendon morphology,1,
+HP:6001439,Tigroid fundus,False,HP:0001098,Abnormal fundus morphology,1,
+HP:6001440,Decreased myocardial glycogen content,False,HP:0001637,Abnormal myocardium morphology,1,
+HP:6001442,Spinal cord H sign,False,HP:0002143,Abnormal spinal cord morphology,1,
+HP:6001443,Abnormal testosterone: estradiol ratio,False,HP:0033799,Abnormal circulating sex hormone concentration,1,
+HP:6001444,Abnormal circulating insulin-like growth factor 3 concentration,False,HP:0003117,Abnormal circulating hormone concentration,1,
+HP:6001445,Decreased circulating insulin-like growth factor 3 concentration,False,HP:0003117,Abnormal circulating hormone concentration,2,
+HP:6001449,Increased plantar fascia thickness,False,HP:0001760,Abnormal foot morphology,1,
+HP:6001450,Increased mixed venous oxygen saturation,False,HP:0500165,Abnormal blood oxygen level,2,
+HP:6001451,Decreased mixed venous oxygen saturation,False,HP:0500165,Abnormal blood oxygen level,2,
+HP:6001452,Chocolate brown blood,False,HP:0001871,Abnormality of blood and blood-forming tissues,1,
+HP:6001453,Elevated pCO2 gap,False,HP:0500164,Abnormal blood carbon dioxide level,1,
+HP:6001454,Putaminal eye sign,False,HP:0031982,Abnormal putamen morphology,1,
+HP:6001455,Decreased coracohumeral distance,False,HP:0003043,Abnormal shoulder morphology,1,
+HP:6001456,Abnormal deltoid muscle morphology,False,HP:0001435,Abnormality of the shoulder girdle musculature,1,
+HP:6001457,Deltoid muscle tear,False,HP:0001435,Abnormality of the shoulder girdle musculature,1,
+HP:6001458,Glenohumeral arthritis,False,HP:0003043,Abnormal shoulder morphology,1,
+HP:6001459,Dental root fusion,False,HP:0006486,Abnormal dental root morphology,1,
+HP:6001460,Difficulty floating in water,False,HP:0025142,Constitutional symptom,1,
+HP:6001461,Aortitis,False,HP:0001679,Abnormal aortic morphology,1,
+HP:6001462,Upper extremity claudication,False,HP:0004417,Intermittent claudication,1,
+HP:6001463,Tongue claudication,False,HP:0004417,Intermittent claudication,1,
+HP:6001464,Cerebral perivascular enhancement pattern,False,HP:0100659,Abnormal cerebral vascular morphology,1,
+HP:6001465,Long head of biceps tendon dislocation,False,HP:0100261,Abnormal tendon morphology,1,
+HP:6001466,Elevated circulating somatostatin concentration,False,HP:0010876,Abnormal circulating protein concentration,1,
+HP:6001467,Lack of attached gingiva,False,HP:0000168,Abnormality of the gingiva,1,
+HP:6001468,Spontaneous diaphragmatic rupture,False,HP:0000775,Abnormality of the diaphragm,1,
+HP:6001469,Elevated alveolar-arterial (A-a) oxygen gradient,False,HP:0500165,Abnormal blood oxygen level,1,
+HP:6001470,Abnormal concentration of circulating metanephrines,False,HP:0003117,Abnormal circulating hormone concentration,1,
+HP:6001471,Elevated circulating 3-O-methyldopa concentration,False,HP:0010996,Abnormal circulating monocarboxylic acid concentration,1,
+HP:6001472,Elevated CSF 3-O-methyldopa concentration,False,HP:0025454,Abnormal CSF metabolite concentration,1,
+HP:6001473,Fixed fetal head flexion,False,HP:0034245,Fetal head anomaly,1,
+HP:6001474,Abnormal rectosigmoid index,False,HP:0034207,Abnormal fetal gastrointestinal system morphology,1,
+HP:6001475,Umbilical cord edema,False,HP:0010881,Abnormality of the umbilical cord,1,
+HP:6001476,Fetal enterolithiasis,False,HP:0034207,Abnormal fetal gastrointestinal system morphology,1,
+HP:6001477,Malignant cells in CSF,False,HP:0002921,Abnormal cerebrospinal fluid morphology,1,
+HP:6001478,Greek warrior helmet sign,False,HP:0034245,Fetal head anomaly,1,
+HP:6001479,Somatostatinoma,False,HP:0100634,Neuroendocrine neoplasm,1,
+HP:6001480,Erythematous scalp plaque,False,HP:0025474,Erythematous plaque,1,
+HP:6001481,Positive hair pull test,False,HP:0100037,Abnormality of the scalp hair,1,
+HP:6001482,Loss of acquired purposeful hand skills,False,HP:0033044,Motor regression,1,
+HP:6001483,Loss of acquired spoken language,False,HP:0034332,Cognitive regression,1,
+HP:6001484,Postnatal deceleration of headgrowth,False,HP:0000240,Abnormality of skull size,1,
+HP:6001485,Foot small muscle atrophy,False,HP:0008944,Distal lower limb amyotrophy,1,
