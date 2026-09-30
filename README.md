@@ -89,7 +89,8 @@ design discussion in issues [#17](https://github.com/P2GX/hpotools/issues/17),
 release artifacts of `v2024-08-13` and `v2026-06-23`).
 
 ```bash
-# 1. HPOA augmentation and LIRICAL benchmark (~40 min, 36 LIRICAL runs).
+# 1. HPOA augmentation and LIRICAL benchmark (~80 min for all three comparisons;
+#    `--comparisons main` for the headline pair only, ~40 min).
 #    Needs the aged phenopackets staged by notebook section 3: on a fresh checkout,
 #    first run notebook sections 0, 1 and 3 (section 2 needs the augmented HPOA
 #    that this step produces, so skip it on the first pass).
@@ -100,15 +101,26 @@ cd src/analysis && bash rerun_all.sh
 jupyter lab src/analysis/esid4hpo_analysis.ipynb
 ```
 
-`run_lirical_adjusted.py --dry-run` prints the plan without running anything.
-`--augment-arms {new,both,none}` selects which arm receives the cohort annotations;
-`new` (default) compares the published baseline against the workshop release plus curation,
-`both` holds the curation constant and isolates the effect of the vocabulary alone.
-Non-default modes write to suffixed paths (`_work/hpoa_adjusted.<mode>/`,
-`_work/lirical/<cohort>.<arm>.<mode>.csv`), so a decomposition run cannot overwrite the
-headline results. `diagnose_profile_overlap.py` reports, per arm, how many of each patient's
-observed terms survive verbatim in the leave-one-publication-out profile the patient is
-scored against.
+`run_lirical_adjusted.py --dry-run` prints the plan without running anything. Two things
+vary between arms: the vocabulary an individual is described in (pre-workshop terms from the
+aged phenopackets, or post-workshop terms) and the knowledge base ranked against (the released
+`phenotype.hpoa`, or the file augmented with the cohort annotations), always
+leave-one-publication-out. `--comparisons {main,vocab,corpus}` selects which paired comparisons
+to run (default: all three; jobs shared between them run once):
+
+| comparison | pre arm | post arm | isolates |
+| --- | --- | --- | --- |
+| `main` | pre-workshop terms x released v2024-08-13 HPOA (`<cohort>.old.csv`) | post-workshop terms x augmented v2026-06-23 HPOA (`<cohort>.new.csv`) | the ESID4HPO output as a whole |
+| `vocab` | pre-workshop terms x augmented v2026-06-23 HPOA (`<cohort>.old_terms_vs_new_hpoa.csv`) | as above | the new and re-parented terms alone |
+| `corpus` | post-workshop terms x released v2026-06-23 HPOA (`<cohort>.new_terms_vs_stock_hpoa.csv`) | as above | the added disease annotations alone |
+
+Knowledge bases are built under `_work/hpoa_adjusted/{old,new_stock,new}/`; `--skip-adjust`
+reuses them. Notebook section 4 loads all four condition files, writes Table 2 (`main`),
+Supplementary Tables S3 (`vocab`) and S4 (`corpus`), the revised Figure 4
+(`_work/figures/fig4_lirical_decomposition.*`) and the headline comparison as a
+supplementary figure. `diagnose_profile_overlap.py` reports, per arm, how many of each
+patient's observed terms survive verbatim in the leave-one-publication-out profile the patient
+is scored against.
 
 ## What is tracked
 
