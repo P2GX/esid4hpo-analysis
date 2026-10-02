@@ -254,3 +254,7 @@ src/analysis/_work/figures/*.pptx
 src/analysis/_work/figures/figure1_panels_claude_pallete.png
 src/analysis/_work/figures/semantic_per_cohort.png
 
+
+# EHR arm: patient-level IC table
+src/analysis/_work/ehr_ic_patient_level.csv
+src/analysis/_work/ehr_ic_term_level.csv
