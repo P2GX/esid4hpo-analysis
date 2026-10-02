@@ -8,8 +8,9 @@ Figure 5 (fig5_ehr.*), one row per data source in both panels:
      measures: immune-branch terms per patient, mean IC per term, summed IC.
 Supplementary Figure (figS_ehr_terms.*):
   per data source, the terms recoverable only with the post-workshop release, ranked by
-  the number of patients, navy = term created by ESID4HPO, gold = pre-existing term that
-  became retrievable through re-parenting into the immune branch or relabelling.
+  the number of patients, coloured by working-group domain (from Figure 1's term table);
+  hollow bars are pre-existing terms that became retrievable through re-parenting into the
+  immune branch or relabelling.
 
 Inputs: the summary table (default: Alex's numbers, _work/ehr_ic_summary_sa.csv) for N,
 means and p, and the per-patient / per-term tables written by ehr_ic.py for the boxes,
@@ -42,6 +43,11 @@ C_PRE, C_POST = "#8fa0a9", "#4e7e96"      # pre-workshop blue-grey, post-worksho
 C_INK, C_MUTED, C_RULE = "#003754", "#5f7078", "#c4c9ce"
 C_NEWTERM, C_REPARENT = "#4e7e96", "#c8a870"   # Figure 1: new terms navy, re-parented gold
 C_TINT = "#dde4e8"
+# working-group domain of each immune-branch term, from Figure 1's term table; BIH palette in fixed order
+DOMAIN_COLOR = {"Infections": "#4e7e96", "Flow cytometry /\nimmunophenotyping": "#6cbcc5",
+                "Antibodies /\nhumoral": "#c8a870", "Other immune": "#a6a3cd"}
+DOMAIN_LABEL = {"Infections": "infections", "Flow cytometry /\nimmunophenotyping": "flow cytometry / immunophenotyping",
+                "Antibodies /\nhumoral": "antibodies / humoral", "Other immune": "other immune"}
 
 UNIT_ORDER = ["clinic_letters", "icd10", "histology", "imaging", "combined"]
 UNIT_LABEL = {"clinic_letters": "Clinic letters", "icd10": "ICD-10 codes",
@@ -116,6 +122,10 @@ def load(summary_path):
     summ = pd.read_csv(summary_path).set_index("unit").loc[UNIT_ORDER]
     pat = pd.read_csv(WORK / "ehr_ic_patient_level.csv")
     terms = pd.read_csv(WORK / "ehr_ic_term_level.csv")
+    fig1 = pd.read_csv(WORK / "figures" / "fig1_term_level.csv")[["curie", "group", "new_term"]]
+    terms = terms.merge(fig1, left_on="term", right_on="curie", how="left").drop(columns="curie")
+    terms["group"] = terms["group"].fillna("Other immune")
+    terms["new_term"] = terms["new_term"].fillna(False).astype(bool)
     return summ, pat, terms
 
 
@@ -227,15 +237,16 @@ def figure_s_terms(terms, icons=True, top=6):
     """Which terms were gained: post-workshop-only terms per data source."""
     units = [u for u in UNIT_ORDER if u != "combined"]   # combined would repeat histology + imaging
     n = len(units)
-    fig = plt.figure(figsize=(9, 2.3 * n + 1.2))
-    gs = fig.add_gridspec(n, 1, left=0.42 if icons else 0.38, right=0.97, top=0.94, bottom=0.1, hspace=0.75)
+    fig = plt.figure(figsize=(9, 2.3 * n + 1.6))
+    gs = fig.add_gridspec(n, 1, left=0.42 if icons else 0.38, right=0.97, top=0.95, bottom=0.14, hspace=0.75)
     for i, u in enumerate(units):
         ax = fig.add_subplot(gs[i, 0])
         t = terms[(terms.unit == u) & (terms.patients_pre == 0) & (terms.patients_post > 0)]
         t = t.sort_values("patients_post", ascending=False).head(top)[::-1]
-        new = t.term.str.startswith("HP:521")  # ESID4HPO identifier range; others re-parented or relabelled
-        ax.barh(t.label, t.patients_post, color=[C_NEWTERM if m else C_REPARENT for m in new],
-                height=.62, edgecolor="white", lw=.8)
+        cols = [DOMAIN_COLOR[g] for g in t.group]
+        # created by ESID4HPO: filled; pre-existing term that became retrievable (re-parented or relabelled): hollow
+        ax.barh(t.label, t.patients_post, height=.62, lw=1.2,
+                color=[c if n_ else "white" for c, n_ in zip(cols, t.new_term)], edgecolor=cols)
         for j, (v, ic) in enumerate(zip(t.patients_post, t.ic)):
             ax.text(v + t.patients_post.max() * 0.02, j, f"{int(v)}  (IC {ic:.2f})", va="center", fontsize=8, color=C_MUTED)
         ax.set_xlim(0, t.patients_post.max() * 1.45)
@@ -246,9 +257,10 @@ def figure_s_terms(terms, icons=True, top=6):
         if icons:
             pos = ax.get_position()
             draw_icon(icon_axes(fig, [0.02, pos.y0 + pos.height / 2 - 0.035, 0.06, 0.07]), u, 0.5, 0.5, s=0.9)
-    handles = [mpl.patches.Patch(facecolor=C_NEWTERM, label="term created by ESID4HPO"),
-               mpl.patches.Patch(facecolor=C_REPARENT, label="pre-existing term, re-parented into the immune branch or relabelled")]
-    fig.legend(handles=handles, loc="lower center", ncol=1, bbox_to_anchor=(0.6, 0.0))
+    handles = [mpl.patches.Patch(facecolor=c, edgecolor=c, label=DOMAIN_LABEL[g]) for g, c in DOMAIN_COLOR.items()]
+    handles.append(mpl.patches.Patch(facecolor="white", edgecolor=C_MUTED, lw=1.2,
+                                     label="hollow: pre-existing term, re-parented into the immune branch or relabelled"))
+    fig.legend(handles=handles, loc="lower center", ncol=3, bbox_to_anchor=(0.55, -0.005))
     return fig
 
 
