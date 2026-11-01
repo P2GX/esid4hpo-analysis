@@ -25,12 +25,6 @@
     },
     {
       "type": {
-        "id": "HP:0012531",
-        "label": "Pain"
-      }
-    },
-    {
-      "type": {
         "id": "HP:0003326",
         "label": "Myalgia"
       }
@@ -93,12 +87,6 @@
       "type": {
         "id": "HP:0031393",
         "label": "Abnormal total CD8+ T cell number"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0030374",
-        "label": "Decreased memory B cell proportion"
       }
     },
     {

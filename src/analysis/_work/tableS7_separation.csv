@@ -1,0 +1,5 @@
+cohort,n,silhouette (pre → post),Δ silhouette,improved/worse,"p (Wilcoxon, Holm)"
+SOCS1,28,0.055 → 0.049,-0.006,10/18,0.029
+APDS1,38,0.303 → 0.305,+0.001,21/17,0.34
+NFKB1,51,0.036 → 0.038,+0.002,32/18,0.029
+all,117,0.127 → 0.127,-0.000,63/53,0.37
