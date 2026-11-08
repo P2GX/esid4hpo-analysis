@@ -1,119 +1,119 @@
-phenopacket_id	pmid	disease_id	status	lines_removed_disease	lines_subtracted_disease	lines_removed_total	lines_subtracted_total	undecomposable_lines_removed	remaining_phenotype_lines	adjusted_hpoa
-PMID_16984281_P3	PMID:16984281	OMIM:615513	ADJUSTED	3	146	3	146	3	146	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_16984281.hpoa
-PMID_24136356_P10_family_D	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P11_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P12_family_E	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P13_family_E	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P1_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P2_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P3_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P4_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P5_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P6_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P7_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P8_family_C	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P9_family_D	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P_14_family_F	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P_15_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P_16_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24136356_P_17_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	43	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
-PMID_24165795_A_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_B_III_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_C_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_D_II_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_D_II_2	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_D_I_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_E_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_F_II_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24165795_G_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
-PMID_24610295_F1P1	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
-PMID_24610295_F2P2	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
-PMID_24610295_F2P3	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
-PMID_27379089_11	PMID:27379089	OMIM:615513	ADJUSTED	7	142	7	142	7	142	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_27379089.hpoa
-PMID_34350147_P1	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P2	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P3	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P4	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P5	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P6	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_34350147_P7	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
-PMID_29403474_Fam089_I1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_Fam089_II2_P_5_13	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_Fam089_III2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_16	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_18	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_21	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_25	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_34	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_36_P_2_6_P_4_13	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_40	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_42	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_48	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_49	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_57	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNL1_62	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNZ_I2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNZ_II1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_FamNZ_II2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_Father	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_Index_patient	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_29403474_Patient_1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
-PMID_32278790_AJ_III_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
-PMID_32278790_BF_II_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
-PMID_32278790_Q_I_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
-PMID_36105815_A245V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_G386R_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_G64V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_G64V_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_G64V_3	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_G92V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_H67R_10	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_H67R_11	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_H67Y_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_H67Y_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_I281M_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_I87S_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_L196V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_M216V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_M216V_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R157P_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R157P_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R157P_3	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R198C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R214Q_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R284P_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R284P_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_R57C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_V98D_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_W295C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_Y286N_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_Y405C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_36105815_Y90S_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
-PMID_32853638_Patient_1	PMID:32853638	OMIM:619375	ADJUSTED	1	175	1	175	1	175	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32853638.hpoa
-PMID_32853638_Patient_2	PMID:32853638	OMIM:619375	ADJUSTED	1	175	1	175	1	175	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32853638.hpoa
-PMID_33087723_A1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_A2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_B1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_B2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_C1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_D1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_E1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_E2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_E4	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_33087723_E5	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
-PMID_34421895_P1	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
-PMID_34421895_P2	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
-PMID_34421895_P3	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
-PMID_35976468_patient	PMID:35976468	OMIM:619375	ADJUSTED	13	163	13	163	13	163	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_35976468.hpoa
-PMID_36890397_P2	PMID:36890397	OMIM:619375	ADJUSTED	7	169	7	169	7	169	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36890397.hpoa
-PMID_36890397_Patient_1	PMID:36890397	OMIM:619375	ADJUSTED	7	169	7	169	7	169	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36890397.hpoa
-PMID_37156989_P1	PMID:37156989	OMIM:619375	ADJUSTED	8	168	8	168	8	168	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_37156989.hpoa
-PMID_37156989_P2	PMID:37156989	OMIM:619375	ADJUSTED	8	168	8	168	8	168	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_37156989.hpoa
-PMID_38157076_patient	PMID:38157076	OMIM:619375	ADJUSTED	5	171	5	171	5	171	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_38157076.hpoa
-PMID_39005503_Patient	PMID:39005503	OMIM:619375	ADJUSTED	12	164	12	164	12	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39005503.hpoa
-PMID_39840313_Patient_1	PMID:39840313	OMIM:619375	ADJUSTED	12	164	12	164	12	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39840313.hpoa
-PMID_39840313_Patient_2	PMID:39840313	OMIM:619375	ADJUSTED	12	164	12	164	12	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39840313.hpoa
-PMID_40755921_Patient	PMID:40755921	OMIM:619375	ADJUSTED	12	164	12	164	12	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_40755921.hpoa
-PMID_41249727_P1	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa
-PMID_41249727_P2	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa
-PMID_41249727_P3	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa
+phenopacket_id	pmid	disease_id	status	lines_removed_disease	lines_subtracted_disease	lines_removed_total	lines_subtracted_total	sole_support_removed_total	undecomposable_removed_total	remaining_phenotype_lines	adjusted_hpoa
+PMID_16984281_P3	PMID:16984281	OMIM:615513	ADJUSTED	3	146	3	146	3	0	146	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_16984281.hpoa
+PMID_24136356_P10_family_D	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P11_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P12_family_E	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P13_family_E	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P1_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P2_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P3_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P4_family_A	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P5_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P6_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P7_family_B	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P8_family_C	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P9_family_D	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P_14_family_F	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P_15_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P_16_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24136356_P_17_family_G	PMID:24136356	OMIM:615513	ADJUSTED	44	106	44	106	44	0	106	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24136356.hpoa
+PMID_24165795_A_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_B_III_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_C_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_D_II_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_D_II_2	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_D_I_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_E_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_F_II_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24165795_G_1	PMID:24165795	OMIM:615513	ADJUSTED	8	141	8	141	8	0	141	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24165795.hpoa
+PMID_24610295_F1P1	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	0	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
+PMID_24610295_F2P2	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	0	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
+PMID_24610295_F2P3	PMID:24610295	OMIM:615513	ADJUSTED	14	135	14	135	14	0	135	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_24610295.hpoa
+PMID_27379089_11	PMID:27379089	OMIM:615513	ADJUSTED	7	142	7	142	7	0	142	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_27379089.hpoa
+PMID_34350147_P1	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P2	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P3	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P4	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P5	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P6	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_34350147_P7	PMID:34350147	OMIM:615513	ADJUSTED	19	130	19	130	19	0	130	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34350147.hpoa
+PMID_29403474_Fam089_I1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_Fam089_II2_P_5_13	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_Fam089_III2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_16	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_18	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_21	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_25	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_34	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_36_P_2_6_P_4_13	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_40	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_42	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_48	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_49	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_57	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNL1_62	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNZ_I2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNZ_II1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_FamNZ_II2	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_Father	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_Index_patient	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_29403474_Patient_1	PMID:29403474	OMIM:616576	ADJUSTED	30	255	30	255	30	0	257	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_29403474.hpoa
+PMID_32278790_AJ_III_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	0	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
+PMID_32278790_BF_II_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	0	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
+PMID_32278790_Q_I_1	PMID:32278790	OMIM:616576	ADJUSTED	11	274	11	274	11	0	276	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32278790.hpoa
+PMID_36105815_A245V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_G386R_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_G64V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_G64V_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_G64V_3	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_G92V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_H67R_10	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_H67R_11	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_H67Y_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_H67Y_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_I281M_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_I87S_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_L196V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_M216V_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_M216V_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R157P_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R157P_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R157P_3	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R198C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R214Q_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R284P_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R284P_2	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_R57C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_V98D_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_W295C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_Y286N_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_Y405C_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_36105815_Y90S_1	PMID:36105815	OMIM:616576	ADJUSTED	164	121	164	121	164	0	123	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36105815.hpoa
+PMID_32853638_Patient_1	PMID:32853638	OMIM:619375	ADJUSTED	1	175	1	175	1	0	175	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32853638.hpoa
+PMID_32853638_Patient_2	PMID:32853638	OMIM:619375	ADJUSTED	1	175	1	175	1	0	175	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_32853638.hpoa
+PMID_33087723_A1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_A2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_B1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_B2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_C1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_D1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_E1	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_E2	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_E4	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_33087723_E5	PMID:33087723	OMIM:619375	ADJUSTED	15	166	15	166	15	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_33087723.hpoa
+PMID_34421895_P1	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
+PMID_34421895_P2	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
+PMID_34421895_P3	PMID:34421895	OMIM:619375	ADJUSTED	10	166	10	166	10	0	166	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_34421895.hpoa
+PMID_35976468_patient	PMID:35976468	OMIM:619375	ADJUSTED	13	163	13	163	13	0	163	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_35976468.hpoa
+PMID_36890397_P2	PMID:36890397	OMIM:619375	ADJUSTED	7	169	7	169	7	0	169	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36890397.hpoa
+PMID_36890397_Patient_1	PMID:36890397	OMIM:619375	ADJUSTED	7	169	7	169	7	0	169	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_36890397.hpoa
+PMID_37156989_P1	PMID:37156989	OMIM:619375	ADJUSTED	8	168	8	168	8	0	168	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_37156989.hpoa
+PMID_37156989_P2	PMID:37156989	OMIM:619375	ADJUSTED	8	168	8	168	8	0	168	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_37156989.hpoa
+PMID_38157076_patient	PMID:38157076	OMIM:619375	ADJUSTED	5	171	5	171	5	0	171	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_38157076.hpoa
+PMID_39005503_Patient	PMID:39005503	OMIM:619375	ADJUSTED	12	164	12	164	12	0	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39005503.hpoa
+PMID_39840313_Patient_1	PMID:39840313	OMIM:619375	ADJUSTED	12	164	12	164	12	0	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39840313.hpoa
+PMID_39840313_Patient_2	PMID:39840313	OMIM:619375	ADJUSTED	12	164	12	164	12	0	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_39840313.hpoa
+PMID_40755921_Patient	PMID:40755921	OMIM:619375	ADJUSTED	12	164	12	164	12	0	164	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_40755921.hpoa
+PMID_41249727_P1	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	0	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa
+PMID_41249727_P2	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	0	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa
+PMID_41249727_P3	PMID:41249727	OMIM:619375	ADJUSTED	17	159	17	159	17	0	159	/Users/adamgraefe/Documents/git/esid4hpo-analysis/src/analysis/_work/hpoa_adjusted/new/phenotype_PMID_41249727.hpoa

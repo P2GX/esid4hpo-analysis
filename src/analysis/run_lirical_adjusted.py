@@ -41,6 +41,7 @@ Usage, from src/analysis:
     python run_lirical_adjusted.py                       # all three comparisons (4 jobs)
     python run_lirical_adjusted.py --comparisons main    # the two headline jobs only
     python run_lirical_adjusted.py --comparisons vocab corpus --skip-adjust
+    python run_lirical_adjusted.py --adjust-only       # regenerate the HPOA files, no LIRICAL
     python run_lirical_adjusted.py --dry-run
 
 Requires staged phenopackets in _work/lirical/<cohort>/{old,new}/ (notebook section 3)
@@ -90,7 +91,9 @@ COMPARISONS = {
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--hpoadj-jar", type=Path,
-                        default=ANALYSIS_DIR.parents[2] / "hpoadj" / "hpoadj-cli" / "target" / "hpoadj-0.0.1.jar")
+                        default=ANALYSIS_DIR.parents[2] / "hpoadj" / "hpoadj-cli" / "target" / "hpoadj-0.0.2.jar")
+    parser.add_argument("--biocuration-date", default="2026-11-08",
+                        help="date written into the biocuration tag of generated annotations, fixed for reproducible files")
     parser.add_argument("--lirical-jar", type=Path,
                         default=ANALYSIS_DIR / "_tools" / "lirical-cli-2.4.1" / "lirical-cli-2.4.1.jar")
     parser.add_argument("--comparisons", nargs="+", choices=sorted(COMPARISONS), default=sorted(COMPARISONS),
@@ -98,6 +101,8 @@ def parse_args():
     parser.add_argument("--cohorts", nargs="+", default=["APDS1", "NFKB1", "SOCS1"])
     parser.add_argument("--skip-adjust", action="store_true",
                         help="reuse existing hpoadj output where adjustment_summary.tsv exists")
+    parser.add_argument("--adjust-only", action="store_true",
+                        help="run hpoadj for the selected knowledge bases and stop before LIRICAL")
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -121,10 +126,11 @@ def adjust_hpoa(kb: str, args):
         return
     print(f"[adjust:{kb}] release={spec['release']} augment={spec['augment']}")
     hpoa = WORK / "data" / spec["release"] / "phenotype.hpoa"
-    common = ["--hpo", WORK / "data" / spec["release"] / "hp.json", "-p", COHORT_DIR, "-o", outdir]
+    # cohort terms are counted on the release they were curated in, independent of the LIRICAL bundle
+    common = ["--hpo", WORK / "data" / "new" / "hp.json", "-p", COHORT_DIR, "-o", outdir]
     if spec["augment"]:
         run(["java", "-jar", args.hpoadj_jar, "augment", "-a", hpoa,
-             "--biocuration", "HPO:esid4hpo"] + common, args.dry_run)
+             "--biocuration", "HPO:esid4hpo", "--date", args.biocuration_date] + common, args.dry_run)
         hpoa = outdir / "phenotype_augmented.hpoa"
     run(["java", "-jar", args.hpoadj_jar, "loo", "-a", hpoa] + common, args.dry_run)
 
@@ -230,6 +236,9 @@ def main():
 
     for kb in kbs:
         adjust_hpoa(kb, args)
+    if args.adjust_only:
+        print("\nDone (hpoadj only). Re-run without --adjust-only to build bundles and rank.")
+        return
 
     bundles_by_kb, notes = {}, []
     for kb in kbs:
