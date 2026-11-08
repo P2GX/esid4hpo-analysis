@@ -60,8 +60,8 @@ frequency pooled over all cohort publications using true-path (ancestor-aware) c
 denominator equal to the cohort size, and every contributing PMID in the reference field.
 Pre-existing annotations are superseded where they derive from a publication the cohort
 re-curates, and pooled with the cohort counts where they derive from an independent
-publication. In the current run this raises the disease profiles to 149 (`OMIM:615513`), 115
-(`OMIM:616576`) and 180 (`OMIM:619375`) distinct observed phenotype terms; the number of
+publication. In the current run this raises the disease profiles to 149 (`OMIM:615513`), 285
+(`OMIM:616576`) and 176 (`OMIM:619375`) distinct observed phenotype terms; the number of
 annotation lines added, pooled and superseded per disease is written to
 `_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`. A pre-existing line without a frequency
 value is pooled as a 1/1 case report (0/1 for a `NOT` annotation), which is how LIRICAL's
