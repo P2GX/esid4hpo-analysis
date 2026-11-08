@@ -232,6 +232,12 @@ src/analysis/_work/hpoa_adjusted*/**/*.hpoa
 src/analysis/_work/hpoa_adjusted*/**/bundle_*/
 src/analysis/_work/hpoa_adjusted*/aged_cohorts/
 
+# Zenodo deposit of the generated HPOA files: archives built by zenodo/package_hpoa_for_zenodo.sh
+# and downloads of zenodo/fetch_hpoa_adjusted.sh
+src/analysis/_work/zenodo/
+src/analysis/_work/zenodo_download/
+src/analysis/_work/hpoadj_rerun.log
+
 # One-off manual archives (superseded by the mode-suffixed outputs)
 src/analysis/_work/*.augment-new/
 
