@@ -63,23 +63,33 @@ re-curates, and pooled with the cohort counts where they derive from an independ
 publication. In the current run this raises the disease profiles to 149 (`OMIM:615513`), 285
 (`OMIM:616576`) and 176 (`OMIM:619375`) distinct observed phenotype terms; the number of
 annotation lines added, pooled and superseded per disease is written to
-`_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`. A pre-existing line without a frequency
-value is pooled as a 1/1 case report (0/1 for a `NOT` annotation), which is how LIRICAL's
-annotation loader (phenol) reads such a line.
+`_work/hpoa_adjusted/<arm>/augmentation_summary.tsv`. Only phenotype annotations (aspect `P`)
+are superseded or pooled; onset and inheritance annotations are kept as released. A pre-existing
+line without a frequency value is pooled as a 1/1 case report, which is how LIRICAL's annotation
+loader (phenol, `HpoDiseaseLoaderDefault.parseFrequency`) reads such a line; negated,
+percentage and frequency-term lines are kept beside the cohort line (none occur for the three
+diseases). Excluded phenopacket features are not converted into `NOT` annotations, since absence
+in a subset of individuals does not establish absence in the disease. The denominator is the
+cohort size because phenopackets do not record which features were assessed.
 
 **Leave-one-publication-out.** Phenopackets and disease annotations derive from the same
 publications, so each patient must be scored against annotations that exclude its own source.
 For every publication a copy of the HPOA is written in which that publication's contribution
 is subtracted from the pooled counts (numerator and denominator reduced by its own patient
 counts) and its identifier removed from the reference field; annotations resting solely on
-that publication are dropped. The subtraction is exact: reversing the cohort contribution of
-a pooled annotation restores the original HPOA counts.
+that publication are dropped (`sole_support_removed_total` in `adjustment_summary.tsv`).
+Only annotations pooled by hpoadj are decomposed; a curated annotation citing several
+publications would be dropped and counted as `undecomposable_removed_total` (none occur for
+the three diseases). The subtraction is exact: leaving every cohort publication out again
+restores the released counts of a pooled annotation (hpoadj round-trip test). The biocuration
+date of generated lines is fixed (`--biocuration-date`, default 2026-11-08) so that reruns
+produce identical files.
 
 ## Reproducing the analysis
 
 Prerequisites: Java 21, Maven, Python 3.12 (install the pinned packages with
 `pip install -r src/analysis/requirements.txt`; the file is a `pip freeze` of the analysis
-environment), the [hpoadj](https://github.com/P2GX/hpoadj) repository (v0.0.1) checked out
+environment), the [hpoadj](https://github.com/P2GX/hpoadj) repository (v0.0.2) checked out
 next to this one (the tool grew out of [hpotools PR #20](https://github.com/P2GX/hpotools/pull/20);
 design discussion in issues [#17](https://github.com/P2GX/hpotools/issues/17),
 [#18](https://github.com/P2GX/hpotools/issues/18) and
