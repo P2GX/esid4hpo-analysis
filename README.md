@@ -10,7 +10,7 @@ Human Phenotype Ontology, by comparing patient cohorts annotated with two HPO re
 
 Three cohorts are curated from primary literature with the post-workshop vocabulary:
 - **APDS** (`OMIM:615513`, n = 38), 
-- **NFKB1** (`OMIM:616576`, n = 24) and
+- **NFKB1** (`OMIM:616576`, n = 52) and
 - **SOCS1** (`OMIM:619375`, n = 28).
 
 Two analyses are run over the same cohorts:
