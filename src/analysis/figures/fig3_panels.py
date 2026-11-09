@@ -10,7 +10,7 @@
 # This file is executed from esid4hpo_analysis.ipynb (section 2) with
 #     exec(open(FIG3_PATH).read())
 # and expects df_patient, FPATH_FIGS, FPATH_WORK, HPO_OLD_TAG, HPO_NEW_TAG,
-# np, pd and mpl in the calling namespace. It writes _work/fig3_ic_stats.csv
+# np, pd and mpl in the calling namespace. It writes _work/intermediate/fig3_ic_stats.csv
 # and leaves `stats_tbl` behind for the manuscript table.
 # =====================================================================
 try:
@@ -173,7 +173,7 @@ def fig3_panelA(df_patient, stats_tbl):
     95% bootstrap CI plus how many individuals improved. The direction of the
     difference is fixed by construction (ageing can only lower IC), so no
     p-value is printed on the panel; the Wilcoxon tests remain in the stats
-    table (fig3_ic_stats.csv / Table 1)."""
+    table (intermediate/fig3_ic_stats.csv / Table 1)."""
     _f3style()
     n = len(FIG3_COHORTS)
     fig, axes = plt.subplots(1, n, figsize=(FIG3_WIDTH, FIG3_H_A),
@@ -276,10 +276,10 @@ try:
 except NameError:
     print(stats_tbl.round(4))
 FPATH_WORK.mkdir(parents=True, exist_ok=True)
-stats_tbl.to_csv(FPATH_WORK / "fig3_ic_stats.csv", index=False)
+stats_tbl.to_csv(FPATH_WORK / "intermediate/fig3_ic_stats.csv", index=False)
 
 if "A" in FIG3_PANELS:
     save_panel(fig3_panelA(df_patient, stats_tbl), "fig3A_paired_ic")
 if "C" in FIG3_PANELS:
-    save_panel(fig3_panelC(df_patient), "fig3C_post_workshop_fraction")
+    save_panel(fig3_panelC(df_patient), "fig3B_post_workshop_fraction")
 print("Figure 3 done.")

@@ -236,13 +236,14 @@ src/analysis/_work/hpoa_adjusted*/aged_cohorts/
 # and downloads of zenodo/fetch_hpoa_adjusted.sh
 src/analysis/_work/zenodo/
 src/analysis/_work/zenodo_download/
-src/analysis/_work/hpoadj_rerun.log
+src/analysis/_work/*.log
 
-# One-off manual archives (superseded by the mode-suffixed outputs)
+# Superseded augmentation modes
 src/analysis/_work/*.augment-new/
+src/analysis/_work/hpoa_adjusted.both/
 
 # LIRICAL benchmark output: full ranked disease lists, ~300 MB.
-# The per-patient causal ranks are kept in _work/lirical_ranks_long.csv.
+# The per-patient causal ranks are kept in _work/intermediate/lirical_ranks_long.csv.
 src/analysis/_work/lirical/*.csv
 src/analysis/_work/lirical/parts/
 src/analysis/_work/lirical/*/old/
@@ -258,9 +259,10 @@ src/analysis/figures/esid4hpo_figures.pptx
 src/analysis/_work/figures/map_eu_inset.*
 src/analysis/_work/figures/*.pptx
 src/analysis/_work/figures/figure1_panels_claude_pallete.png
+src/analysis/_work/figures/SOCS1/
 src/analysis/_work/figures/semantic_per_cohort.png
 
 
-# EHR arm: patient-level IC table
-src/analysis/_work/ehr_ic_patient_level.csv
-src/analysis/_work/ehr_ic_term_level.csv
+# EHR arm: individual-level tables derived from the Southampton term counts
+src/analysis/_work/intermediate/ehr_ic_patient_level.csv
+src/analysis/_work/intermediate/ehr_ic_term_level.csv

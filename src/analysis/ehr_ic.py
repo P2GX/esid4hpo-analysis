@@ -150,7 +150,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--counts", type=pathlib.Path, default=WORK / "data" / "ehr" / "hpo_term_counts.xlsx")
     ap.add_argument("--hpo", type=pathlib.Path, default=WORK / "data" / "new" / "hp.json")
-    ap.add_argument("--out", type=pathlib.Path, default=WORK)
+    ap.add_argument("--out", type=pathlib.Path, default=WORK / "intermediate")
     args = ap.parse_args()
 
     parents, alt, deprecated, label = load_hpo(args.hpo)

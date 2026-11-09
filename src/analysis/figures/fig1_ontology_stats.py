@@ -43,6 +43,8 @@ ANALYSIS = pathlib.Path(__file__).resolve().parents[1]    # src/analysis
 HP_OLD = ANALYSIS / "_work" / "data" / "old" / "hp.json"     # v2024-08-13
 HP_NEW = ANALYSIS / "_work" / "data" / "new" / "hp.json"     # v2026-06-23
 OUTDIR = ANALYSIS / "_work" / "figures"
+TABLES = ANALYSIS / "_work" / "tables"
+INTER = ANALYSIS / "_work" / "intermediate"
 
 OLD_TAG = "v2024-08-13"
 NEW_TAG = "v2026-06-23"
@@ -309,9 +311,9 @@ def make_figure(summary, outdir):
 
     fig.subplots_adjust(left=0.17, right=0.985, top=0.87, bottom=0.22)
     outdir.mkdir(parents=True, exist_ok=True)
-    fig.savefig(outdir / "figure1_panels.png")
-    fig.savefig(outdir / "figure1_panels.pdf")
-    print(f"figure -> {outdir / 'figure1_panels.png'}")
+    fig.savefig(outdir / "fig1C_immune_branch.png")
+    fig.savefig(outdir / "fig1C_immune_branch.pdf")
+    print(f"figure -> {outdir / 'fig1C_immune_branch.png'}")
 
 
 # =============================================================================
@@ -333,9 +335,10 @@ def main():
     df = build_term_table(old, new, meta_old, meta_new)
     summary = summarise(df)
 
-    OUTDIR.mkdir(parents=True, exist_ok=True)
-    df.to_csv(OUTDIR / "fig1_term_level.csv", index=False)
-    summary.to_csv(OUTDIR / "fig1_summary.csv")
+    for d in (OUTDIR, TABLES, INTER):
+        d.mkdir(parents=True, exist_ok=True)
+    df.to_csv(INTER / "fig1_term_level.csv", index=False)
+    summary.to_csv(TABLES / "tableS2_immune_branch_counts.csv")
 
     with pd.option_context("display.width", 220, "display.max_columns", 50):
         print("\n", summary, "\n")

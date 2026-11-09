@@ -19,7 +19,6 @@ Requires the outputs of `run_lirical_adjusted.py --augment-arms both`
 
 Usage, from src/analysis:
     python diagnose_profile_overlap.py
-    python diagnose_profile_overlap.py --hpoa-dir _work/hpoa_adjusted.both
     python diagnose_profile_overlap.py --per-patient
 """
 
