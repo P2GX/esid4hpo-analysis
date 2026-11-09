@@ -1,0 +1,60 @@
+curie,label,cohorts,diseases_released,diseases_released_bin
+HP:0020026,Positive Coombs test,NFKB1,3,1-3
+HP:0020116,Subcutaneous abscess,APDS1,1,1-3
+HP:0025067,Recurrent sepsis,NFKB1,3,1-3
+HP:0025183,Abnormal total CD4+ T cell number,NFKB1;SOCS1,52,>3
+HP:0025832,Decreased Th17 T cell proportion,APDS1,0,0
+HP:0025839,Decreased RTE CD4+ T cell proportion,APDS1;NFKB1,0,0
+HP:0025843,Increased HLA-DR+ CD8+ T cell proportion,APDS1,0,0
+HP:5210003,Unusual Staphylococcus aureus infection,APDS1,14,>3
+HP:5210011,Severe Streptococcus pneumoniae infection,APDS1;NFKB1,0,0
+HP:5210012,Recurrent Streptococcus pneumoniae infection,NFKB1,0,0
+HP:5210055,Unusual Pseudomonas aeruginosa infection,NFKB1,2,1-3
+HP:5210056,Severe Pseudomonas aeruginosa infection,APDS1,2,1-3
+HP:5210057,Recurrent Pseudomonas aeruginosa infection,NFKB1,0,0
+HP:5210070,Unusual Haemophilus influenzae infection,APDS1,5,>3
+HP:5210093,Unusual Salmonella infection,NFKB1,0,0
+HP:5210094,Severe Salmonella infection,NFKB1,0,0
+HP:5210102,Unusual Candida infection,APDS1,55,>3
+HP:5210111,Tuberculosis infection,SOCS1,0,0
+HP:5210116,Unusual VZV infection,APDS1;NFKB1,20,>3
+HP:5210119,Unusual Cryptosporidium infection,APDS1,4,>3
+HP:5210124,Unusual Giardia lamblia infection,SOCS1,1,1-3
+HP:5210125,Persistent Giardia lamblia infection,APDS1,0,0
+HP:5210126,Recurrent Giardia lamblia infection,NFKB1,1,1-3
+HP:5210137,Unusual eye infection,APDS1,0,0
+HP:5210140,Bacterial sepsis,APDS1;NFKB1,1,1-3
+HP:5210146,Unusual cytomegalovirus infection,APDS1;SOCS1,21,>3
+HP:5210156,Unusual pericarditis,APDS1,0,0
+HP:5210176,Unusual bacterial gastroenteritis,NFKB1,0,0
+HP:5210179,Unusual parasitic gastroenteritis,NFKB1,0,0
+HP:5210217,Bacterial meningitis,APDS1,4,>3
+HP:5210231,Bacterial cellulitis,NFKB1,1,1-3
+HP:5210233,Unusual HSV skin infection,APDS1,0,0
+HP:5210235,Unusual VZV skin infection,NFKB1,1,1-3
+HP:5210239,Unusual bacterial nail bed infection,NFKB1,0,0
+HP:5210240,Unusual HSV infection,APDS1,13,>3
+HP:5210241,Recurrent onychomycosis,NFKB1,0,0
+HP:5210260,Recurrent conjunctivitis,APDS1,0,0
+HP:5210280,Unusual oral cavity infection,APDS1,110,>3
+HP:5210286,Unusual EBV infection,APDS1,30,>3
+HP:5210291,Recurrent herpes simplex virus infection,NFKB1,0,0
+HP:5210303,Unusual warts,NFKB1,0,0
+HP:5210312,Chronic norovirus infection,NFKB1,0,0
+HP:5210341,Granulomatous lymphocytic interstitial lung disease,NFKB1;SOCS1,0,0
+HP:5210342,Granulomatous lymphadenopathy,NFKB1,0,0
+HP:5210366,Severe Mycobacterium avium complex infection,NFKB1,0,0
+HP:5210404,Chronic respiratory syncytial virus infection,NFKB1,0,0
+HP:5210408,BCG-associated disease,APDS1,23,>3
+HP:5210410,Abnormal central memory CD4+ T cell proportion,SOCS1,1,1-3
+HP:5210415,Decreased total CD4+ T cell number,APDS1,50,>3
+HP:5210416,Increased CD4+ T cell number,NFKB1,3,1-3
+HP:5210417,Increased total CD4+ T cell count,SOCS1,0,0
+HP:5210418,Decreased total CD4+ T cell count,APDS1;SOCS1,0,0
+HP:5210419,Autoimmune cytopenia,APDS1,96,>3
+HP:5210421,Autoimmune hepatitis,SOCS1,0,0
+HP:5210425,Decreased total CD8+ T cell number,NFKB1,20,>3
+HP:5210426,Decreased total CD8+ T cell count,APDS1;SOCS1,0,0
+HP:5210427,Increased total CD8+ T cell count,APDS1;SOCS1,0,0
+HP:6001235,Anti-Saccharomyces cerevisiae antibodies,SOCS1,0,0
+HP:6001438,Tenosynovitis,SOCS1,2,1-3
