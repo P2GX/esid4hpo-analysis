@@ -1,8 +1,8 @@
 # esid4hpo-analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![ESID](https://img.shields.io/badge/ESID-European%20Society%20for%20Immunodeficiencies-8a1538)](https://esid.org/)
-[![HPO](https://img.shields.io/badge/HPO-v2024--08--13%20vs%20v2026--06--23-blue)](https://hpo.jax.org)
+[![ESID](https://img.shields.io/badge/ESID-European%20Society%20for%20Immunodeficiencies-blue)](https://esid.org/)
+[![HPO](https://img.shields.io/badge/HPO-Human%20Phenotype%20Ontology-purple.svg)](https://hpo.jax.org/)
 [![LIRICAL](https://img.shields.io/badge/LIRICAL-2.4.1-blue)](https://github.com/TheJacksonLaboratory/LIRICAL)
 [![HPOA dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058794.svg)](https://doi.org/10.5281/zenodo.24058794)
 
