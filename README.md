@@ -4,7 +4,7 @@
 [![ESID](https://img.shields.io/badge/ESID-European%20Society%20for%20Immunodeficiencies-blue)](https://esid.org/)
 [![HPO](https://img.shields.io/badge/HPO-Human%20Phenotype%20Ontology-purple.svg)](https://hpo.jax.org/)
 [![LIRICAL](https://img.shields.io/badge/LIRICAL-2.4.1-blue)](https://github.com/TheJacksonLaboratory/LIRICAL)
-[![HPOA dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058794.svg)](https://doi.org/10.5281/zenodo.24058794)
+[![HPOA-dataset-DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058794-green.svg)](https://doi.org/10.5281/zenodo.24058794)
 
 Analysis code for the ESID4HPO effort: quantifying what the ESID/HPO workshop added to the
 Human Phenotype Ontology, by comparing cohorts of individuals annotated with two HPO releases.
