@@ -134,9 +134,11 @@ release artifacts of `v2024-08-13` and `v2026-06-23`).
 #    that this step produces, so skip it on the first pass).
 cd src/analysis && bash rerun_all.sh
 
-# 2. the whole notebook, Restart & Run All: semantic analysis (needs the augmented
-#    HPOA from step 1), Table 1, LIRICAL rank tables, Table 2 and the figures
+# 2. both notebooks, Restart & Run All: semantic analysis (needs the augmented
+#    HPOA from step 1), LIRICAL rank tables, supplementary tables and figures,
+#    then the separation analysis (Supplementary Figure S4, Table S8)
 jupyter lab src/analysis/esid4hpo_analysis.ipynb
+jupyter lab src/analysis/esid4hpo_separation.ipynb
 ```
 
 `run_lirical_adjusted.py --dry-run` prints the plan without running anything. Two things
