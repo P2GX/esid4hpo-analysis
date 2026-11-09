@@ -13,5 +13,5 @@ echo "   four (vocabulary x knowledge base) jobs, up to 18 leave-one-out bundles
 
 echo "== 3/3 done =="
 echo "Now open esid4hpo_analysis.ipynb and Restart & Run All."
-echo "Figures land in _work/figures/, tables in _work/*.csv,"
+echo "Figures land in _work/figures/, tables in _work/tables/,"
 echo "per-disease augmentation counts in _work/hpoa_adjusted/<arm>/augmentation_summary.tsv"

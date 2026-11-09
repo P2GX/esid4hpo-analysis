@@ -6,13 +6,13 @@ Figure 5 (fig5_ehr.*), one row per data source in both panels:
      with the mean change and the Wilcoxon p above each pair;
   b) mean change per patient (post - pre) with 95 % bootstrap CI for the three summary
      measures: immune-branch terms per patient, mean IC per term, summed IC.
-Supplementary Figure (figS_ehr_terms.*):
+Supplementary Figure (figS2_ehr_terms.*):
   per data source, the terms recoverable only with the post-workshop release, ranked by
   the number of patients, coloured by working-group domain (from Figure 1's term table);
   hollow bars are pre-existing terms that became retrievable through re-parenting into the
   immune branch or relabelling.
 
-Inputs: the summary table (default: Alex's numbers, _work/ehr_ic_summary_sa.csv) for N,
+Inputs: the summary table (default: Alex's numbers, _work/tables/tableS5_ehr_summary.csv) for N,
 means and p, and the per-patient / per-term tables written by ehr_ic.py for the boxes,
 the bootstrap CIs and the term lists. Style and palette follow Figures 1, 3 and 4 (BIH
 navy = post-workshop, blue-grey = pre-workshop); legends below the panels; line icons
@@ -22,7 +22,7 @@ be added later as one more entry in UNIT_ORDER / UNIT_LABEL and an icon kind.
 Usage, from src/analysis:
     python figures/fig5_ehr.py                 # Figure 5 and the supplementary figure
     python figures/fig5_ehr.py --only main     # or: --only supp
-Outputs: _work/figures/figure5/fig5_ehr.{png,pdf,svg}, figS_ehr_terms.{png,pdf,svg}
+Outputs: _work/figures/fig5_ehr.{png,pdf,svg}, figS2_ehr_terms.{png,pdf,svg}
 """
 
 import argparse
@@ -36,7 +36,7 @@ import pandas as pd
 
 ANALYSIS = pathlib.Path(__file__).resolve().parents[1]
 WORK = ANALYSIS / "_work"
-OUT = WORK / "figures" / "figure5"
+OUT = WORK / "figures"
 
 # palette shared with fig1_ontology_stats.py / fig3_panels.py / notebook section 4
 C_PRE, C_POST = "#8fa0a9", "#4e7e96"      # pre-workshop blue-grey, post-workshop BIH navy
@@ -120,9 +120,9 @@ def icon_axes(fig, bbox):
 # ----------------------------------------------------------------------------- data
 def load(summary_path):
     summ = pd.read_csv(summary_path).set_index("unit").loc[UNIT_ORDER]
-    pat = pd.read_csv(WORK / "ehr_ic_patient_level.csv")
-    terms = pd.read_csv(WORK / "ehr_ic_term_level.csv")
-    fig1 = pd.read_csv(WORK / "figures" / "fig1_term_level.csv")[["curie", "group", "new_term"]]
+    pat = pd.read_csv(WORK / "intermediate" / "ehr_ic_patient_level.csv")
+    terms = pd.read_csv(WORK / "intermediate" / "ehr_ic_term_level.csv")
+    fig1 = pd.read_csv(WORK / "intermediate" / "fig1_term_level.csv")[["curie", "group", "new_term"]]
     terms = terms.merge(fig1, left_on="term", right_on="curie", how="left").drop(columns="curie")
     terms["group"] = terms["group"].fillna("Other immune")
     terms["new_term"] = terms["new_term"].fillna(False).astype(bool)
@@ -267,7 +267,7 @@ def figure_s_terms(terms, icons=True, top=6):
 # ----------------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--summary", type=pathlib.Path, default=WORK / "ehr_ic_summary_sa.csv",
+    ap.add_argument("--summary", type=pathlib.Path, default=WORK / "tables/tableS5_ehr_summary.csv",
                     help="summary table to take N, means and p from (default: Alex's numbers)")
     ap.add_argument("--only", choices=["main", "supp"], help="draw only Figure 5 or only the supplementary figure")
     ap.add_argument("--no-icons", action="store_true")
@@ -276,7 +276,7 @@ def main():
     summ, pat, terms = load(args.summary)
     OUT.mkdir(parents=True, exist_ok=True)
     jobs = {"main": ("fig5_ehr", lambda: figure5(summ, pat, not args.no_icons)),
-            "supp": ("figS_ehr_terms", lambda: figure_s_terms(terms, not args.no_icons))}
+            "supp": ("figS2_ehr_terms", lambda: figure_s_terms(terms, not args.no_icons))}
     for key, (name, build) in jobs.items():
         if args.only and key != args.only:
             continue

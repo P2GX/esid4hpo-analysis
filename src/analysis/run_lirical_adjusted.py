@@ -17,28 +17,32 @@ curation yet, so the augmented knowledge base is built here with hpoadj:
 
 Two things vary between arms: the VOCABULARY the individual is described in
 (old = aged phenopackets in v2024-08-13 terms, new = curated phenopackets in
-v2026-06-23 terms) and the KNOWLEDGE BASE ranked against (always leave-one-
-publication-out):
+v2026-06-23 terms) and the KNOWLEDGE BASE ranked against:
 
-  old_stock   v2024-08-13 hp.json + released phenotype.hpoa      -> _work/hpoa_adjusted/old
-  new_stock   v2026-06-23 hp.json + released phenotype.hpoa      -> _work/hpoa_adjusted/new_stock
-  new_aug     v2026-06-23 hp.json + phenotype.hpoa augmented     -> _work/hpoa_adjusted/new
-              with the cohort annotations
+  old_stock        v2024-08-13 released phenotype.hpoa, leave-one-publication-out -> _work/hpoa_adjusted/old
+  old_stock_noloo  v2024-08-13 released phenotype.hpoa as released               -> _work/data/old
+  new_stock        v2026-06-23 released phenotype.hpoa, leave-one-publication-out -> _work/hpoa_adjusted/new_stock
+  new_aug          v2026-06-23 phenotype.hpoa augmented with the cohort
+                   annotations, leave-one-publication-out                        -> _work/hpoa_adjusted/new
 
-Four (vocabulary, knowledge base) jobs cover the three comparisons the manuscript reports:
+Five (vocabulary, knowledge base) jobs cover the four comparisons the manuscript reports:
 
-  job                        merged CSV                          used by
-  old   x old_stock          <cohort>.old.csv                    main (pre-workshop arm)
-  new   x new_aug            <cohort>.new.csv                    main, vocab, corpus (post-workshop arm)
-  old   x new_aug            <cohort>.old_terms_vs_new_hpoa.csv  vocab  (Fig 4A: knowledge base fixed, vocabulary varies)
+  job                        merged CSV                           used by
+  old   x old_stock_noloo    <cohort>.old_noloo.csv               main (pre-workshop arm)
+  old   x old_stock          <cohort>.old.csv                     main_loo (pre-workshop arm, stricter variant)
+  new   x new_aug            <cohort>.new.csv                     all (post-workshop arm)
+  old   x new_aug            <cohort>.old_terms_vs_new_hpoa.csv   vocab  (Fig 4A: knowledge base fixed, vocabulary varies)
   new   x new_stock          <cohort>.new_terms_vs_stock_hpoa.csv corpus (Fig 4B: vocabulary fixed, knowledge base varies)
 
-  main    old x old_stock  vs  new x new_aug   the ESID4HPO output as a whole (Supplementary Figure)
-  vocab   old x new_aug    vs  new x new_aug   effect of the new and re-parented terms alone
-  corpus  new x new_stock  vs  new x new_aug   effect of the added disease annotations alone
+  main      old x old_stock_noloo  vs  new x new_aug   the ESID4HPO output as a whole; the released
+                                                       annotations are what a laboratory had in 2024
+  main_loo  old x old_stock        vs  new x new_aug   as main, with the source publication also removed
+                                                       from the released annotations (sensitivity analysis)
+  vocab     old x new_aug          vs  new x new_aug   effect of the new and re-parented terms alone
+  corpus    new x new_stock        vs  new x new_aug   effect of the added disease annotations alone
 
 Usage, from src/analysis:
-    python run_lirical_adjusted.py                       # all three comparisons (4 jobs)
+    python run_lirical_adjusted.py                       # all four comparisons (5 jobs)
     python run_lirical_adjusted.py --comparisons main    # the two headline jobs only
     python run_lirical_adjusted.py --comparisons vocab corpus --skip-adjust
     python run_lirical_adjusted.py --adjust-only       # regenerate the HPOA files, no LIRICAL
@@ -47,9 +51,6 @@ Usage, from src/analysis:
 Requires staged phenopackets in _work/lirical/<cohort>/{old,new}/ (notebook section 3)
 and the version-matched data bundles in _work/data/{old,new}/.
 
-The earlier `--augment-arms both` mode (both arms carrying their own-vocabulary cohort
-annotations) is superseded by the `vocab` comparison and no longer offered; its outputs,
-if present, remain under _work/hpoa_adjusted.both/ and _work/lirical/<cohort>.<arm>.both.csv.
 """
 
 import argparse
@@ -66,25 +67,29 @@ ANALYSIS_DIR = Path(__file__).resolve().parent
 WORK = ANALYSIS_DIR / "_work"
 COHORT_DIR = ANALYSIS_DIR.parent / "cohorts"
 
-# knowledge base -> (release arm of the data bundle, augmented with the cohort, output dir)
+# knowledge base -> (release arm of the data bundle, augmented with the cohort,
+#                    leave-one-publication-out, hpoadj output dir)
 KNOWLEDGE_BASES = {
-    "old_stock": dict(release="old", augment=False, outdir="old"),
-    "new_stock": dict(release="new", augment=False, outdir="new_stock"),
-    "new_aug":   dict(release="new", augment=True,  outdir="new"),
+    "old_stock":       dict(release="old", augment=False, loo=True,  outdir="old"),
+    "old_stock_noloo": dict(release="old", augment=False, loo=False, outdir=None),
+    "new_stock":       dict(release="new", augment=False, loo=True,  outdir="new_stock"),
+    "new_aug":         dict(release="new", augment=True,  loo=True,  outdir="new"),
 }
 
 # job -> (vocabulary of the staged phenopackets, knowledge base, merged CSV name)
 JOBS = {
-    "old_x_old_stock": ("old", "old_stock", "{cohort}.old.csv"),
-    "new_x_new_aug":   ("new", "new_aug",   "{cohort}.new.csv"),
-    "old_x_new_aug":   ("old", "new_aug",   "{cohort}.old_terms_vs_new_hpoa.csv"),
-    "new_x_new_stock": ("new", "new_stock", "{cohort}.new_terms_vs_stock_hpoa.csv"),
+    "old_x_old_stock_noloo": ("old", "old_stock_noloo", "{cohort}.old_noloo.csv"),
+    "old_x_old_stock":       ("old", "old_stock",       "{cohort}.old.csv"),
+    "new_x_new_aug":         ("new", "new_aug",         "{cohort}.new.csv"),
+    "old_x_new_aug":         ("old", "new_aug",         "{cohort}.old_terms_vs_new_hpoa.csv"),
+    "new_x_new_stock":       ("new", "new_stock",       "{cohort}.new_terms_vs_stock_hpoa.csv"),
 }
 
 COMPARISONS = {
-    "main":   ("old_x_old_stock", "new_x_new_aug"),
-    "vocab":  ("old_x_new_aug",   "new_x_new_aug"),
-    "corpus": ("new_x_new_stock", "new_x_new_aug"),
+    "main":     ("old_x_old_stock_noloo", "new_x_new_aug"),
+    "main_loo": ("old_x_old_stock",       "new_x_new_aug"),
+    "vocab":    ("old_x_new_aug",         "new_x_new_aug"),
+    "corpus":   ("new_x_new_stock",       "new_x_new_aug"),
 }
 
 
@@ -120,6 +125,9 @@ def kb_root(kb: str) -> Path:
 def adjust_hpoa(kb: str, args):
     """Augment (if the knowledge base carries the cohort) and leave-one-publication-out."""
     spec = KNOWLEDGE_BASES[kb]
+    if not spec["loo"]:
+        print(f"[adjust:{kb}] released annotations used as is, nothing to adjust")
+        return
     outdir = kb_root(kb)
     if args.skip_adjust and (outdir / "adjustment_summary.tsv").exists():
         print(f"[adjust:{kb}] reusing {outdir}")
@@ -136,8 +144,10 @@ def adjust_hpoa(kb: str, args):
 
 
 def read_summary(kb: str):
-    path = kb_root(kb) / "adjustment_summary.tsv"
     adjusted, insufficient = {}, []
+    if not KNOWLEDGE_BASES[kb]["loo"]:
+        return adjusted, insufficient
+    path = kb_root(kb) / "adjustment_summary.tsv"
     if not path.exists():
         print(f"[warn] {path} missing (dry run before first adjust?)")
         return adjusted, insufficient
