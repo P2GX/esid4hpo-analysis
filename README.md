@@ -1,7 +1,13 @@
 # esid4hpo-analysis
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![ESID](https://img.shields.io/badge/ESID-European%20Society%20for%20Immunodeficiencies-8a1538)](https://esid.org/)
+[![HPO](https://img.shields.io/badge/HPO-v2024--08--13%20vs%20v2026--06--23-blue)](https://hpo.jax.org)
+[![LIRICAL](https://img.shields.io/badge/LIRICAL-2.4.1-blue)](https://github.com/TheJacksonLaboratory/LIRICAL)
+[![HPOA dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058794.svg)](https://doi.org/10.5281/zenodo.24058794)
+
 Analysis code for the ESID4HPO effort: quantifying what the ESID/HPO workshop added to the
-Human Phenotype Ontology, by comparing patient cohorts annotated with two HPO releases.
+Human Phenotype Ontology, by comparing cohorts of individuals annotated with two HPO releases.
 
 | arm | release | how it is obtained |
 |------|---------|--------------------|
@@ -15,9 +21,9 @@ Three cohorts are curated from primary literature with the post-workshop vocabul
 
 Two analyses are run over the same cohorts:
 
-1. **Semantic content** — information content and specificity of the annotations, number of
-   terms per patient, and the footprint of post-workshop terms.
-2. **LIRICAL disease ranking** — rank of the causal disease per patient, before vs after.
+1. **Semantic content**: information content and specificity of the annotations, number of
+   terms per individual, and the footprint of post-workshop terms.
+2. **LIRICAL disease ranking**: rank of the causal disease per individual, before vs after.
 
 ## Repository layout
 
@@ -28,7 +34,7 @@ src/
   analysis/
     esid4hpo_analysis.ipynb          main notebook: both analyses and all figures
     run_lirical_adjusted.py          HPOA augmentation + leave-one-publication-out + LIRICAL
-    diagnose_profile_overlap.py      per-arm verbatim overlap between patients and their LOO profiles
+    diagnose_profile_overlap.py      per-arm verbatim overlap between individuals and their LOO profiles
     profile_sizes.py                 phenotype annotations per disease profile and leave-one-out fold
     rerun_all.sh                     build hpoadj, run the above, print next steps
     zenodo/                          package the generated HPOA files for Zenodo, fetch them back
@@ -96,9 +102,9 @@ in a subset of individuals does not establish absence in the disease. The denomi
 cohort size because phenopackets do not record which features were assessed.
 
 **Leave-one-publication-out.** Phenopackets and disease annotations derive from the same
-publications, so each patient must be scored against annotations that exclude its own source.
+publications, so each individual must be scored against annotations that exclude its own source.
 For every publication a copy of the HPOA is written in which that publication's contribution
-is subtracted from the pooled counts (numerator and denominator reduced by its own patient
+is subtracted from the pooled counts (numerator and denominator reduced by its own individual
 counts) and its identifier removed from the reference field; annotations resting solely on
 that publication are dropped (`sole_support_removed_total` in `adjustment_summary.tsv`).
 Only annotations pooled by hpoadj are decomposed; a curated annotation citing several
@@ -156,8 +162,8 @@ to S4d, Figure 4 (`_work/figures/fig4_lirical_decomposition.*`), Supplementary F
 (`figS1_lirical_main.*`) and the `main_loo` figure (`lirical_main_loo_sensitivity.*`).
 `profile_sizes.py` (run from the notebook) tabulates, per disease and left-out publication, the
 phenotype annotations in every knowledge base an individual is ranked against (Table S7).
-`diagnose_profile_overlap.py` reports, per arm, how many of each patient's observed terms
-survive verbatim in the leave-one-publication-out profile the patient is scored against.
+`diagnose_profile_overlap.py` reports, per arm, how many of each individual's observed terms
+survive verbatim in the leave-one-publication-out profile the individual is scored against.
 
 ## What is tracked
 
