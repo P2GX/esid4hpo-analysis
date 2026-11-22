@@ -4,7 +4,7 @@
 #      Wilcoxon/Holm stays in the stats table, not on the panel)
 #   C  fraction of annotations using post-workshop terms
 #
-# Panels are saved separately (png/pdf/svg) in FPATH_FIGS for assembly
+# Panels are saved separately (png) in FPATH_FIGS for assembly
 # in PowerPoint.
 #
 # This file is executed from esid4hpo_analysis.ipynb (section 2) with
@@ -59,10 +59,9 @@ def save_panel(fig, name, tight=False):
     """tight=False keeps the exact figsize (so stacked panels A and C share a width)."""
     FPATH_FIGS.mkdir(parents=True, exist_ok=True)
     kw = dict(bbox_inches="tight") if tight else {}
-    for ext in ("png", "pdf", "svg"):
-        fig.savefig(FPATH_FIGS / f"{name}.{ext}", **kw)
+    fig.savefig(FPATH_FIGS / f"{name}.png", **kw)
     w, h = fig.get_size_inches()
-    print(f"  saved {name}.png/.pdf/.svg  ({w:.2f} x {h:.2f} in)")
+    print(f"  saved {name}.png  ({w:.2f} x {h:.2f} in)")
 
 
 def _cohort_data(df_patient, ch):

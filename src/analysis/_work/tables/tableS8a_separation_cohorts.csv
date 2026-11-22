@@ -1,5 +1,13 @@
-cohort,n,silhouette (pre → post),Δ silhouette,improved/worse,"p (Wilcoxon, Holm)"
-SOCS1,28,0.055 → 0.049,-0.006,10/18,0.029
-APDS1,38,0.303 → 0.305,+0.001,21/17,0.34
-NFKB1,51,0.036 → 0.038,+0.002,32/18,0.029
-all,117,0.127 → 0.127,-0.000,63/53,0.37
+comparison,changes,cohort,n,silhouette (from → to),Δ silhouette,improved/worse,"p (Wilcoxon, Holm)"
+combined,terms and hierarchy,SOCS1,28,0.004 → 0.019,+0.015,25/3,5.7 × 10⁻⁶
+combined,terms and hierarchy,APDS1,38,0.330 → 0.307,-0.023,1/37,1.3 × 10⁻⁸
+combined,terms and hierarchy,NFKB1,51,-0.082 → -0.059,+0.023,49/2,2.3 × 10⁻⁹
+combined,terms and hierarchy,all,117,0.072 → 0.078,+0.006,75/42,0.01
+hierarchy,hierarchy only,SOCS1,28,0.004 → 0.018,+0.014,25/3,1.3 × 10⁻⁵
+hierarchy,hierarchy only,APDS1,38,0.330 → 0.314,-0.016,3/35,7.2 × 10⁻¹⁰
+hierarchy,hierarchy only,NFKB1,51,-0.082 → -0.067,+0.015,46/5,2.7 × 10⁻⁸
+hierarchy,hierarchy only,all,117,0.072 → 0.077,+0.005,74/43,0.0073
+terms,terms only,SOCS1,28,0.018 → 0.019,+0.001,18/10,0.6
+terms,terms only,APDS1,38,0.314 → 0.307,-0.008,12/26,0.0089
+terms,terms only,NFKB1,51,-0.067 → -0.059,+0.008,47/4,2.2 × 10⁻⁸
+terms,terms only,all,117,0.077 → 0.078,+0.001,77/40,0.11

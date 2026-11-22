@@ -24,7 +24,7 @@ Units: each data source on its own (icd10, clinic_letters, histology, radiology)
 Per patient and arm: number of distinct immune-branch terms, mean term IC, summed term IC.
 Statistics: two-sided Wilcoxon signed-rank, post vs pre, on per-patient mean IC (patients
 with at least one scorable term in BOTH arms) and on per-patient sum IC (all N patients,
-empty set = 0); uncorrected, as in Alex's definitions.
+empty set = 0); uncorrected, as in the Southampton analysis.
 
 Outputs (in _work/):
     ehr_ic_summary.csv         one row per unit (the manuscript table)       -> tracked
