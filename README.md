@@ -31,19 +31,20 @@ src/
   cohorts/<COHORT>/phenopackets/     curated phenopackets (primary data)
   cohorts/<COHORT>/*_individuals.json  cohort export from the curation tool
   analysis/
-    esid4hpo_analysis.ipynb          main notebook: both analyses and all figures
+    esid4hpo_analysis.ipynb          main notebook: semantic content and LIRICAL, with their figures
     run_lirical_adjusted.py          HPOA augmentation + leave-one-publication-out + LIRICAL
     diagnose_profile_overlap.py      per-arm verbatim overlap between individuals and their LOO profiles
     profile_sizes.py                 phenotype annotations per disease profile and leave-one-out fold
     rerun_all.sh                     build hpoadj, run the above, print next steps
     zenodo/                          package the generated HPOA files for Zenodo, fetch them back
+    separation_analysis.py           between-disease separation of individuals (Supplementary Figure S4, Table S8)
     ehr_ic.py                        EHR arm: IC per individual and source from the Southampton term counts
-    figures/                         fig1_ontology_stats.py (Figure 1c), fig3_panels.py (run by the notebook), fig5_ehr.py (Figure 5, S2)
+    figures/                         fig1_ontology_stats.py (Figure 1c), fig2_curation_examples.py (Figure 2), fig3_panels.py (run by the notebook), fig5_ehr.py (Figure 5, S2)
     _tools/                          LIRICAL distribution (not tracked)
     _work/                           outputs
       tables/                        manuscript and supplementary tables, named by supplement number
       intermediate/                  per-individual and per-term tables the summaries are built from
-      figures/                       rendered figure panels (fig1C, fig3A, fig3B, fig4, fig5, figS1 to figS4)
+      figures/                       rendered figure panels as PNG (fig1C, fig2, fig3A, fig3B, fig4, fig5, figS1 to figS4)
       data/{old,new}/                version-matched LIRICAL data bundles (not tracked)
       hpoa_adjusted/{old,new_stock,new}/  generated HPOA files (not tracked, on Zenodo) + summary TSVs
       lirical/                       staged phenopackets and benchmark output (not tracked)
@@ -52,7 +53,8 @@ src/
 `fig3_panels.py` is executed from inside the notebook. `fig1_ontology_stats.py` computes the
 term-level statistics of the immune branch between the two releases (Figure 1c, Supplementary
 Table S2) and is run on its own from `src/analysis/figures/`; it needs the two `hp.json` files of
-the data bundles. `ehr_ic.py` and `fig5_ehr.py` produce the EHR arm (Figure 5, Supplementary
+the data bundles. `fig2_curation_examples.py` draws the worked examples of Figure 2 from the same
+two files. `ehr_ic.py` and `fig5_ehr.py` produce the EHR arm (Figure 5, Supplementary
 Figure S2, Supplementary Table S5) from the Southampton term counts, which are not distributed.
 The manuscript figure layouts themselves are assembled in PowerPoint and are not part of the
 repository.
@@ -65,11 +67,11 @@ repository.
 | Table S5 (EHR) | `tables/tableS5_ehr_summary.csv` |
 | Table S6 (excluded features omitted) | `tables/tableS6_ic_excluded_omitted.csv` |
 | Table S7 (disease profile sizes) | `tables/tableS7_profile_sizes.csv` |
-| Table S8a to c (separation) | `tables/tableS8a_separation_cohorts.csv`, `tableS8b_separation_sensitivity.csv`, `tableS8c_separation_publications.csv` |
-| Figures 1c, 3a, 3b, 4, 5 | `figures/fig1C_immune_branch.*`, `fig3A_paired_ic.*`, `fig3B_post_workshop_fraction.*`, `fig4_lirical_decomposition.*`, `fig5_ehr.*` |
-| Figures S1 to S4 | `figures/figS1_lirical_main.*`, `figS2_ehr_terms.*`, `figS3_ic_structural.*`, `figS4a_separation_mds.*`, `figS4b_separation_similarity.*` |
+| Table S8a, b (separation) | `tables/tableS8a_separation_cohorts.csv`, `tableS8b_separation_global.csv` |
+| Figures 1c, 2, 3a, 3b, 4, 5 | `figures/fig1C_immune_branch.png`, `fig2_curation_examples.png`, `fig3A_paired_ic.png`, `fig3B_post_workshop_fraction.png`, `fig4_lirical_decomposition.png`, `fig5_ehr.png` |
+| Figures S1 to S4 | `figures/figS1_lirical_main.png`, `figS2_ehr_terms.png`, `figS3_ic_structural.png`, `figS4_separation_mds.png` |
 
-`figures/lirical_main_loo_sensitivity.*` is the figure counterpart of Table S4d and is not part
+`figures/lirical_main_loo_sensitivity.png` is the figure counterpart of Table S4d and is not part
 of the supplement. The hpoadj provenance tables are
 `hpoa_adjusted/<knowledge base>/{augmentation,adjustment}_summary.tsv`.
 
@@ -134,11 +136,14 @@ release artifacts of `v2024-08-13` and `v2026-06-23`).
 #    that this step produces, so skip it on the first pass).
 cd src/analysis && bash rerun_all.sh
 
-# 2. both notebooks, Restart & Run All: semantic analysis (needs the augmented
-#    HPOA from step 1), LIRICAL rank tables, supplementary tables and figures,
-#    then the separation analysis (Supplementary Figure S4, Table S8)
+# 2. notebook, Restart & Run All: semantic analysis (needs the augmented HPOA
+#    from step 1), LIRICAL rank tables, supplementary tables and figures
 jupyter lab src/analysis/esid4hpo_analysis.ipynb
-jupyter lab src/analysis/esid4hpo_separation.ipynb
+
+# 3. between-disease separation (Supplementary Figure S4, Table S8) and the
+#    worked examples of Figure 2; both need only the two hp.json files
+cd src/analysis && python separation_analysis.py
+cd figures && python fig2_curation_examples.py
 ```
 
 `run_lirical_adjusted.py --dry-run` prints the plan without running anything. Two things
@@ -159,8 +164,8 @@ selects which paired comparisons to run (default: all four; jobs shared between 
 
 Knowledge bases are built under `_work/hpoa_adjusted/{old,new_stock,new}/`; `--skip-adjust`
 reuses them. Notebook section 4 loads all five condition files, writes Supplementary Tables S4a
-to S4d, Figure 4 (`_work/figures/fig4_lirical_decomposition.*`), Supplementary Figure S1
-(`figS1_lirical_main.*`) and the `main_loo` figure (`lirical_main_loo_sensitivity.*`).
+to S4d, Figure 4 (`_work/figures/fig4_lirical_decomposition.png`), Supplementary Figure S1
+(`figS1_lirical_main.png`) and the `main_loo` figure (`lirical_main_loo_sensitivity.png`).
 `profile_sizes.py` (run from the notebook) tabulates, per disease and left-out publication, the
 phenotype annotations in every knowledge base an individual is ranked against (Table S7).
 `diagnose_profile_overlap.py` reports, per arm, how many of each individual's observed terms
@@ -168,7 +173,7 @@ survive verbatim in the leave-one-publication-out profile the individual is scor
 
 ## What is tracked
 
-Tracked: phenopackets, notebooks, scripts, the rendered figure panels (`_work/figures/`), the
+Tracked: phenopackets, the notebook, scripts, the rendered figure panels (`_work/figures/`), the
 manuscript and supplementary tables (`_work/tables/`), the intermediate tables they derive from
 (`_work/intermediate/`, except the individual-level EHR tables) and the hpoadj provenance
 summaries `_work/hpoa_adjusted/<knowledge base>/{augmentation,adjustment}_summary.tsv`.
