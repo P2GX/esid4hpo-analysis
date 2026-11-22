@@ -1,28 +1,27 @@
 #!/usr/bin/env python3
 """Figure 5 and Supplementary Figure: ESID4HPO terms recovered from routine clinical text (Southampton).
 
-Figure 5 (fig5_ehr.*), one row per data source in both panels:
+Figure 5 (fig5_ehr.png), one row per data source in both panels:
   a) per-patient mean IC per term, pre- vs post-workshop release (paired boxes),
      with the mean change and the Wilcoxon p above each pair;
   b) mean change per patient (post - pre) with 95 % bootstrap CI for the three summary
      measures: immune-branch terms per patient, mean IC per term, summed IC.
-Supplementary Figure (figS2_ehr_terms.*):
+Supplementary Figure S2 (figS2_ehr_terms.png):
   per data source, the terms recoverable only with the post-workshop release, ranked by
   the number of patients, coloured by working-group domain (from Figure 1's term table);
   hollow bars are pre-existing terms that became retrievable through re-parenting into the
   immune branch or relabelling.
 
-Inputs: the summary table (default: Alex's numbers, _work/tables/tableS5_ehr_summary.csv) for N,
+Inputs: the summary table (default: _work/tables/tableS5_ehr_summary.csv) for N,
 means and p, and the per-patient / per-term tables written by ehr_ic.py for the boxes,
 the bootstrap CIs and the term lists. Style and palette follow Figures 1, 3 and 4 (BIH
 navy = post-workshop, blue-grey = pre-workshop); legends below the panels; line icons
-mark the data source of each row (--no-icons to drop them). A laboratory-value unit can
-be added later as one more entry in UNIT_ORDER / UNIT_LABEL and an icon kind.
+mark the data source of each row (--no-icons to drop them).
 
 Usage, from src/analysis:
     python figures/fig5_ehr.py                 # Figure 5 and the supplementary figure
     python figures/fig5_ehr.py --only main     # or: --only supp
-Outputs: _work/figures/fig5_ehr.{png,pdf,svg}, figS2_ehr_terms.{png,pdf,svg}
+Outputs: _work/figures/fig5_ehr.png, figS2_ehr_terms.png
 """
 
 import argparse
@@ -268,7 +267,7 @@ def figure_s_terms(terms, icons=True, top=6):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--summary", type=pathlib.Path, default=WORK / "tables/tableS5_ehr_summary.csv",
-                    help="summary table to take N, means and p from (default: Alex's numbers)")
+                    help="summary table to take N, means and p from (default: tableS5_ehr_summary.csv)")
     ap.add_argument("--only", choices=["main", "supp"], help="draw only Figure 5 or only the supplementary figure")
     ap.add_argument("--no-icons", action="store_true")
     args = ap.parse_args()
@@ -281,10 +280,9 @@ def main():
         if args.only and key != args.only:
             continue
         fig = build()
-        for ext in ("png", "pdf", "svg"):
-            fig.savefig(OUT / f"{name}.{ext}", bbox_inches="tight")
+        fig.savefig(OUT / f"{name}.png", bbox_inches="tight")
         plt.close(fig)
-        print(f"wrote {OUT / name}.png/.pdf/.svg")
+        print(f"wrote {OUT / name}.png")
 
 
 if __name__ == "__main__":

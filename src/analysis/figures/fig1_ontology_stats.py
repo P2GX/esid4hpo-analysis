@@ -312,7 +312,6 @@ def make_figure(summary, outdir):
     fig.subplots_adjust(left=0.17, right=0.985, top=0.87, bottom=0.22)
     outdir.mkdir(parents=True, exist_ok=True)
     fig.savefig(outdir / "fig1C_immune_branch.png")
-    fig.savefig(outdir / "fig1C_immune_branch.pdf")
     print(f"figure -> {outdir / 'fig1C_immune_branch.png'}")
 
 
